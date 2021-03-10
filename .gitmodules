@@ -1,0 +1,30 @@
+[submodule "Fah-Kwang"]
+	path = Fah-Kwang
+	url = git@github.com:cadsondemak/Fah-Kwang.git
+[submodule "Commissioner"]
+	path = Commissioner
+	url = git@github.com:kosbarts/Commissioner.git
+[submodule "Grenze"]
+	path = Grenze
+	url = git@github.com:Omnibus-Type/Grenze.git
+[submodule "Jost"]
+	path = Jost
+	url = git@github.com:indestructible-type/Jost.git
+[submodule "Newsreader"]
+	path = Newsreader
+	url = git@github.com:productiontype/Newsreader.git
+[submodule "Saira"]
+	path = Saira
+	url = git@github.com:Omnibus-Type/Saira.git
+[submodule "Fira"]
+	path = Fira
+	url = git@github.com:mozilla/Fira.git
+[submodule "Spectral"]
+	path = Spectral
+	url = git@github.com:productiontype/Spectral.git
+[submodule "Georama"]
+	path = Georama
+	url = git@github.com:productiontype/Georama.git
+[submodule "FiraCode"]
+	path = FiraCode
+	url = git@github.com:tonsky/FiraCode.git

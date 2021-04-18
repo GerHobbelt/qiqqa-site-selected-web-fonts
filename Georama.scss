@@ -1,0 +1,163 @@
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-Thin.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-Thin.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-ThinItalic.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-ThinItalic.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-ExtraLight.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-ExtraLight.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-ExtraLightItalic.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-ExtraLightItalic.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-Light.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-Light.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-LightItalic.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-LightItalic.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-Regular.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-Regular.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-Italic.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-Italic.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-Medium.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-Medium.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-MediumItalic.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-MediumItalic.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-SemiBold.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-SemiBold.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-SemiBoldItalic.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-SemiBoldItalic.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-Bold.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-Bold.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-BoldItalic.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-BoldItalic.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-ExtraBold.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-ExtraBold.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-ExtraBoldItalic.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-ExtraBoldItalic.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-Black.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-Black.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Georama';
+    src: url('Georama/fonts/Static/WOFF2/Georama-BlackItalic.woff2') format('woff2'),
+         url('Georama/fonts/Static/WOFF/Georama-BlackItalic.woff') format('woff'),
+         url('Georama/fonts/Static/TTF/Georama-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+

@@ -1,0 +1,162 @@
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-Thin.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-Thin.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-ThinItalic.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-ThinItalic.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-ExtraLight.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-ExtraLight.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-ExtraLightItalic.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-ExtraLightItalic.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-Light.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-Light.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-LightItalic.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-LightItalic.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-Regular.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-Regular.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-Italic.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-Italic.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-Medium.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-Medium.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-MediumItalic.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-MediumItalic.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-SemiBold.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-SemiBold.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-SemiBoldItalic.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-SemiBoldItalic.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-Bold.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-Bold.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-BoldItalic.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-BoldItalic.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-ExtraBold.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-ExtraBold.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-ExtraBoldItalic.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-ExtraBoldItalic.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-Black.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-Black.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Saira Condensed';
+    src: url('Saira/Saira/fonts/SairaCondensed/woff2/SairaCondensed-BlackItalic.woff2') format('woff2'),
+         url('Saira/Saira/fonts/SairaCondensed/woff/SairaCondensed-BlackItalic.otf') format('opentype'),
+         url('Saira/Saira/fonts/SairaCondensed/ttf/SairaCondensed-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}

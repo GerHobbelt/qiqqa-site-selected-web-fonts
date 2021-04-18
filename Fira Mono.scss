@@ -1,0 +1,34 @@
+
+@font-face{
+    font-family: 'Fira Mono';
+    src: url('Fira/eot/FiraMono-Regular.eot');
+    src: url('Fira/eot/FiraMono-Regular.eot') format('embedded-opentype'),
+         url('Fira/woff2/FiraMono-Regular.woff2') format('woff2'),
+         url('Fira/woff/FiraMono-Regular.woff') format('woff'),
+         url('Fira/ttf/FiraMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Mono';
+    src: url('Fira/eot/FiraMono-Medium.eot');
+    src: url('Fira/eot/FiraMono-Medium.eot') format('embedded-opentype'),
+         url('Fira/woff2/FiraMono-Medium.woff2') format('woff2'),
+         url('Fira/woff/FiraMono-Medium.woff') format('woff'),
+         url('Fira/ttf/FiraMono-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Mono';
+    src: url('Fira/eot/FiraMono-Bold.eot');
+    src: url('Fira/eot/FiraMono-Bold.eot') format('embedded-opentype'),
+         url('Fira/woff2/FiraMono-Bold.woff2') format('woff2'),
+         url('Fira/woff/FiraMono-Bold.woff') format('woff'),
+         url('Fira/ttf/FiraMono-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+

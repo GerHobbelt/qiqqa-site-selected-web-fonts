@@ -28,3 +28,45 @@
 [submodule "FiraCode"]
 	path = FiraCode
 	url = git@github.com:tonsky/FiraCode.git
+[submodule "Zilla-Slab"]
+	path = Zilla-Slab
+	url = git@github.com:GerHobbelt/zilla-slab.git
+[submodule "Cinzel"]
+	path = Cinzel
+	url = git@github.com:GerHobbelt/Cinzel.git
+[submodule "Junicode"]
+	path = Junicode
+	url = git@github.com:GerHobbelt/Junicode-New.git
+[submodule "Oswald"]
+	path = Oswald
+	url = git@github.com:GerHobbelt/OswaldFont.git
+[submodule "Cabin"]
+	path = Cabin
+	url = git@github.com:GerHobbelt/Cabin.git
+[submodule "YoungSerif"]
+	path = YoungSerif
+	url = git@github.com:GerHobbelt/YoungSerif.git
+[submodule "Abhaya-Libre"]
+	path = Abhaya-Libre
+	url = git@github.com:GerHobbelt/abhaya-libre-font.git
+[submodule "Ostrich-Sans"]
+	path = Ostrich-Sans
+	url = git@github.com:GerHobbelt/ostrich-sans.git
+[submodule "League-Gothic"]
+	path = League-Gothic
+	url = git@github.com:GerHobbelt/league-gothic.git
+[submodule "Raleway"]
+	path = Raleway
+	url = git@github.com:GerHobbelt/Raleway.git
+[submodule "League-Spartan"]
+	path = League-Spartan
+	url = git@github.com:GerHobbelt/league-spartan.git
+[submodule "Goudy-Bookletter-1911"]
+	path = Goudy-Bookletter-1911
+	url = git@github.com:GerHobbelt/goudy-bookletter-1911.git
+[submodule "Bagnard-Sans"]
+	path = Bagnard-Sans
+	url = git@github.com:GerHobbelt/Bagnard-Sans.git
+[submodule "Josefin-Sans"]
+	path = Josefin-Sans
+	url = git@github.com:GerHobbelt/josefinsans.git

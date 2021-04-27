@@ -19,6 +19,29 @@ p {
   font-size: 72px;
 }
 
+.dig-normal {
+  font-variant-numeric: normal;
+}
+.dig-ordinal {
+  font-variant-numeric: ordinal;
+}
+.dig-slashed {
+  font-variant-numeric: slashed-zero;
+}
+.dig-lining {
+  font-variant-numeric: lining-nums;         /* <numeric-figure-values> */
+}
+.dig-oldstyle {
+  font-variant-numeric: oldstyle-nums;       /* <numeric-figure-values> */
+}
+.dig-proportional {
+  font-variant-numeric: proportional-nums;   /* <numeric-spacing-values> */
+}
+.dig-tabular {
+  font-variant-numeric: tabular-nums;        /* <numeric-spacing-values> */
+}
+
+
 @media (max-width: 640px) {
   p {
     padding: 0;
@@ -543,6 +566,53 @@ p {
 }
 
 
+.zilla-slab-font {
+  font-family: 'Zilla Slab';
+  font-weight: 400;
+  overflow-x: hidden;
+
+    
+    h1, .glyph {
+      font-family: 'Zilla Slab';
+    }
+    p {
+      font-family: 'Zilla Slab';
+    }
+}
+
+
+
+.cinzel-font {
+  font-family: 'Cinzel';
+  font-weight: 400;
+  overflow-x: hidden;
+
+    
+    h1, .glyph {
+      font-family: 'Cinzel';
+    }
+    p {
+      font-family: 'Cinzel';
+    }
+}
+
+
+.cinzel-decorative-font {
+  font-family: 'Cinzel Decorative';
+  font-weight: 400;
+  overflow-x: hidden;
+
+    
+    h1, .glyph {
+      font-family: 'Cinzel Decorative';
+    }
+    p {
+      font-family: 'Cinzel Decorative';
+    }
+}
+
+
+
 
 //  <div class="garamond-font">
 
@@ -555,6 +625,8 @@ p {
 
 
 
+@import "./Cinzel";
+@import "./Cinzel Decorative";
 @import "./Commissioner Flair";
 @import "./Commissioner Loud";
 @import "./Commissioner Variable";
@@ -594,3 +666,4 @@ p {
 @import "./Saira";
 @import "./Spectral SmallCaps";
 @import "./Spectral";
+@import "./Zilla Slab";

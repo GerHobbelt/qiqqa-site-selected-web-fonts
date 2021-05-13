@@ -21,10 +21,10 @@
 	url = git@github.com:mozilla/Fira.git
 [submodule "Spectral"]
 	path = Spectral
-	url = git@github.com:productiontype/Spectral.git
+	url = git@github.com:Gerhobbelt/Spectral.git
 [submodule "Georama"]
 	path = Georama
-	url = git@github.com:productiontype/Georama.git
+	url = git@github.com:GerHobbelt/Georama.git
 [submodule "FiraCode"]
 	path = FiraCode
 	url = git@github.com:tonsky/FiraCode.git

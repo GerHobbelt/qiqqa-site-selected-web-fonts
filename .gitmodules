@@ -1,72 +1,72 @@
 [submodule "Fah-Kwang"]
 	path = Fah-Kwang
-	url = git@github.com:cadsondemak/Fah-Kwang.git
+	url = https://github.com/cadsondemak/Fah-Kwang.git
 [submodule "Commissioner"]
 	path = Commissioner
-	url = git@github.com:kosbarts/Commissioner.git
+	url = https://github.com/kosbarts/Commissioner.git
 [submodule "Grenze"]
 	path = Grenze
-	url = git@github.com:Omnibus-Type/Grenze.git
+	url = https://github.com/Omnibus-Type/Grenze.git
 [submodule "Jost"]
 	path = Jost
-	url = git@github.com:indestructible-type/Jost.git
+	url = https://github.com/indestructible-type/Jost.git
 [submodule "Newsreader"]
 	path = Newsreader
-	url = git@github.com:productiontype/Newsreader.git
+	url = https://github.com/productiontype/Newsreader.git
 [submodule "Saira"]
 	path = Saira
-	url = git@github.com:Omnibus-Type/Saira.git
+	url = https://github.com/Omnibus-Type/Saira.git
 [submodule "Fira"]
 	path = Fira
-	url = git@github.com:mozilla/Fira.git
+	url = https://github.com/mozilla/Fira.git
 [submodule "Spectral"]
 	path = Spectral
-	url = git@github.com:Gerhobbelt/Spectral.git
+	url = https://github.com/Gerhobbelt/Spectral.git
 [submodule "Georama"]
 	path = Georama
-	url = git@github.com:GerHobbelt/Georama.git
+	url = https://github.com/GerHobbelt/Georama.git
 [submodule "FiraCode"]
 	path = FiraCode
-	url = git@github.com:tonsky/FiraCode.git
+	url = https://github.com/tonsky/FiraCode.git
 [submodule "Zilla-Slab"]
 	path = Zilla-Slab
-	url = git@github.com:GerHobbelt/zilla-slab.git
+	url = https://github.com/GerHobbelt/zilla-slab.git
 [submodule "Cinzel"]
 	path = Cinzel
-	url = git@github.com:GerHobbelt/Cinzel.git
+	url = https://github.com/GerHobbelt/Cinzel.git
 [submodule "Junicode"]
 	path = Junicode
-	url = git@github.com:GerHobbelt/Junicode-New.git
+	url = https://github.com/GerHobbelt/Junicode-New.git
 [submodule "Oswald"]
 	path = Oswald
-	url = git@github.com:GerHobbelt/OswaldFont.git
+	url = https://github.com/GerHobbelt/OswaldFont.git
 [submodule "Cabin"]
 	path = Cabin
-	url = git@github.com:GerHobbelt/Cabin.git
+	url = https://github.com/GerHobbelt/Cabin.git
 [submodule "YoungSerif"]
 	path = YoungSerif
-	url = git@github.com:GerHobbelt/YoungSerif.git
+	url = https://github.com/GerHobbelt/YoungSerif.git
 [submodule "Abhaya-Libre"]
 	path = Abhaya-Libre
-	url = git@github.com:GerHobbelt/abhaya-libre-font.git
+	url = https://github.com/GerHobbelt/abhaya-libre-font.git
 [submodule "Ostrich-Sans"]
 	path = Ostrich-Sans
-	url = git@github.com:GerHobbelt/ostrich-sans.git
+	url = https://github.com/GerHobbelt/ostrich-sans.git
 [submodule "League-Gothic"]
 	path = League-Gothic
-	url = git@github.com:GerHobbelt/league-gothic.git
+	url = https://github.com/GerHobbelt/league-gothic.git
 [submodule "Raleway"]
 	path = Raleway
-	url = git@github.com:GerHobbelt/Raleway.git
+	url = https://github.com/GerHobbelt/Raleway.git
 [submodule "League-Spartan"]
 	path = League-Spartan
-	url = git@github.com:GerHobbelt/league-spartan.git
+	url = https://github.com/GerHobbelt/league-spartan.git
 [submodule "Goudy-Bookletter-1911"]
 	path = Goudy-Bookletter-1911
-	url = git@github.com:GerHobbelt/goudy-bookletter-1911.git
+	url = https://github.com/GerHobbelt/goudy-bookletter-1911.git
 [submodule "Bagnard-Sans"]
 	path = Bagnard-Sans
-	url = git@github.com:GerHobbelt/Bagnard-Sans.git
+	url = https://github.com/GerHobbelt/Bagnard-Sans.git
 [submodule "Josefin-Sans"]
 	path = Josefin-Sans
-	url = git@github.com:GerHobbelt/josefinsans.git
+	url = https://github.com/GerHobbelt/josefinsans.git

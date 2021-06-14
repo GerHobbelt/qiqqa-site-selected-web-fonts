@@ -1,6 +1,6 @@
 [submodule "Fah-Kwang"]
 	path = Fah-Kwang
-	url = https://github.com/cadsondemak/Fah-Kwang.git
+	url = https://github.com/Gerhobbelt/Fah-Kwang.git
 [submodule "Commissioner"]
 	path = Commissioner
 	url = https://github.com/kosbarts/Commissioner.git
@@ -18,7 +18,7 @@
 	url = https://github.com/Omnibus-Type/Saira.git
 [submodule "Fira"]
 	path = Fira
-	url = https://github.com/mozilla/Fira.git
+	url = https://github.com/Gerhobbelt/Fira.git
 [submodule "Spectral"]
 	path = Spectral
 	url = https://github.com/Gerhobbelt/Spectral.git

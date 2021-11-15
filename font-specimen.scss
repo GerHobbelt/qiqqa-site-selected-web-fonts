@@ -1,5 +1,11 @@
 
 
+:root {
+  --text-width: 100%;
+  --text-weight: 400;
+}
+
+
 
 article {
   margin: 0 auto;
@@ -218,131 +224,21 @@ p {
 
 
 .georama-font {
-  font-family: 'Georama';
+  font-family: 'Georama VF';
   font-weight: 400;
   overflow-x: hidden;
 
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
     
     h1, .glyph {
-      font-family: 'Georama';
+      font-family: 'Georama VF';
     }
     p {
-      font-family: 'Georama';
+      font-family: 'Georama VF';
     }
 }
 
-
-
-.georama-semi-condensed-font {
-  font-family: 'Georama Semi Condensed';
-  font-weight: 400;
-  overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Georama Semi Condensed';
-    }
-    p {
-      font-family: 'Georama Semi Condensed';
-    }
-}
-
-
-
-.georama-condensed-font {
-  font-family: 'Georama Condensed';
-  font-weight: 400;
-  overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Georama Condensed';
-    }
-    p {
-      font-family: 'Georama Condensed';
-    }
-}
-
-
-
-.georama-extra-condensed-font {
-  font-family: 'Georama Extra Condensed';
-  font-weight: 400;
-  overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Georama Extra Condensed';
-    }
-    p {
-      font-family: 'Georama Extra Condensed';
-    }
-}
-
-
-
-.georama-expanded-font {
-  font-family: 'Georama Expanded';
-  font-weight: 400;
-  overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Georama Expanded';
-    }
-    p {
-      font-family: 'Georama Expanded';
-    }
-}
-
-
-
-.georama-extra-expanded-font {
-  font-family: 'Georama Extra Expanded';
-  font-weight: 400;
-  overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Georama Extra Expanded';
-    }
-    p {
-      font-family: 'Georama Extra Expanded';
-    }
-}
-
-
-
-
-.georama-extended-font {
-  font-family: 'Georama Extended';
-  font-weight: 400;
-  overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Georama Extended';
-    }
-    p {
-      font-family: 'Georama Extended';
-    }
-}
-
-
-
-.georama-extra-extended-font {
-  font-family: 'Georama Extra Extended';
-  font-weight: 400;
-  overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Georama Extra Extended';
-    }
-    p {
-      font-family: 'Georama Extra Extended';
-    }
-}
 
 
 
@@ -534,6 +430,23 @@ p {
     }
 }
 
+.saira-variable-font {
+  font-family: 'Saira VF';
+  font-weight: 400;
+  overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
+    
+    h1, .glyph {
+      font-family: 'Saira VF';
+    }
+    p {
+      font-family: 'Saira VF';
+    }
+}
+
+
 
 
 .spectral-font {
@@ -639,15 +552,7 @@ p {
 @import "./Fira Sans Compressed";
 @import "./Fira Sans Condensed";
 @import "./Fira Sans";
-@import "./Georama Condensed";
-@import "./Georama Extra Condensed";
-@import "./Georama Expanded";
-@import "./Georama Extra Expanded";
-@import "./Georama Semi Condensed";
-@import "./Georama Extended";
-@import "./Georama Extra Extended";
 @import "./Georama Variable";
-@import "./Georama";
 @import "./Grenze Variable";
 @import "./Grenze";
 @import "./Jost Variable";

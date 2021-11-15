@@ -10,8 +10,18 @@
   <script type="text/javascript">
     function onWeightChange(weight) {
       // code_variable.style['font-weight'] = weight;
-      code_variable.style['font-variation-settings'] = "'wght' " + weight;
+      console.log("--text-weight =", weight);
+      document.documentElement.style.setProperty('--text-weight', weight);
+      //code_variable.style['font-variation-settings'] = "'wght' " + weight;
       span_wght.innerText = weight;
+    }
+
+    function onStretchChange(stretch) {
+      // code_variable.style['font-stretch'] = stretch;
+      console.log("--text-width =", stretch);
+      document.documentElement.style.setProperty('--text-width', stretch + '%');
+      //code_variable.style['font-variation-settings'] = "'wdth' " + stretch;
+      span_wdth.innerText = stretch;
     }
   </script>
 </head>
@@ -69,9 +79,11 @@ take = (n, [x, <i>...</i>xs]:list) <i>--&gt;</i>
 
 last3 = reverse <i>&gt;&gt;</i> take 3 <i>&gt;&gt;</i> reverse</div>
 
-<div contenteditable id="code_variable" class="code variable"><b># Fira Code Variable</b>
+<div contenteditable class="code variable"><b># Fira Code Variable</b>
 
-<input type="range" min="300" max="700" value="400" step="10" style="width: 300px;" oninput="onWeightChange(this.value)" onchange="onWeightChange(this.value)"> <span id="span_wght">400</span>
+<input type="range" min="300" max="700" value="400" step="10" style="width: 300px;" oninput="onWeightChange(this.value)" onchange="onWeightChange(this.value)"> Weight: <span id="span_wght">400</span>
+
+<input type="range" min="50" max="200" value="100" step="5" style="width: 300px;" oninput="onStretchChange(this.value)" onchange="onStretchChange(this.value)"> Stretch: <span id="span_wdth">100</span>
 
 take = (n, [x, <i>...</i>xs]:list) <i>--&gt;</i>
   | n <i>&lt;=</i> 0     <i>=&gt;</i> []
@@ -82,6 +94,144 @@ last3 = reverse <i>&gt;&gt;</i> take 3 <i>&gt;&gt;</i> reverse</div>
 
     </article>
 </div>
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="georama-font">
+    <article>
+      <h1>Georama Variable</h1>
+
+
+      <h2>Thin</h2>
+      <p contenteditable style="font-weight: 100;"></p>
+      <p contenteditable style="font-weight: 100; font-style: italic;"></p>
+
+      <h2>UltraLight</h2>
+      <p contenteditable style="font-weight: 200;"></p>
+      <p contenteditable style="font-weight: 200; font-style: italic;"></p>
+
+      <h2>Light</h2>
+      <p contenteditable style="font-weight: 300;"></p>
+      <p contenteditable style="font-weight: 300; font-style: italic;"></p>
+
+      <h2>Regular</h2>
+      <p contenteditable style="font-weight: 400;"></p>
+      <p contenteditable style="font-weight: 400; font-style: italic;"></p>
+
+      <h2>Medium</h2>
+      <p contenteditable style="font-weight: 500;"></p>
+      <p contenteditable style="font-weight: 500; font-style: italic;"></p>
+
+      <h2>SemiBold</h2>
+      <p contenteditable style="font-weight: 600;"></p>
+      <p contenteditable style="font-weight: 600; font-style: italic;"></p>
+
+      <h2>Bold</h2>
+      <p contenteditable style="font-weight: 700;"></p>
+      <p contenteditable style="font-weight: 700; font-style: italic;"></p>
+
+      <h2>ExtraBold</h2>
+      <p contenteditable style="font-weight: 800;"></p>
+      <p contenteditable style="font-weight: 800; font-style: italic;"></p>
+
+      <h2>Black</h2>
+      <p contenteditable style="font-weight: 900;"></p>
+      <p contenteditable style="font-weight: 900; font-style: italic;"></p>
+
+    </article>
+  </div>
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="saira-variable-font">
+    <article>
+      <h1>Saira Variable</h1>
+
+
+      <h2>Thin</h2>
+      <p contenteditable style="font-weight: 100;"></p>
+      <p contenteditable style="font-weight: 100; font-style: italic;"></p>
+
+      <h2>UltraLight</h2>
+      <p contenteditable style="font-weight: 200;"></p>
+      <p contenteditable style="font-weight: 200; font-style: italic;"></p>
+
+      <h2>Light</h2>
+      <p contenteditable style="font-weight: 300;"></p>
+      <p contenteditable style="font-weight: 300; font-style: italic;"></p>
+
+      <h2>Regular</h2>
+      <p contenteditable style="font-weight: 400;"></p>
+      <p contenteditable style="font-weight: 400; font-style: italic;"></p>
+
+      <h2>Medium</h2>
+      <p contenteditable style="font-weight: 500;"></p>
+      <p contenteditable style="font-weight: 500; font-style: italic;"></p>
+
+      <h2>SemiBold</h2>
+      <p contenteditable style="font-weight: 600;"></p>
+      <p contenteditable style="font-weight: 600; font-style: italic;"></p>
+
+      <h2>Bold</h2>
+      <p contenteditable style="font-weight: 700;"></p>
+      <p contenteditable style="font-weight: 700; font-style: italic;"></p>
+
+      <h2>ExtraBold</h2>
+      <p contenteditable style="font-weight: 800;"></p>
+      <p contenteditable style="font-weight: 800; font-style: italic;"></p>
+
+      <h2>Black</h2>
+      <p contenteditable style="font-weight: 900;"></p>
+      <p contenteditable style="font-weight: 900; font-style: italic;"></p>
+
+    </article>
+  </div>
 
 <hr>
 
@@ -528,525 +678,6 @@ last3 = reverse <i>&gt;&gt;</i> take 3 <i>&gt;&gt;</i> reverse</div>
 
 <hr>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="georama-font">
-    <article>
-      <h1>Georama</h1>
-
-
-      <h2>Thin</h2>
-      <p contenteditable style="font-weight: 100;"></p>
-      <p contenteditable style="font-weight: 100; font-style: italic;"></p>
-
-      <h2>UltraLight</h2>
-      <p contenteditable style="font-weight: 200;"></p>
-      <p contenteditable style="font-weight: 200; font-style: italic;"></p>
-
-      <h2>Light</h2>
-      <p contenteditable style="font-weight: 300;"></p>
-      <p contenteditable style="font-weight: 300; font-style: italic;"></p>
-
-      <h2>Regular</h2>
-      <p contenteditable style="font-weight: 400;"></p>
-      <p contenteditable style="font-weight: 400; font-style: italic;"></p>
-
-      <h2>Medium</h2>
-      <p contenteditable style="font-weight: 500;"></p>
-      <p contenteditable style="font-weight: 500; font-style: italic;"></p>
-
-      <h2>SemiBold</h2>
-      <p contenteditable style="font-weight: 600;"></p>
-      <p contenteditable style="font-weight: 600; font-style: italic;"></p>
-
-      <h2>Bold</h2>
-      <p contenteditable style="font-weight: 700;"></p>
-      <p contenteditable style="font-weight: 700; font-style: italic;"></p>
-
-      <h2>ExtraBold</h2>
-      <p contenteditable style="font-weight: 800;"></p>
-      <p contenteditable style="font-weight: 800; font-style: italic;"></p>
-
-      <h2>Black</h2>
-      <p contenteditable style="font-weight: 900;"></p>
-      <p contenteditable style="font-weight: 900; font-style: italic;"></p>
-
-    </article>
-  </div>
-
-<hr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="georama-condensed-font">
-    <article>
-      <h1>Georama Condensed</h1>
-
-
-      <h2>Thin</h2>
-      <p contenteditable style="font-weight: 100;"></p>
-      <p contenteditable style="font-weight: 100; font-style: italic;"></p>
-
-      <h2>UltraLight</h2>
-      <p contenteditable style="font-weight: 200;"></p>
-      <p contenteditable style="font-weight: 200; font-style: italic;"></p>
-
-      <h2>Light</h2>
-      <p contenteditable style="font-weight: 300;"></p>
-      <p contenteditable style="font-weight: 300; font-style: italic;"></p>
-
-      <h2>Regular</h2>
-      <p contenteditable style="font-weight: 400;"></p>
-      <p contenteditable style="font-weight: 400; font-style: italic;"></p>
-
-      <h2>Medium</h2>
-      <p contenteditable style="font-weight: 500;"></p>
-      <p contenteditable style="font-weight: 500; font-style: italic;"></p>
-
-      <h2>SemiBold</h2>
-      <p contenteditable style="font-weight: 600;"></p>
-      <p contenteditable style="font-weight: 600; font-style: italic;"></p>
-
-      <h2>Bold</h2>
-      <p contenteditable style="font-weight: 700;"></p>
-      <p contenteditable style="font-weight: 700; font-style: italic;"></p>
-
-      <h2>ExtraBold</h2>
-      <p contenteditable style="font-weight: 800;"></p>
-      <p contenteditable style="font-weight: 800; font-style: italic;"></p>
-
-      <h2>Black</h2>
-      <p contenteditable style="font-weight: 900;"></p>
-      <p contenteditable style="font-weight: 900; font-style: italic;"></p>
-
-    </article>
-  </div>
-
-<hr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="georama-extra-condensed-font">
-    <article>
-      <h1>Georama Extra Condensed</h1>
-
-
-      <h2>Thin</h2>
-      <p contenteditable style="font-weight: 100;"></p>
-      <p contenteditable style="font-weight: 100; font-style: italic;"></p>
-
-      <h2>UltraLight</h2>
-      <p contenteditable style="font-weight: 200;"></p>
-      <p contenteditable style="font-weight: 200; font-style: italic;"></p>
-
-      <h2>Light</h2>
-      <p contenteditable style="font-weight: 300;"></p>
-      <p contenteditable style="font-weight: 300; font-style: italic;"></p>
-
-      <h2>Regular</h2>
-      <p contenteditable style="font-weight: 400;"></p>
-      <p contenteditable style="font-weight: 400; font-style: italic;"></p>
-
-      <h2>Medium</h2>
-      <p contenteditable style="font-weight: 500;"></p>
-      <p contenteditable style="font-weight: 500; font-style: italic;"></p>
-
-      <h2>SemiBold</h2>
-      <p contenteditable style="font-weight: 600;"></p>
-      <p contenteditable style="font-weight: 600; font-style: italic;"></p>
-
-      <h2>Bold</h2>
-      <p contenteditable style="font-weight: 700;"></p>
-      <p contenteditable style="font-weight: 700; font-style: italic;"></p>
-
-      <h2>ExtraBold</h2>
-      <p contenteditable style="font-weight: 800;"></p>
-      <p contenteditable style="font-weight: 800; font-style: italic;"></p>
-
-      <h2>Black</h2>
-      <p contenteditable style="font-weight: 900;"></p>
-      <p contenteditable style="font-weight: 900; font-style: italic;"></p>
-
-    </article>
-  </div>
-
-<hr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="georama-semi-condensed-font">
-    <article>
-      <h1>Georama Semi Condensed</h1>
-
-
-      <h2>Thin</h2>
-      <p contenteditable style="font-weight: 100;"></p>
-      <p contenteditable style="font-weight: 100; font-style: italic;"></p>
-
-      <h2>UltraLight</h2>
-      <p contenteditable style="font-weight: 200;"></p>
-      <p contenteditable style="font-weight: 200; font-style: italic;"></p>
-
-      <h2>Light</h2>
-      <p contenteditable style="font-weight: 300;"></p>
-      <p contenteditable style="font-weight: 300; font-style: italic;"></p>
-
-      <h2>Regular</h2>
-      <p contenteditable style="font-weight: 400;"></p>
-      <p contenteditable style="font-weight: 400; font-style: italic;"></p>
-
-      <h2>Medium</h2>
-      <p contenteditable style="font-weight: 500;"></p>
-      <p contenteditable style="font-weight: 500; font-style: italic;"></p>
-
-      <h2>SemiBold</h2>
-      <p contenteditable style="font-weight: 600;"></p>
-      <p contenteditable style="font-weight: 600; font-style: italic;"></p>
-
-      <h2>Bold</h2>
-      <p contenteditable style="font-weight: 700;"></p>
-      <p contenteditable style="font-weight: 700; font-style: italic;"></p>
-
-      <h2>ExtraBold</h2>
-      <p contenteditable style="font-weight: 800;"></p>
-      <p contenteditable style="font-weight: 800; font-style: italic;"></p>
-
-      <h2>Black</h2>
-      <p contenteditable style="font-weight: 900;"></p>
-      <p contenteditable style="font-weight: 900; font-style: italic;"></p>
-
-    </article>
-  </div>
-
-<hr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="georama-expanded-font">
-    <article>
-      <h1>Georama Expanded</h1>
-
-
-      <h2>Thin</h2>
-      <p contenteditable style="font-weight: 100;"></p>
-      <p contenteditable style="font-weight: 100; font-style: italic;"></p>
-
-      <h2>UltraLight</h2>
-      <p contenteditable style="font-weight: 200;"></p>
-      <p contenteditable style="font-weight: 200; font-style: italic;"></p>
-
-      <h2>Light</h2>
-      <p contenteditable style="font-weight: 300;"></p>
-      <p contenteditable style="font-weight: 300; font-style: italic;"></p>
-
-      <h2>Regular</h2>
-      <p contenteditable style="font-weight: 400;"></p>
-      <p contenteditable style="font-weight: 400; font-style: italic;"></p>
-
-      <h2>Medium</h2>
-      <p contenteditable style="font-weight: 500;"></p>
-      <p contenteditable style="font-weight: 500; font-style: italic;"></p>
-
-      <h2>SemiBold</h2>
-      <p contenteditable style="font-weight: 600;"></p>
-      <p contenteditable style="font-weight: 600; font-style: italic;"></p>
-
-      <h2>Bold</h2>
-      <p contenteditable style="font-weight: 700;"></p>
-      <p contenteditable style="font-weight: 700; font-style: italic;"></p>
-
-      <h2>ExtraBold</h2>
-      <p contenteditable style="font-weight: 800;"></p>
-      <p contenteditable style="font-weight: 800; font-style: italic;"></p>
-
-      <h2>Black</h2>
-      <p contenteditable style="font-weight: 900;"></p>
-      <p contenteditable style="font-weight: 900; font-style: italic;"></p>
-
-    </article>
-  </div>
-
-<hr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="georama-extra-expanded-font">
-    <article>
-      <h1>Georama Extra Expanded</h1>
-
-
-      <h2>Thin</h2>
-      <p contenteditable style="font-weight: 100;"></p>
-      <p contenteditable style="font-weight: 100; font-style: italic;"></p>
-
-      <h2>UltraLight</h2>
-      <p contenteditable style="font-weight: 200;"></p>
-      <p contenteditable style="font-weight: 200; font-style: italic;"></p>
-
-      <h2>Light</h2>
-      <p contenteditable style="font-weight: 300;"></p>
-      <p contenteditable style="font-weight: 300; font-style: italic;"></p>
-
-      <h2>Regular</h2>
-      <p contenteditable style="font-weight: 400;"></p>
-      <p contenteditable style="font-weight: 400; font-style: italic;"></p>
-
-      <h2>Medium</h2>
-      <p contenteditable style="font-weight: 500;"></p>
-      <p contenteditable style="font-weight: 500; font-style: italic;"></p>
-
-      <h2>SemiBold</h2>
-      <p contenteditable style="font-weight: 600;"></p>
-      <p contenteditable style="font-weight: 600; font-style: italic;"></p>
-
-      <h2>Bold</h2>
-      <p contenteditable style="font-weight: 700;"></p>
-      <p contenteditable style="font-weight: 700; font-style: italic;"></p>
-
-      <h2>ExtraBold</h2>
-      <p contenteditable style="font-weight: 800;"></p>
-      <p contenteditable style="font-weight: 800; font-style: italic;"></p>
-
-      <h2>Black</h2>
-      <p contenteditable style="font-weight: 900;"></p>
-      <p contenteditable style="font-weight: 900; font-style: italic;"></p>
-
-    </article>
-  </div>
-
-<hr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="georama-extended-font">
-    <article>
-      <h1>Georama Extended</h1>
-
-
-      <h2>Thin</h2>
-      <p contenteditable style="font-weight: 100;"></p>
-      <p contenteditable style="font-weight: 100; font-style: italic;"></p>
-
-      <h2>UltraLight</h2>
-      <p contenteditable style="font-weight: 200;"></p>
-      <p contenteditable style="font-weight: 200; font-style: italic;"></p>
-
-      <h2>Light</h2>
-      <p contenteditable style="font-weight: 300;"></p>
-      <p contenteditable style="font-weight: 300; font-style: italic;"></p>
-
-      <h2>Regular</h2>
-      <p contenteditable style="font-weight: 400;"></p>
-      <p contenteditable style="font-weight: 400; font-style: italic;"></p>
-
-      <h2>Medium</h2>
-      <p contenteditable style="font-weight: 500;"></p>
-      <p contenteditable style="font-weight: 500; font-style: italic;"></p>
-
-      <h2>SemiBold</h2>
-      <p contenteditable style="font-weight: 600;"></p>
-      <p contenteditable style="font-weight: 600; font-style: italic;"></p>
-
-      <h2>Bold</h2>
-      <p contenteditable style="font-weight: 700;"></p>
-      <p contenteditable style="font-weight: 700; font-style: italic;"></p>
-
-      <h2>ExtraBold</h2>
-      <p contenteditable style="font-weight: 800;"></p>
-      <p contenteditable style="font-weight: 800; font-style: italic;"></p>
-
-      <h2>Black</h2>
-      <p contenteditable style="font-weight: 900;"></p>
-      <p contenteditable style="font-weight: 900; font-style: italic;"></p>
-
-    </article>
-  </div>
-
-<hr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="georama-extra-extended-font">
-    <article>
-      <h1>Georama Extra Extended</h1>
-
-
-      <h2>Thin</h2>
-      <p contenteditable style="font-weight: 100;"></p>
-      <p contenteditable style="font-weight: 100; font-style: italic;"></p>
-
-      <h2>UltraLight</h2>
-      <p contenteditable style="font-weight: 200;"></p>
-      <p contenteditable style="font-weight: 200; font-style: italic;"></p>
-
-      <h2>Light</h2>
-      <p contenteditable style="font-weight: 300;"></p>
-      <p contenteditable style="font-weight: 300; font-style: italic;"></p>
-
-      <h2>Regular</h2>
-      <p contenteditable style="font-weight: 400;"></p>
-      <p contenteditable style="font-weight: 400; font-style: italic;"></p>
-
-      <h2>Medium</h2>
-      <p contenteditable style="font-weight: 500;"></p>
-      <p contenteditable style="font-weight: 500; font-style: italic;"></p>
-
-      <h2>SemiBold</h2>
-      <p contenteditable style="font-weight: 600;"></p>
-      <p contenteditable style="font-weight: 600; font-style: italic;"></p>
-
-      <h2>Bold</h2>
-      <p contenteditable style="font-weight: 700;"></p>
-      <p contenteditable style="font-weight: 700; font-style: italic;"></p>
-
-      <h2>ExtraBold</h2>
-      <p contenteditable style="font-weight: 800;"></p>
-      <p contenteditable style="font-weight: 800; font-style: italic;"></p>
-
-      <h2>Black</h2>
-      <p contenteditable style="font-weight: 900;"></p>
-      <p contenteditable style="font-weight: 900; font-style: italic;"></p>
-
-    </article>
-  </div>
-
-<hr>
 
 
 

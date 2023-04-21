@@ -1,0 +1,4 @@
+Copyright (c) 2015 by CAT-Fonts . All rights reserved.
+
+GPL- General Public License AND OFL-Open Font License
+http://www.fsf.org/licenses/gpl.html AND http://scripts.sil.org/OFL

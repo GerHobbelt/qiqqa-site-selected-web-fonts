@@ -73,3 +73,15 @@
 [submodule "EBGaramond12"]
 	path = EBGaramond12
 	url = https://github.com/GerHobbelt/EBGaramond12.git
+[submodule "Exetegue"]
+	path = Exetegue
+	url = https://github.com/scannerlicker/Exetegue.git
+[submodule "Lexend"]
+	path = Lexend
+	url = git@github.com:GerHobbelt/lexend.git
+[submodule "Libertinus"]
+	path = Libertinus
+	url = git@github.com:GerHobbelt/libertinus.git
+[submodule "Libre-Baskerville"]
+	path = Libre-Baskerville
+	url = git@github.com:GerHobbelt/Libre-Baskerville.git

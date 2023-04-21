@@ -31,3 +31,16 @@ echo done.
 ```
 
 and your `specimen.html` specimen page+CSS should be ready.
+
+## Updating `font-specimen.html` after you've edited the font set
+
+Script to produce thee `link preload` statements from the generated `font-specimen.css` file:
+
+```sh
+
+( for f in $( cat docs-src/_meta/fonts/*.css ) ; do echo $f ; done ) | grep 'url' | sed -e 's/url(\([^)]*\)).*$/<link rel="preload" href=\1 as="font" >/' > tmp.tmp
+
+```
+
+and then replace the bunch with the set in file `tmp.tmp`, e.g. via visual diff tooling.
+

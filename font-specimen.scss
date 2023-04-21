@@ -3,26 +3,28 @@
 :root {
   --text-width: 100%;
   --text-weight: 400;
+  --text-size: 32px;
 }
 
 
 
 article {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 76vw;
   padding: 1em;
 }
 h1 {
-  font-size: 40px;
+  font-size: calc(1.2 * var(--text-size));
 }
 p {
-  font-size: 32px;
+  font-size: var(--text-size);
   padding: 0 1em;
+  line-height: 1.5em;
 }
 .glyph {
   margin: 1em auto;
   text-align: center;
-  font-size: 72px;
+  font-size: calc(2.5 * var(--text-size));
 }
 
 .dig-normal {
@@ -51,7 +53,7 @@ p {
 @media (max-width: 640px) {
   p {
     padding: 0;
-    font-size: 18px;
+    font-size: calc(0.75 * var(--text-size));
   }
 }
 
@@ -76,7 +78,14 @@ p {
     .medium { font-weight: 500; }
     .semibold { font-weight: 600; }
     .bold { font-weight: 700; }
-    .variable { font-family: 'Fira Code VF'; font-variation-settings: 'wght' 400; }
+    .variable { 
+      font-family: 'Fira Code VF'; 
+      font-weight: 400;
+      font-weight: var(--text-weight);
+      font-stretch: var(--text-width);
+      font-size: var(--text-size);
+      line-height: 1.5em;
+    }
     i { font-style: normal; color: #c33; }
     b { font-weight: inherit; color: #c33; }
 }
@@ -233,6 +242,9 @@ p {
     
     h1, .glyph {
       font-family: 'Georama VF';
+
+      font-weight: var(--text-weight);
+      font-stretch: var(--text-width);
     }
     p {
       font-family: 'Georama VF';
@@ -440,6 +452,9 @@ p {
     
     h1, .glyph {
       font-family: 'Saira VF';
+
+      font-weight: var(--text-weight);
+      font-stretch: var(--text-width);
     }
     p {
       font-family: 'Saira VF';
@@ -527,7 +542,20 @@ p {
 
 
 
-//  <div class="garamond-font">
+.garamond-font {
+  font-family: 'EBGaramond12';
+  font-weight: 400;
+  overflow-x: hidden;
+
+    
+    h1, .glyph {
+      font-family: 'EBGaramond12';
+    }
+    p {
+      font-family: 'EBGaramond12';
+    }
+}
+
 
 
 
@@ -544,6 +572,8 @@ p {
 @import "./Commissioner Loud";
 @import "./Commissioner Variable";
 @import "./Commissioner";
+@import "./EBGaramond12 Variable";
+@import "./EBGaramond12";
 @import "./Economica";
 @import "./Fah-Kwang";
 @import "./Fira Code Variable";

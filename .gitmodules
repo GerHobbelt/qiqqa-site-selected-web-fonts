@@ -72,4 +72,4 @@
 	url = https://github.com/GerHobbelt/josefinsans.git
 [submodule "EBGaramond12"]
 	path = EBGaramond12
-	url = git@github.com:GerHobbelt/EBGaramond12.git
+	url = https://github.com/GerHobbelt/EBGaramond12.git

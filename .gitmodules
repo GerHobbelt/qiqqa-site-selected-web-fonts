@@ -85,3 +85,6 @@
 [submodule "Libre-Baskerville"]
 	path = Libre-Baskerville
 	url = https://github.com/GerHobbelt/Libre-Baskerville.git
+[submodule "League-Mono"]
+	path = League-Mono
+	url = git@github.com:GerHobbelt/league-mono.git

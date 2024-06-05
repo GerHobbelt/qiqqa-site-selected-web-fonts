@@ -114,7 +114,7 @@
 	url = git@github.com:githubnext/monaspace.git
 [submodule "3270font"]
 	path = 3270font
-	url = git@github.com:rbanffy/3270font.git
+	url = git@github.com:GerHobbelt/3270font.git
 [submodule "Iosevka"]
 	path = Iosevka
 	url = git@github.com:GerHobbelt/Iosevka.git

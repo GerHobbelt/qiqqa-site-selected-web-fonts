@@ -1,0 +1,457 @@
+
+	
+	/*
+	Komika
+	*/
+	
+	
+
+@font-face {
+    font-family: 'KomikaTitle.ttf';
+    src: url('Komika/Komika-Title/KomikaTitle.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KomikaTitle-Wide.ttf';
+    src: url('Komika/Komika-Title/KomikaTitle-Wide.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KomikaTitle-Paint.ttf';
+    src: url('Komika/Komika-Title/KomikaTitle-Paint.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KomikaTitle-Kaps.ttf';
+    src: url('Komika/Komika-Title/KomikaTitle-Kaps.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KomikaTitle-Axis.ttf';
+    src: url('Komika/Komika-Title/KomikaTitle-Axis.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMTXT__.ttf';
+    src: url('Komika/komika-Text/KOMTXT__.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMTXTT_.ttf';
+    src: url('Komika/komika-Text/KOMTXTT_.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMTXTTI.ttf';
+    src: url('Komika/komika-Text/KOMTXTTI.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMTXTK_.ttf';
+    src: url('Komika/komika-Text/KOMTXTK_.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMTXTKI.ttf';
+    src: url('Komika/komika-Text/KOMTXTKI.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMTXTKB.ttf';
+    src: url('Komika/komika-Text/KOMTXTKB.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMTXTI_.ttf';
+    src: url('Komika/komika-Text/KOMTXTI_.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMTXTB_.ttf';
+    src: url('Komika/komika-Text/KOMTXTB_.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMTXTBI.ttf';
+    src: url('Komika/komika-Text/KOMTXTBI.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMTXKBI.ttf';
+    src: url('Komika/komika-Text/KOMTXKBI.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKSLI.ttf';
+    src: url('Komika/Komika-Slick/KOMIKSLI.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKSKI.ttf';
+    src: url('Komika/Komika-Slick/KOMIKSKI.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKASL.ttf';
+    src: url('Komika/Komika-Slick/KOMIKASL.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKASK.ttf';
+    src: url('Komika/Komika-Slick/KOMIKASK.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKAP_.ttf';
+    src: url('Komika/komika-Parch/KOMIKAP_.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKJ__.ttf';
+    src: url('Komika/Komika-Jam/KOMIKJ__.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKJI_.ttf';
+    src: url('Komika/Komika-Jam/KOMIKJI_.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKHI_.ttf';
+    src: url('Komika/Komika-Jam/KOMIKHI_.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKHBI.ttf';
+    src: url('Komika/Komika-Jam/KOMIKHBI.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKAH_.ttf';
+    src: url('Komika/Komika-Jam/KOMIKAH_.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKAHB.ttf';
+    src: url('Komika/Komika-Jam/KOMIKAHB.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKAGL.ttf';
+    src: url('Komika/komika-Glaze/KOMIKAGL.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KMKDSP__.ttf';
+    src: url('Komika/komika-Display/KMKDSP__.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KMKDSPW_.ttf';
+    src: url('Komika/komika-Display/KMKDSPW_.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KMKDSPT_.ttf';
+    src: url('Komika/komika-Display/KMKDSPT_.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KMKDSPSH.ttf';
+    src: url('Komika/komika-Display/KMKDSPSH.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KMKDSPK_.ttf';
+    src: url('Komika/komika-Display/KMKDSPK_.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KMKDSPKW.ttf';
+    src: url('Komika/komika-Display/KMKDSPKW.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KMKDSPKB.ttf';
+    src: url('Komika/komika-Display/KMKDSPKB.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KMKDSPB_.ttf';
+    src: url('Komika/komika-Display/KMKDSPB_.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KMKDSPBW.ttf';
+    src: url('Komika/komika-Display/KMKDSPBW.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KMKDSKBW.ttf';
+    src: url('Komika/komika-Display/KMKDSKBW.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKABB.ttf';
+    src: url('Komika/komika-Bubbles/KOMIKABB.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKABG.ttf';
+    src: url('Komika/komika-Boogie/KOMIKABG.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKAX_.ttf';
+    src: url('Komika/Komika-Axis/KOMIKAX_.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKSLI.ttf';
+    src: url('Komika/Komika/KOMIKSLI.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKSKI.ttf';
+    src: url('Komika/Komika/KOMIKSKI.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKJ__.ttf';
+    src: url('Komika/Komika/KOMIKJ__.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKJI_.ttf';
+    src: url('Komika/Komika/KOMIKJI_.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKHI_.ttf';
+    src: url('Komika/Komika/KOMIKHI_.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKHBI.ttf';
+    src: url('Komika/Komika/KOMIKHBI.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKASL.ttf';
+    src: url('Komika/Komika/KOMIKASL.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKASK.ttf';
+    src: url('Komika/Komika/KOMIKASK.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKAH_.ttf';
+    src: url('Komika/Komika/KOMIKAH_.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		
+
+@font-face {
+    font-family: 'KOMIKAHB.ttf';
+    src: url('Komika/Komika/KOMIKAHB.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+		

@@ -12,21 +12,26 @@ console.log("Processing SCSS file:", scss_filepath);
 let src = fs.readFileSync(scss_filepath, "utf8");
 let edited = false;
 
-//   src: url('Cinzel/fonts/ttf/Cinzel-Regular.ttf') format('truetype');
-//   src: url('Commissioner/fonts/webfonts/woff2/CommissionerFlair-Thin.woff2') format('woff2');
-
 function cleanup4glob(p) {
 	return p
 	.replace(/[\[\],]/g, '?');
 }
 
+function cleanup_for_reconstruct(p) {
+	return p
+	.replace(/[\r\n\t]/g, ' ')
+	.replace(/\\/g, '/');
+}
+
 src = src
-.replace(/src: url\(([^)]+)\)([^;]+);/g, function (m, p1, p2) {
-	let fp = p1.trim();
+.replace(/src: (local\([^)]+\).*?)?url\(([^)]+)\)([^;]+);/gm, function (m, p1, p2, p3) {
+  if (!p1)
+    p1 = "";
+	let fp = p2.trim();
 	if (/['"]/.test(fp[0]) && (fp[0] === fp[fp.length - 1])) {
 		fp = fp.substring(1, fp.length - 1);
 	}
-	//console.log({p1, p2, m, fp});
+	//console.log({p1, p2, p3, m, fp});
 	
 	if (!fs.existsSync(fp)) {
 		console.log("Font file is missing:", fp);
@@ -34,7 +39,7 @@ src = src
 		let fname = path.basename(fp);
 		//console.log({rootdir, fname});
 		
-		let is_variable = /-variations/.test(p2);
+		let is_variable = /-variations/.test(p3);
 		let variable_suffix = (is_variable ? '-variations' : '');
 
 		const glob_cfg = {
@@ -54,7 +59,7 @@ src = src
 			
 			edited = true;
 			
-			return `src: url('${new_fpath}')${p2};`.replace(/\\/g, '/');
+			return cleanup_for_reconstruct(`src: ${p1}url('${new_fpath}')${p3};`);
 		}
 		else {
 			fname = path.basename(fp, path.extname(fname));
@@ -68,7 +73,7 @@ src = src
 				
 				edited = true;
 				
-				return `src: url('${new_fpath}') format('opentype${variable_suffix}');`.replace(/\\/g, '/');
+				return cleanup_for_reconstruct(`src: ${p1}url('${new_fpath}') format('opentype${variable_suffix}');`);
 			}
 			
 			flist = g.sync(rootdir + "/**/" + cleanup4glob(fname + ".ttf"), glob_cfg);
@@ -79,7 +84,7 @@ src = src
 				
 				edited = true;
 				
-				return `src: url('${new_fpath}') format('truetype${variable_suffix}');`.replace(/\\/g, '/');
+				return cleanup_for_reconstruct(`src: ${p1}url('${new_fpath}') format('truetype${variable_suffix}');`);
 			}
 
 			if (true) {
@@ -90,7 +95,7 @@ src = src
 		}
 	}
 	
-	return m;
+	return cleanup_for_reconstruct(m);
 });
 
 if (edited) {

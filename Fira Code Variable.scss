@@ -1,8 +1,7 @@
 
 @font-face {
   font-family: 'Fira Code VF';
-  src: url('FiraCode/distr/woff2/FiraCode-VF.woff2') format('woff2-variations'),
-       url('FiraCode/distr/woff/FiraCode-VF.woff') format('woff-variations');
+  src: url('FiraCode/distr/variable_ttf/Fira Code/FiraCode-VF.ttf') format('truetype-variations');
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 300 700;
   font-style: normal;

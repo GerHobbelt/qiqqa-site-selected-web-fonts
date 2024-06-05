@@ -81,10 +81,12 @@ src = src
 				
 				return `src: url('${new_fpath}') format('truetype${variable_suffix}');`.replace(/\\/g, '/');
 			}
+
+			if (true) {
+				edited = true;
 			
-			//edited = true;
-			
-			//return `src: BAD FONT PATH SPEC! FILE IS LOST!`;
+				return `src: BAD FONT PATH SPEC! FILE IS LOST!`;
+			}
 		}
 	}
 	

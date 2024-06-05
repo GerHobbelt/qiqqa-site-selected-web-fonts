@@ -1,0 +1,14 @@
+{
+  "name": "fonts",
+  "version": "1.0.0",
+  "description": "selected OFL fonts for website(s): not just for Qiqqa's, but also some other projects.",
+  "main": "reprocess-font-scss-sourcefile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^10.4.1"
+  }
+}

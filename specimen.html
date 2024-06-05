@@ -14,6 +14,11 @@
       document.documentElement.style.setProperty('--text-weight', weight);
       //code_variable.style['font-variation-settings'] = "'wght' " + weight;
       span_wght.innerText = weight;
+
+      let elems = document.querySelectorAll('.weight-input');
+      elems.forEach(element => {
+        element.value = weight;
+      });
     }
 
     function onStretchChange(stretch) {
@@ -22,6 +27,11 @@
       document.documentElement.style.setProperty('--text-width', stretch + '%');
       //code_variable.style['font-variation-settings'] = "'wdth' " + stretch;
       span_wdth.innerText = stretch;
+
+      let elems = document.querySelectorAll('.stretch-input');
+      elems.forEach(element => {
+        element.value = stretch;
+      });
     }
 
     function onFontsizeChange(size) {
@@ -29,9 +39,19 @@
       console.log("--text-size =", size);
       document.documentElement.style.setProperty('--text-size', size + 'px');
       span_size.innerText = size;
+
+      let elems = document.querySelectorAll('.size-input');
+      elems.forEach(element => {
+        element.value = size;
+      });
     }
 
     function showDefinitiveContent() {
+      onWeightChange(400);
+      onStretchChange(100);
+      onFontsizeChange(24);
+
+
       let elems = document.querySelectorAll('.show-loading-text');
 
       elems.forEach(element => {
@@ -58,6 +78,48 @@
     }
     .hide-loading-text {
       display: none;
+    }
+
+    .user-tweak-vars {
+      font-size: 20px;
+      font-size: 1vw;
+
+      padding-bottom: .3em;
+      border-bottom: 2px solid red;
+      margin-bottom: .5em;      
+      padding-top: .2em;
+
+      position: sticky;
+      top: 0;
+      background-color: #fffffff2;      
+      z-index: 1;   /* fix for the span.code display:block (class below) painting over this sticky DIV */
+    }
+
+    .user-tweak-vars span.item {
+      display: inline-block;
+      padding: 0 2em;
+    }
+
+    span.code {
+      display: block;
+      white-space: pre-wrap;
+      tab-width: 2;
+
+      font-style: normal;
+      border: .1em gray solid;
+      padding: .3em;
+      background: #e8e8e8;
+      /* font-family: monospace; */
+
+      text-align: left;
+      letter-spacing: -.1em;
+      text-transform: full-width;
+
+      -webkit-transform:scale(.75,1.0);
+      -moz-transform:scale(.75, 1.0);
+      -ms-transform:scale(.75, 1.0);
+      -o-transform:scale(.75, 1.0);
+      transform:scale(.75,1.0);      
     }
   </style>
 
@@ -1332,7 +1394,7 @@
 <link rel="preload" href="Spectral/fonts/desktop/Spectral-ExtraBoldItalic.ttf" as="font" >
 <link rel="preload" href="Zilla-Slab/fonts_OTF/ZillaSlab-Light.otf" as="font" >
 <link rel="preload" href="Zilla-Slab/fonts_WOFF/ZillaSlab-Light.woff" as="font" >
-5tgb <link rel="preload" href="Zilla-Slab/fonts_TTF/ZillaSlab-Light.ttf" as="font" >
+<link rel="preload" href="Zilla-Slab/fonts_TTF/ZillaSlab-Light.ttf" as="font" >
 <link rel="preload" href="Zilla-Slab/fonts_OTF/ZillaSlab-LightItalic.otf" as="font" >
 <link rel="preload" href="Zilla-Slab/fonts_WOFF/ZillaSlab-LightItalic.woff" as="font" >
 <link rel="preload" href="Zilla-Slab/fonts_TTF/ZillaSlab-LightItalic.ttf" as="font" >
@@ -1363,6 +1425,27 @@
 
 </head>
 <body>
+  <div class="user-tweak-vars">
+    <span class="item">
+      <input type="range" min="50" max="1000" value="400" step="1" style="width: 300px;" oninput="onWeightChange(this.value)" onchange="onWeightChange(this.value)" class="weight-input"> 
+      <input type="value" min="50" max="1000" value="400" step="1" style="width: 5em;" oninput="onWeightChange(this.value)" onchange="onWeightChange(this.value)" class="weight-input"> 
+      Weight: <span id="span_wght">400</span>
+    </span>
+      
+    <span class="item">
+      <input type="range" min="40" max="300" value="100" step="1" style="width: 300px;" oninput="onStretchChange(this.value)" onchange="onStretchChange(this.value)" class="stretch-input"> 
+      <input type="value" min="40" max="300" value="100" step="1" style="width: 5em;" oninput="onStretchChange(this.value)" onchange="onStretchChange(this.value)" class="stretch-input"> 
+      Stretch: <span id="span_wdth">100</span>
+    </span>
+      
+    <span class="item">
+      <input type="range" min="4" max="100" value="32" step="1" style="width: 300px;" oninput="onFontsizeChange(this.value)" onchange="onFontsizeChange(this.value)" class="size-input"> 
+      <input type="value" min="4" max="100" value="32" step="1" style="width: 5em;" oninput="onFontsizeChange(this.value)" onchange="onFontsizeChange(this.value)" class="size-input"> 
+      Font size: <span id="span_size">32px</span>
+    </span>
+  </div>
+      
+  </div>
 <div class="definitive-content-at-start">
 <div class="firacode-font">
     <article>
@@ -1418,12 +1501,6 @@ last3 = reverse <i>&gt;&gt;</i> take 3 <i>&gt;&gt;</i> reverse</div>
 
 <div contenteditable class="code variable"><b># Fira Code Variable</b>
 
-<input type="range" min="50" max="1000" value="400" step="1" style="width: 300px;" oninput="onWeightChange(this.value)" onchange="onWeightChange(this.value)"> Weight: <span id="span_wght">400</span>
-
-<input type="range" min="40" max="300" value="100" step="1" style="width: 300px;" oninput="onStretchChange(this.value)" onchange="onStretchChange(this.value)"> Stretch: <span id="span_wdth">100</span>
-
-<input type="range" min="4" max="100" value="32" step="1" style="width: 300px;" oninput="onFontsizeChange(this.value)" onchange="onFontsizeChange(this.value)"> Font size: <span id="span_size">32px</span>
-
 take = (n, [x, <i>...</i>xs]:list) <i>--&gt;</i>
   | n <i>&lt;=</i> 0     <i>=&gt;</i> []
   | empty list <i>=&gt;</i> []
@@ -1431,7 +1508,6 @@ take = (n, [x, <i>...</i>xs]:list) <i>--&gt;</i>
 
 last3 = reverse <i>&gt;&gt;</i> take 3 <i>&gt;&gt;</i> reverse</div>
 
-    </article>
 </div>
 
 <hr>

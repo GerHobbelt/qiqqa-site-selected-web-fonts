@@ -88,3 +88,72 @@
 [submodule "League-Mono"]
 	path = League-Mono
 	url = git@github.com:GerHobbelt/league-mono.git
+[submodule "cascadia-code"]
+	path = cascadia-code
+	url = git@github.com:microsoft/cascadia-code.git
+[submodule "LxgwNeoZhiSong"]
+	path = LxgwNeoZhiSong
+	url = git@github.com:lxgw/LxgwNeoZhiSong.git
+[submodule "smiley-sans"]
+	path = smiley-sans
+	url = git@github.com:atelier-anchor/smiley-sans.git
+[submodule "redacted-font"]
+	path = redacted-font
+	url = git@github.com:christiannaths/redacted-font.git
+[submodule "devicon"]
+	path = devicon
+	url = git@github.com:devicons/devicon.git
+[submodule "modern-font-stacks"]
+	path = modern-font-stacks
+	url = git@github.com:GerHobbelt/modern-font-stacks.git
+[submodule "mona-sans"]
+	path = mona-sans
+	url = git@github.com:github/mona-sans.git
+[submodule "monaspace"]
+	path = monaspace
+	url = git@github.com:githubnext/monaspace.git
+[submodule "3270font"]
+	path = 3270font
+	url = git@github.com:rbanffy/3270font.git
+[submodule "Iosevka"]
+	path = Iosevka
+	url = git@github.com:GerHobbelt/Iosevka.git
+[submodule "font"]
+	path = font
+	url = git@github.com:calcom/font.git
+[submodule "public-sans"]
+	path = public-sans
+	url = git@github.com:uswds/public-sans.git
+[submodule "noto-emoji"]
+	path = noto-emoji
+	url = git@github.com:googlefonts/noto-emoji.git
+[submodule "LxgwWenKai"]
+	path = LxgwWenKai
+	url = git@github.com:lxgw/LxgwWenKai.git
+[submodule "Ysabeau"]
+	path = Ysabeau
+	url = git@github.com:CatharsisFonts/Ysabeau.git
+[submodule "sparks"]
+	path = sparks
+	url = git@github.com:aftertheflood/sparks.git
+[submodule "Inconsolata"]
+	path = Inconsolata
+	url = git@github.com:googlefonts/Inconsolata.git
+[submodule "Mengshen-pinyin-font"]
+	path = Mengshen-pinyin-font
+	url = git@github.com:MaruTama/Mengshen-pinyin-font.git
+[submodule "Ubuntu-Sans-Mono-fonts"]
+	path = Ubuntu-Sans-Mono-fonts
+	url = git@github.com:canonical/Ubuntu-Sans-Mono-fonts.git
+[submodule "sudo-font"]
+	path = sudo-font
+	url = git@github.com:jenskutilek/sudo-font.git
+[submodule "Ubuntu-Sans-fonts"]
+	path = Ubuntu-Sans-fonts
+	url = git@github.com:canonical/Ubuntu-Sans-fonts.git
+[submodule "pragmatapro"]
+	path = pragmatapro
+	url = git@github.com:GerHobbelt/pragmatapro.git
+[submodule "Fraunces"]
+	path = Fraunces
+	url = git@github.com:GerHobbelt/Fraunces.git

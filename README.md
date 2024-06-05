@@ -42,3 +42,9 @@ Script to produce thee `link preload` statements from the generated `font-specim
 
 and then replace the bunch with the set in file `tmp.tmp`, e.g. via visual diff tooling.
 
+
+
+
+## Other places and software
+
+- https://coding-fonts.netlify.app/fonts/inconsolata/ -- for previewing various monospaced fonts. Nive iterface.

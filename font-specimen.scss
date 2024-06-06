@@ -195,17 +195,17 @@ p {
 
 
 
-.commissioner-flair-font {
-  font-family: 'Commissioner Flair';
+.commissioner-flare-font {
+  font-family: 'Commissioner Flare';
   font-weight: 400;
   overflow-x: hidden;
 
     
     h1, .glyph {
-      font-family: 'Commissioner Flair';
+      font-family: 'Commissioner Flare';
     }
     p {
-      font-family: 'Commissioner Flair';
+      font-family: 'Commissioner Flare';
     }
 }
 
@@ -566,31 +566,147 @@ p {
 
 
 
-@import "./Cinzel";
+@import "./3270font";
+@import "./Abhaya-Libre Variable";
+@import "./abril-fatface";
+@import "./academico";
+@import "./Accuratist";
+@import "./alata";
+@import "./alfa-slab";
+@import "./allura";
+@import "./andada";
+@import "./archistico";
+@import "./Bagnard";
+@import "./Bagnard-Sans";
+@import "./Bebas";
+@import "./Big_Shoulders_Display";
+@import "./bookman";
+@import "./braille";
+@import "./Cabin Variable";
+@import "./caramel";
+@import "./CAT_linz";
+@import "./cat_reporter";
+@import "./CAT_rhythmus";
+@import "./Catamaran";
+@import "./Caviar-Dreams";
+@import "./Cinzel Decoarative Variable";
 @import "./Cinzel Decorative";
-@import "./Commissioner Flair";
+@import "./Cinzel Variable";
+@import "./Cinzel";
+@import "./clarity_city_next";
+@import "./comforter";
+@import "./comforter_brush";
+@import "./comicneue";
+@import "./Commissioner Flare";
 @import "./Commissioner Loud";
 @import "./Commissioner Variable";
 @import "./Commissioner";
+@import "./d_din";
+@import "./d_din_pro";
+@import "./devicon";
+@import "./Devonshire";
+@import "./didactic Variable";
 @import "./EBGaramond12 Variable";
 @import "./EBGaramond12";
 @import "./Economica";
+@import "./Edo SZ";
+@import "./ErnestHuge";
+@import "./Exetegue";
+@import "./fachada";
 @import "./Fah-Kwang";
+@import "./FFF-Tusj";
 @import "./Fira Code Variable";
 @import "./Fira Code";
 @import "./Fira Mono";
 @import "./Fira Sans Compressed";
 @import "./Fira Sans Condensed";
 @import "./Fira Sans";
+@import "./FiraCode Variable";
+@import "./font-specimen";
+@import "./FPD_pressure";
+@import "./Fraunces Variable";
+@import "./Fredericka_the_Great";
+@import "./gandhi_sans_and_serif";
+@import "./Georama Condensed";
+@import "./Georama Expanded";
+@import "./Georama Extended";
+@import "./Georama Extra Condensed";
+@import "./Georama Extra Expanded";
+@import "./Georama Extra Extended";
+@import "./Georama Semi Condensed";
 @import "./Georama Variable";
+@import "./Georama";
+@import "./GFS_Bodoni";
+@import "./GFS_Didot";
+@import "./GFS_Elpis";
+@import "./GFS_Fleischman";
+@import "./GFS_Garaldus";
+@import "./Girassol";
+@import "./Goudy-Bookletter-1911";
 @import "./Grenze Variable";
 @import "./Grenze";
+@import "./hooligan";
+@import "./hurricane";
+@import "./im-fell-flowers-1";
+@import "./im-fell-flowers-2";
+@import "./Inconsolata Variable";
+@import "./Josefin-Sans Variable";
 @import "./Jost Variable";
 @import "./Jost";
+@import "./Junicode Variable";
+@import "./Kingthings-Printingkit";
+@import "./Komika";
+@import "./Kumbh_Sans";
+@import "./League-Gothic";
+@import "./League-Mono Variable";
+@import "./League-Spartan Variable";
+@import "./Lexend Variable";
+@import "./Libertinus-fonts";
+@import "./Libre_Baskerville-fonts";
+@import "./Libre_Bodoni";
+@import "./LXGW Wen Kai Mono Hangul";
+@import "./LXGW Wen Kai Mono Latin";
+@import "./LXGW Wen Kai Mono";
+@import "./Ma_Shan_Zheng";
+@import "./Marcellus_SC";
+@import "./Mengshen pinyin";
+@import "./metropolis";
+@import "./mona-sans Variable";
+@import "./monaspace Variable";
+@import "./New Century Schoolbook";
 @import "./Newsreader 16pt";
 @import "./Newsreader 6pt";
 @import "./Newsreader 72pt";
 @import "./Newsreader Variable";
+@import "./noto-emoji";
+@import "./nuernberg";
+@import "./nymphette";
+@import "./offenbacher_reform";
+@import "./Oleo_Script_Swash_Caps";
+@import "./osp-din";
+@import "./Ostrich-Sans";
+@import "./Oswald";
+@import "./Outfit";
+@import "./Phudu";
+@import "./Pirata_One";
+@import "./Playfair_Display";
+@import "./Playfair_Display_SC";
+@import "./Poller_One";
+@import "./prodelt_co";
+@import "./pt_mono";
+@import "./pt-serif";
+@import "./public-sans Variable";
+@import "./qt_avanti";
+@import "./qt_caslan";
+@import "./qt_old_goudy";
+@import "./qt_school_century";
+@import "./qt_weise";
+@import "./Raleway Variable";
+@import "./readex_pro Variable";
+@import "./redacted-font Variable";
+@import "./redaction";
+@import "./Rokkitt";
+@import "./Rondal";
 @import "./Saira Condensed";
 @import "./Saira Expanded";
 @import "./Saira Extra Condensed";
@@ -599,6 +715,26 @@ p {
 @import "./Saira Ultra Condensed";
 @import "./Saira Variable";
 @import "./Saira";
+@import "./sangha_kali";
+@import "./Sansita_Swashed";
+@import "./SirucaPictograms";
+@import "./sparks";
 @import "./Spectral SmallCaps";
 @import "./Spectral";
+@import "./Spicy.Noodles";
+@import "./Subjectivity";
+@import "./sudo-font Variable";
+@import "./Symbol-Signs";
+@import "./tomsontalks";
+@import "./topography";
+@import "./torrefarfan";
+@import "./troubleside";
+@import "./Ubuntu Sans Mono Variable";
+@import "./Ubuntu Sans Variable";
+@import "./UnifrakturCook";
+@import "./Unna";
+@import "./URW Gothic";
+@import "./YoungSerif";
+@import "./Ysabeau Variable";
+@import "./Zhi_Mang_Xing";
 @import "./Zilla Slab";

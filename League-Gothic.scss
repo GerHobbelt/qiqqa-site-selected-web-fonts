@@ -1,13 +1,6 @@
 
-	
-	/*
-	League-Gothic
-	*/
-	
-	
-
 @font-face {
-    font-family: 'LeagueGothic-.otf';
+    font-family: 'League Gothic';
     src: url('League-Gothic/instance_otf/LeagueGothic-Regular.otf') format('opentype');
     font-weight: 500;
     font-style: normal;
@@ -16,28 +9,10 @@
 		
 
 @font-face {
-    font-family: 'LeagueGothic-Italic.otf';
+    font-family: 'League Gothic';
     src: url('League-Gothic/instance_otf/LeagueGothic-Italic.otf') format('opentype');
     font-weight: 500;
-    font-style: normal;
-}
-
-		
-
-@font-face {
-    font-family: 'LeagueGothic-CondensedItalic.otf';
-    src: url('League-Gothic/instance_otf/LeagueGothic-CondensedItalic.otf') format('opentype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-		
-
-@font-face {
-    font-family: 'LeagueGothic-Condensed.otf';
-    src: url('League-Gothic/instance_otf/LeagueGothic-Condensed.otf') format('opentype');
-    font-weight: 500;
-    font-style: normal;
+    font-style: italic;
 }
 
 		

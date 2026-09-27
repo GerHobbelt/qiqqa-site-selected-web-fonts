@@ -1,23 +1,34 @@
 
+
+    /*
+    OTF
+    */
+
+    
+
 @font-face {
-    font-family: '3270SemiCondensed';
+    font-family: '3270 Semi Condensed';
     src: url('3270font/build/3270SemiCondensed-Regular.otf') format('opentype');
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
 }
 
+        
+
 @font-face {
-    font-family: '3270Condensed';
+    font-family: '3270 Condensed';
     src: url('3270font/build/3270Condensed-Regular.otf') format('opentype');
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
 }
+
+        
 
 @font-face {
     font-family: '3270';
     src: url('3270font/build/3270-Regular.otf') format('opentype');
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
 }
 
-		
+        

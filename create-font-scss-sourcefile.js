@@ -40,7 +40,7 @@ function cleanup4fontname(p) {
     .replace(/[-]?Italic/i, '')
     .replace(/[-]?Oblique/i, '')
     .replace(/[.-]regular/, '')
-    .replace(/[_-]+/g, ' ')
+    .replace(/[_ -]+/g, ' ')
     // and some special name tweaks:
     .replace(/([0-9])([A-Z])/g, '$1 $2')        // 3270 fonts
     .replace(/([a-z])([A-Z])/g, '$1 $2')        // camelCased font filenames
@@ -48,6 +48,11 @@ function cleanup4fontname(p) {
     .replace(/ [0-9][.][0-9]+$/g, '')           // ditch version numbers
     .replace(/\bD DIN/g, 'D-DIN')               // D-DIN fonts
     .replace(/Bodoni It/, 'Bodoni')
+    .replace(/KOMTXT/, 'Komika Text ')
+    .replace(/KOMIKS/, 'Komika Slick ')
+    .replace(/KOMIKA/, 'Komika ')
+    .replace(/KMKDSP/, 'Komika Display ')
+    .replace(/ +/g, ' ')
     .trim()
     console.log("cleanup4fontname", p, "-->", n, "         +w:", name2weight(p));
     return n;
@@ -97,8 +102,8 @@ const glob_cfg = {
   // only want the files, not the dirs
   nodir: true,
   ignore: {
-    ignored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp'),
-    childrenIgnored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp'),
+    ignored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p->isNamed('proofs'),
+    childrenIgnored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p->isNamed('proofs'),
   },
 };
 
@@ -143,8 +148,9 @@ if (variable_list.length > 0) {
 		.replace(/ VF/, '');
         let is_italic = /italic|bdita|BodoniIt/i.test(path.basename(ttf_path));
         let is_oblique = /oblique|,slnt,/i.test(path.basename(ttf_path));
-        let has_flar = /FLAR/.test(path.basename(ttf_path));
-        let has_volm = /VOLM/.test(path.basename(ttf_path));
+        let has_flar = /FLAR,/i.test(path.basename(ttf_path));
+        let has_volm = /VOLM,/i.test(path.basename(ttf_path));
+        let has_opsz = /opsz,/i.test(path.basename(ttf_path));
 
 
         src += `
@@ -158,6 +164,7 @@ if (variable_list.length > 0) {
     font-style: ${ is_italic ? "italic" : is_oblique ? "oblique 0deg 12deg" : "normal" };
     ${ has_flar ? "font-variation-settings: 'FLAR' var(--text-flar);" : "" }
     ${ has_volm ? "font-variation-settings: 'VOLM' var(--text-volm);" : "" }
+    ${ has_opsz ? "font-variation-settings: 'OPSZ' var(--text-opsz);" : "" }
 }
 
         `;

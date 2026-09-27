@@ -1,18 +1,43 @@
 
+
+    /*
+    OTF
+    */
+
+    
+
 @font-face {
     font-family: 'League Gothic';
     src: url('League-Gothic/instance_otf/LeagueGothic-Regular.otf') format('opentype');
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
 }
 
-		
+        
 
 @font-face {
     font-family: 'League Gothic';
     src: url('League-Gothic/instance_otf/LeagueGothic-Italic.otf') format('opentype');
-    font-weight: 500;
+    font-weight: 400;
     font-style: italic;
 }
 
-		
+        
+
+@font-face {
+    font-family: 'League Gothic Condensed';
+    src: url('League-Gothic/instance_otf/LeagueGothic-CondensedItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+        
+
+@font-face {
+    font-family: 'League Gothic Condensed';
+    src: url('League-Gothic/instance_otf/LeagueGothic-Condensed.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+        

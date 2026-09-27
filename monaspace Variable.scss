@@ -1,57 +1,72 @@
 
-	
-	/*
-	monaspace
-	*/
-	
-	
+
+    /*
+    VARIABLE
+    */
+
+    
 
 @font-face {
-    font-family: 'MonaspaceXenonVarVF VF';
-    src: url('monaspace/fonts/variable/MonaspaceXenonVarVF[wght,wdth,slnt].ttf') format('truetype-variations');
+    font-family: 'Monaspace Xenon VF';
+    src: url('monaspace/fonts/Variable Fonts/Monaspace Xenon/Monaspace Xenon Var.ttf') format('truetype-variations');
+    /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
     font-weight: 100 950;
     font-stretch: 75% 125%;
     font-style: normal;
+    
+    
 }
 
-		
+        
 
 @font-face {
-    font-family: 'MonaspaceRadonVarVF VF';
-    src: url('monaspace/fonts/variable/MonaspaceRadonVarVF[wght,wdth,slnt].ttf') format('truetype-variations');
+    font-family: 'Monaspace Radon VF';
+    src: url('monaspace/fonts/Variable Fonts/Monaspace Radon/Monaspace Radon Var.ttf') format('truetype-variations');
+    /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
     font-weight: 100 950;
     font-stretch: 75% 125%;
     font-style: normal;
+    
+    
 }
 
-		
+        
 
 @font-face {
-    font-family: 'MonaspaceNeonVarVF VF';
-    src: url('monaspace/fonts/variable/MonaspaceNeonVarVF[wght,wdth,slnt].ttf') format('truetype-variations');
+    font-family: 'Monaspace Neon VF';
+    src: url('monaspace/fonts/Variable Fonts/Monaspace Neon/Monaspace Neon Var.ttf') format('truetype-variations');
+    /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
     font-weight: 100 950;
     font-stretch: 75% 125%;
     font-style: normal;
+    
+    
 }
 
-		
+        
 
 @font-face {
-    font-family: 'MonaspaceKryptonVarVF VF';
-    src: url('monaspace/fonts/variable/MonaspaceKryptonVarVF[wght,wdth,slnt].ttf') format('truetype-variations');
+    font-family: 'Monaspace Krypton VF';
+    src: url('monaspace/fonts/Variable Fonts/Monaspace Krypton/Monaspace Krypton Var.ttf') format('truetype-variations');
+    /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
     font-weight: 100 950;
     font-stretch: 75% 125%;
     font-style: normal;
+    
+    
 }
 
-		
+        
 
 @font-face {
-    font-family: 'MonaspaceArgonVarVF VF';
-    src: url('monaspace/fonts/variable/MonaspaceArgonVarVF[wght,wdth,slnt].ttf') format('truetype-variations');
+    font-family: 'Monaspace Argon VF';
+    src: url('monaspace/fonts/Variable Fonts/Monaspace Argon/Monaspace Argon Var.ttf') format('truetype-variations');
+    /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
     font-weight: 100 950;
     font-stretch: 75% 125%;
     font-style: normal;
+    
+    
 }
 
-		
+        

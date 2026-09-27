@@ -157,3 +157,6 @@
 [submodule "Fraunces"]
 	path = Fraunces
 	url = git@github.com:GerHobbelt/Fraunces.git
+[submodule "pragmasevka"]
+	path = pragmasevka
+	url = git@github.com:GerHobbelt/pragmasevka.git

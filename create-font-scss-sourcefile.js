@@ -30,8 +30,8 @@ const glob_cfg = {
   // only want the files, not the dirs
   nodir: true,
   ignore: {
-	ignored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p.isNamed('sources'),
-	childrenIgnored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p.isNamed('sources'),
+	ignored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp'),
+	childrenIgnored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp'),
   },
 };
 
@@ -53,7 +53,7 @@ let variable_list = [];
 for (let i = 0; i < flist.length; i++) {
 	let fontpath = flist[i]
 		.replace(/\\/g, '/');
-	let is_variable = /VF|variable|[\[\]]/.test(fontpath);
+	let is_variable = /VF|variable|[\[\]]/i.test(fontpath);
 	if (is_variable) {
 		variable_list.push(fontpath);
 	}
@@ -67,7 +67,7 @@ if (variable_list.length > 0) {
 	let src = `
 	
 	/*
-	${fontname}
+	VARIABLE: ${fontname}
 	*/
 	
 	`;
@@ -75,13 +75,20 @@ if (variable_list.length > 0) {
 	for (let i = 0; i < variable_list.length; i++) {
 		let ttf_path = variable_list[i];
 		fontname = path.basename(ttf_path)
-			.replace(/[\[].*$/g, '');
+			.replace(/[\[].*$/g, '')
+			.replace(/[.]ttf$/, '')
+			.replace(/VariableFont_[a-zA-Z,]*wght/, '')
+			.replace(/-+/, '-')
+			.replace(/-$/, '')
+			.replace(/ Var$/, '')
+			.replace(/Variable$/, '')
 		
 		src += `
 
 @font-face {
-    font-family: '${fontname} VF';
+    font-family: '${fontname}-VF';
     src: url('${ttf_path}') format('truetype-variations');
+    /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
     font-weight: 100 950;
     font-stretch: 75% 125%;
     font-style: normal;
@@ -114,7 +121,7 @@ if (opentype_list.length > 0) {
 	let src = `
 	
 	/*
-	${fontname}
+	OTF: ${fontname}
 	*/
 	
 	`;
@@ -123,8 +130,10 @@ if (opentype_list.length > 0) {
 		let ttf_path = opentype_list[i];
 		fontname = path.basename(ttf_path)
 			.replace(/Thin|Thick|Regular|Medium|Light|ExtraBold|Bold|Extrathin|Extrathick|Black/ig, '')
-			.replace(/-+$/, '')
-			.replace(/-+/, '-');
+			.replace(/[.]otf$/, '')
+			.replace(/VariableFont_[a-zA-Z,]*wght/, 'Variable')
+			.replace(/-+/, '-')
+			.replace(/-$/, '');
 		
 		src += `
 
@@ -163,7 +172,7 @@ if (ttf_list.length > 0) {
 	let src = `
 	
 	/*
-	${fontname}
+	TTF: ${fontname}
 	*/
 	
 	`;
@@ -172,8 +181,10 @@ if (ttf_list.length > 0) {
 		let ttf_path = ttf_list[i];
 		fontname = path.basename(ttf_path)
 			.replace(/Thin|Thick|Regular|Medium|Light|ExtraBold|Bold|Extrathin|Extrathick|Black/ig, '')
-			.replace(/-+$/, '')
-			.replace(/-+/, '-');
+			.replace(/[.]ttf$/, '')
+			.replace(/VariableFont_[a-zA-Z,]*wght/, 'Variable')
+			.replace(/-+/, '-')
+			.replace(/-$/, '');
 		
 		src += `
 

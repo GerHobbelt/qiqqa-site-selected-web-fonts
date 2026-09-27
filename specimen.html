@@ -80,7 +80,11 @@
     .hide-loading-text {
       display: none;
     }
-
+    
+    pre {
+      font-family: inherit;
+    }
+    
     .user-tweak-vars {
       font-size: 20px;
       font-size: 1vw;
@@ -1453,62 +1457,58 @@
 
 <div contenteditable class="code light"><b># Fira Code Light</b>
 
+<pre id="orig-pre">
 take = (n, [x, <i>...</i>xs]:list) <i>--&gt;</i>
   | n <i>&lt;=</i> 0     <i>=&gt;</i> []
   | empty list <i>=&gt;</i> []
   | otherwise  <i>=&gt;</i> [x] <i>++</i> take n-1, xs
 
-last3 = reverse <i>&gt;&gt;</i> take 3 <i>&gt;&gt;</i> reverse</div>
+last3 = reverse <i>&gt;&gt;</i> take 3 <i>&gt;&gt;</i> reverse
+
+void main(int argc, const char *argv[]) {
+  bool a = (argc == 5);
+  bool b = (argc != 4);
+  //... to be done ...
+  return EXIT_FAILURE;
+}
+</pre>
+</div>
 
 
 <div contenteditable class="code regular"><b># Fira Code Regular</b>
 
-take = (n, [x, <i>...</i>xs]:list) <i>--></i>
-  | n <i>&lt;=</i> 0     <i>=&gt;</i> []
-  | empty list <i>=&gt;</i> []
-  | otherwise  <i>=&gt;</i> [x] <i>++</i> take n-1, xs
-
-last3 = reverse <i>&gt;&gt;</i> take 3 <i>&gt;&gt;</i> reverse</div>
+<pre>;
+</pre>
+</div>
 
 
 <div contenteditable class="code medium"><b># Fira Code Medium</b>
 
-take = (n, [x, <i>...</i>xs]:list) <i>--&gt;</i>
-  | n <i>&lt;=</i> 0     <i>=&gt;</i> []
-  | empty list <i>=&gt;</i> []
-  | otherwise  <i>=&gt;</i> [x] <i>++</i> take n-1, xs
-
-last3 = reverse <i>&gt;&gt;</i> take 3 <i>&gt;&gt;</i> reverse</div>
+<pre>;
+</pre>
+</div>
 
 
 <div contenteditable class="code semibold"><b># Fira Code SemiBold</b>
 
-take = (n, [x, <i>...</i>xs]:list) <i>--&gt;</i>
-  | n <i>&lt;=</i> 0     <i>=&gt;</i> []
-  | empty list <i>=&gt;</i> []
-  | otherwise  <i>=&gt;</i> [x] <i>++</i> take n-1, xs
-
-last3 = reverse <i>&gt;&gt;</i> take 3 <i>&gt;&gt;</i> reverse</div>
+<pre>;
+</pre>
+</div>
 
 
 <div contenteditable class="code bold"><b># Fira Code Bold</b>
 
-take = (n, [x, <i>...</i>xs]:list) <i>--&gt;</i>
-  | n <i>&lt;=</i> 0     <i>=&gt;</i> []
-  | empty list <i>=&gt;</i> []
-  | otherwise  <i>=&gt;</i> [x] <i>++</i> take n-1, xs
-
-last3 = reverse <i>&gt;&gt;</i> take 3 <i>&gt;&gt;</i> reverse</div>
+<pre>;
+</pre>
+</div>
 
 <div contenteditable class="code variable"><b># Fira Code Variable</b>
 
-take = (n, [x, <i>...</i>xs]:list) <i>--&gt;</i>
-  | n <i>&lt;=</i> 0     <i>=&gt;</i> []
-  | empty list <i>=&gt;</i> []
-  | otherwise  <i>=&gt;</i> [x] <i>++</i> take n-1, xs
+<pre>;
+</pre>
+</div>
 
-last3 = reverse <i>&gt;&gt;</i> take 3 <i>&gt;&gt;</i> reverse</div>
-
+</article>
 </div>
 
 <hr>
@@ -3298,6 +3298,32 @@ elems.forEach(function(x) {
 
 var orig = document.querySelector("#orig");
 propagate(orig);
+
+
+
+
+var pre_elems = document.querySelectorAll("article div.code pre");
+pre_elems = Array.prototype.slice.call(pre_elems);
+
+function propagate_pre(changedElem) {
+  var str = changedElem.innerHTML;
+
+  pre_elems.forEach(function(x) {
+    if (x !== changedElem) {
+      x.innerHTML = str;
+    }
+  });
+}
+
+pre_elems.forEach(function(x) {
+  x.oninput = function() {
+    propagate_pre(x);
+  };
+});
+
+var orig_pre = document.querySelector("#orig-pre");
+propagate_pre(orig_pre);
+
 
     </script>
 </body>

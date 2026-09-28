@@ -1,0 +1,898 @@
+
+
+    /*
+    OTF
+    */
+
+    
+
+@font-face {
+    font-family: 'Inconsolata Ultra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraExpandedThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraExpandedSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraExpandedRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraExpandedMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraExpandedLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraExpandedExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraExpandedExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraExpandedBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraExpandedBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraCondensedThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraCondensedSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraCondensedRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraCondensedMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraCondensedLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraCondensedExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraCondensedExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraCondensedBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Ultra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-UltraCondensedBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('Inconsolata/fonts/otf/Inconsolata-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiExpandedThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiExpandedSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiExpandedRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiExpandedMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiExpandedLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiExpandedExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiExpandedExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiExpandedBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiExpandedBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiCondensedThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiCondensedSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiCondensedRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiCondensedMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiCondensedLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiCondensedExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiCondensedExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiCondensedBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Semi Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiCondensedBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('Inconsolata/fonts/otf/Inconsolata-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('Inconsolata/fonts/otf/Inconsolata-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('Inconsolata/fonts/otf/Inconsolata-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('Inconsolata/fonts/otf/Inconsolata-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraExpandedThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraExpandedSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraExpandedRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraExpandedMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraExpandedLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraExpandedExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraExpandedExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraExpandedBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraExpandedBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraCondensedThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraCondensedSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraCondensedRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraCondensedMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraCondensedLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraCondensedExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraCondensedExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraCondensedBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Extra Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraCondensedBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExpandedThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExpandedSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExpandedRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExpandedMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExpandedLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExpandedExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExpandedExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExpandedBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Expanded';
+    src: url('Inconsolata/fonts/otf/Inconsolata-ExpandedBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-CondensedThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-CondensedSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-CondensedRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-CondensedMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-CondensedLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-CondensedExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-CondensedExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-CondensedBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata Condensed';
+    src: url('Inconsolata/fonts/otf/Inconsolata-CondensedBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('Inconsolata/fonts/otf/Inconsolata-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('Inconsolata/fonts/otf/Inconsolata-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        

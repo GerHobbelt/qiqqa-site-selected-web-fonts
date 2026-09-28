@@ -31,6 +31,8 @@ function cleanup_for_SCSS_filename(fp, suffix) {
     let n = p
     .replace(/[\[].*$/g, '')
     .replace(/Variable$/, '')
+    .replace(/FontSet$/, '')
+    .replace(/webfont$/, '')
     .replace(/Thin|SemiBold|Semibold|DemiBold|Demi-Bold|Regular|Demi|Medium|Extra-Light|ExtraLight|UltraLight|Light|ExtraBold|Extra-Bold|Bold|-bold|Black|Heavy|BdIta/, '')
     .replace(/[-]?Italic/i, '')
     .replace(/[-]?Oblique/i, '')
@@ -40,8 +42,8 @@ function cleanup_for_SCSS_filename(fp, suffix) {
     .replace(/([0-9])([A-Z])/g, '$1 $2')        // 3270 fonts
     .replace(/([a-z])([A-Z])/g, '$1 $2')        // camelCased font filenames
     .replace(/([A-Z][A-Z][A-Z][A-Z]?)([A-Z][a-z])/g, '$1 $2')          // URW fonts, others...
-    .replace(/ [0-9][.][0-9]+$/g, '')           // ditch version numbers
-    .replace(/\bD DIN/ig, 'D-DIN')               // D-DIN fonts
+    .replace(/[0-9][. ][0-9]+[ ]?$/g, '')       // ditch version numbers
+    .replace(/\bD DIN/ig, 'D-DIN')              // D-DIN fonts
     .replace(/ +/g, ' ')
     .trim()
     .replace(/ /g, '.');
@@ -68,16 +70,18 @@ function cleanup4fontname(fp) {
     .replace(/VariableFont_[a-zA-Z,]*wght/, 'Variable')
     .replace(/\bVar$/, '')
     .replace(/Variable$/, '')
+    .replace(/FontSet$/, '')
+    .replace(/webfont$/, '')
     .replace(/Thin|SemiBold|Semibold|DemiBold|Demi-Bold|Regular|Demi|Medium|Extra-Light|ExtraLight|UltraLight|Light|ExtraBold|Extra-Bold|Bold|-bold|Black|Heavy|BdIta/, '')
     .replace(/[-]?Italic/i, '')
     .replace(/[-]?Oblique/i, '')
     .replace(/[.-]regular/, '')
-    .replace(/[_ -]+/g, ' ')
+    .replace(/[._ -]+/g, ' ')
     // and some special name tweaks:
     .replace(/([0-9])([A-Z])/g, '$1 $2')        // 3270 fonts
     .replace(/([a-z])([A-Z])/g, '$1 $2')        // camelCased font filenames
     .replace(/([A-Z][A-Z][A-Z][A-Z]?)([A-Z][a-z])/g, '$1 $2')          // URW fonts, others...
-    .replace(/[0-9][.][0-9]+$/g, '')            // ditch version numbers
+    .replace(/[0-9][. ][0-9]+[ ]?$/g, '')       // ditch version numbers
     .replace(/\bD DIN/g, 'D-DIN')               // D-DIN fonts
     .replace(/Bodoni It/, 'Bodoni')
     .replace(/KOMTXT/, 'Komika Text ')
@@ -151,8 +155,8 @@ const glob_cfg = {
   // only want the files, not the dirs
   nodir: true,
   ignore: {
-    ignored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p.isNamed('proofs') || p.isNamed('res') || p.isNamed('3D') || p.isNamed('test'),
-    childrenIgnored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p.isNamed('proofs') || p.isNamed('res') || p.isNamed('3D') || p.isNamed('test'),
+    ignored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p.isNamed('proofs') || p.isNamed('res') || p.isNamed('3D') || p.isNamed('test') || p.isNamed('webfonts') || p.isNamed('development'),
+    childrenIgnored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p.isNamed('proofs') || p.isNamed('res') || p.isNamed('3D') || p.isNamed('test') || p.isNamed('webfonts') || p.isNamed('development'),
   },
 };
 
@@ -169,8 +173,12 @@ if (flist.length == 0) {
     process.exit(1);
 }
 
+let app_rv = 1;
+let processed_fontnames = {};
+
 // see if we have variable font in there...
 let variable_list = [];
+let rest_list = [];
 for (let i = 0; i < flist.length; i++) {
     let fontpath = flist[i]
         .replace(/\\/g, '/');
@@ -178,7 +186,11 @@ for (let i = 0; i < flist.length; i++) {
     if (is_variable) {
         variable_list.push(fontpath);
     }
+	else {
+        rest_list.push(fontpath);
+	}
 }
+flist = rest_list;
 
 if (variable_list.length > 0) {
     let scssfile = cleanup_for_SCSS_filename(rootdir, " Variable.scss");
@@ -195,6 +207,9 @@ if (variable_list.length > 0) {
         let ttf_path = variable_list[i];
         fontname = cleanup4fontname(ttf_path)
 		.replace(/ VF/, '');
+		
+		//processed_fontnames[fontname] = 'V';
+		
         let is_italic = /italic|bdita|BodoniIt/i.test(path.basename(ttf_path));
         let is_oblique = /oblique|,slnt,/i.test(path.basename(ttf_path));
         let has_flar = /FLAR[,\]]/i.test(path.basename(ttf_path));
@@ -230,21 +245,26 @@ if (variable_list.length > 0) {
 
     fs.writeFileSync(scssfile, src, "utf8");
 
-    process.exit(0);
+	app_rv = 0;
 }
 
 // see if we have OTF in there...
 let opentype_list = [];
+rest_list = [];
 for (let i = 0; i < flist.length; i++) {
     let fontpath = flist[i]
         .replace(/\\/g, '/');
     if (/[.]otf$/.test(fontpath)) {
         opentype_list.push(fontpath);
     }
+	else {
+        rest_list.push(fontpath);
+	}
 }
+flist = rest_list;
 
 if (opentype_list.length > 0) {
-    let scssfile = cleanup_for_SCSS_filename(rootdir, ".scss");
+    let scssfile = cleanup_for_SCSS_filename(rootdir, " OpenType.scss");
 
     let src = `
 
@@ -257,7 +277,10 @@ if (opentype_list.length > 0) {
     for (let i = 0; i < opentype_list.length; i++) {
         let ttf_path = opentype_list[i];
         fontname = cleanup4fontname(ttf_path);
-        let is_italic = /italic|bdita|BodoniIt/i.test(path.basename(ttf_path));
+		
+		processed_fontnames[fontname] = 'O';
+        
+		let is_italic = /italic|bdita|BodoniIt/i.test(path.basename(ttf_path));
         let is_oblique = /oblique|,slnt,/i.test(path.basename(ttf_path));
         let font_weight = name2weight(ttf_path);
 
@@ -279,7 +302,7 @@ if (opentype_list.length > 0) {
 
     fs.writeFileSync(scssfile, src, "utf8");
 
-    process.exit(0);
+	app_rv = 0;
 }
 
 
@@ -303,14 +326,22 @@ if (ttf_list.length > 0) {
     */
 
     `;
+	let added_anything = false;
 
     for (let i = 0; i < ttf_list.length; i++) {
         let ttf_path = ttf_list[i];
         fontname = cleanup4fontname(ttf_path);
+
+		if (processed_fontnames[fontname] === 'O')
+			continue;
+		else
+			processed_fontnames[fontname] = 'T';
+
         let is_italic = /italic|bdita|BodoniIt/i.test(path.basename(ttf_path));
         let is_oblique = /oblique|,slnt,/i.test(path.basename(ttf_path));
         let font_weight = name2weight(ttf_path);
 
+		added_anything = true;
         src += `
 
 @font-face {
@@ -325,15 +356,18 @@ if (ttf_list.length > 0) {
         `;
     }
 
-    //console.log({scssfile, fontname, ttf_list, src});
+	if (added_anything) {
+		//console.log({scssfile, fontname, ttf_list, src});
 
-    fs.writeFileSync(scssfile, src, "utf8");
+		fs.writeFileSync(scssfile, src, "utf8");
 
-    process.exit(0);
+		app_rv = 0;
+	}
 }
 
-console.log("Failed to produce a SCSS file for font:", rootdir);
-process.exit(1);
+if (app_rv != 0)
+	console.log("Failed to produce a SCSS file for font:", rootdir);
+process.exit(app_rv);
 
 
 

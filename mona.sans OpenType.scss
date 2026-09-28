@@ -1,0 +1,2207 @@
+
+
+    /*
+    OTF
+    */
+
+    
+
+@font-face {
+    font-family: 'Mona Sans Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiExpanded-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiExpanded-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiExpanded-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiExpanded-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiExpanded-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiExpanded-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiExpanded-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiExpanded-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiExpanded-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiExpanded-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiExpanded-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiExpanded-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiExpanded-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiExpanded-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiExpanded-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiExpanded-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiCondensed-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiCondensed-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiCondensed-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiCondensed-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiCondensed-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiCondensed-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiCondensed-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiCondensed-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiCondensed-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiCondensed-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiCondensed-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiCondensed-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiCondensed-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiCondensed-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiCondensed-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansSemiCondensed-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoSemiExpanded-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoSemiExpanded-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoSemiExpanded-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoSemiExpanded-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoSemiExpanded-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoSemiExpanded-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoSemiExpanded-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoSemiExpanded-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoSemiCondensed-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoSemiCondensed-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoSemiCondensed-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoSemiCondensed-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoSemiCondensed-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoSemiCondensed-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoSemiCondensed-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoSemiCondensed-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoExpanded-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoExpanded-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoExpanded-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoExpanded-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoExpanded-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoExpanded-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoExpanded-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoExpanded-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoCondensed-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoCondensed-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoCondensed-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoCondensed-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoCondensed-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoCondensed-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoCondensed-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansMonoCondensed-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono';
+    src: url('mona-sans/fonts/static/otf/MonaSansMono-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono';
+    src: url('mona-sans/fonts/static/otf/MonaSansMono-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono';
+    src: url('mona-sans/fonts/static/otf/MonaSansMono-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono';
+    src: url('mona-sans/fonts/static/otf/MonaSansMono-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono';
+    src: url('mona-sans/fonts/static/otf/MonaSansMono-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono';
+    src: url('mona-sans/fonts/static/otf/MonaSansMono-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono';
+    src: url('mona-sans/fonts/static/otf/MonaSansMono-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Mono';
+    src: url('mona-sans/fonts/static/otf/MonaSansMono-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansExpanded-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansExpanded-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansExpanded-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansExpanded-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansExpanded-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansExpanded-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansExpanded-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansExpanded-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansExpanded-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansExpanded-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansExpanded-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansExpanded-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansExpanded-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansExpanded-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansExpanded-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansExpanded-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiExpanded-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiExpanded-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiExpanded-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiExpanded-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiExpanded-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiExpanded-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiExpanded-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiExpanded-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiExpanded-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiExpanded-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiExpanded-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiExpanded-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiExpanded-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiExpanded-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiExpanded-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiExpanded-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiCondensed-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiCondensed-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiCondensed-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiCondensed-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiCondensed-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiCondensed-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiCondensed-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiCondensed-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiCondensed-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiCondensed-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiCondensed-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiCondensed-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiCondensed-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiCondensed-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiCondensed-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Semi Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplaySemiCondensed-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayExpanded-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayExpanded-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayExpanded-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayExpanded-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayExpanded-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayExpanded-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayExpanded-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayExpanded-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayExpanded-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayExpanded-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayExpanded-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayExpanded-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayExpanded-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayExpanded-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayExpanded-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Expanded';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayExpanded-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayCondensed-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayCondensed-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayCondensed-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayCondensed-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayCondensed-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayCondensed-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayCondensed-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayCondensed-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayCondensed-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayCondensed-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayCondensed-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayCondensed-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayCondensed-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayCondensed-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayCondensed-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplayCondensed-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplay-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplay-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplay-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplay-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplay-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplay-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplay-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplay-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplay-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplay-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplay-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplay-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplay-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplay-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplay-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Display';
+    src: url('mona-sans/fonts/static/otf/MonaSansDisplay-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansCondensed-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansCondensed-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansCondensed-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansCondensed-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansCondensed-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansCondensed-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansCondensed-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansCondensed-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansCondensed-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansCondensed-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansCondensed-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansCondensed-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansCondensed-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansCondensed-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansCondensed-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans Condensed';
+    src: url('mona-sans/fonts/static/otf/MonaSansCondensed-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('mona-sans/fonts/static/otf/MonaSans-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('mona-sans/fonts/static/otf/MonaSans-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('mona-sans/fonts/static/otf/MonaSans-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('mona-sans/fonts/static/otf/MonaSans-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('mona-sans/fonts/static/otf/MonaSans-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('mona-sans/fonts/static/otf/MonaSans-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('mona-sans/fonts/static/otf/MonaSans-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('mona-sans/fonts/static/otf/MonaSans-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('mona-sans/fonts/static/otf/MonaSans-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('mona-sans/fonts/static/otf/MonaSans-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('mona-sans/fonts/static/otf/MonaSans-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('mona-sans/fonts/static/otf/MonaSans-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('mona-sans/fonts/static/otf/MonaSans-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('mona-sans/fonts/static/otf/MonaSans-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('mona-sans/fonts/static/otf/MonaSans-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('mona-sans/fonts/static/otf/MonaSans-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        

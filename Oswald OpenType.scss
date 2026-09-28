@@ -1,14 +1,14 @@
 
 
     /*
-    TTF
+    OTF
     */
 
     
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/stencil/800/src/Oswald-Heavy-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/stencil/800/src/Oswald-Heavy.otf') format('opentype');
     font-weight: 900;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -18,8 +18,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/stencil/700/src/Oswald-Bold-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/stencil/700/src/Oswald-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -29,8 +29,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/stencil/600/src/Oswald-DemiBold-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/stencil/600/src/Oswald-DemiBold.otf') format('opentype');
     font-weight: 600;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -40,8 +40,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/stencil/500/src/Oswald-Medium-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/stencil/500/src/Oswald-Medium.otf') format('opentype');
     font-weight: 500;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -51,8 +51,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/stencil/400/src/Oswald-Regular-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/stencil/400/src/Oswald-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -62,8 +62,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/stencil/300/src/Oswald-Light-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/stencil/300/src/Oswald-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -73,8 +73,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/stencil/200/src/Oswald-ExtraLight-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/stencil/200/src/Oswald-ExtraLight.otf') format('opentype');
     font-weight: 200;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -84,8 +84,19 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/3.0/Roman/800/src/Oswald-Heavy-unhinted.ttf') format('truetype');
+    font-family: 'Oswald Stencil';
+    src: url('Oswald/other/Stencil/Oswald-Stencil.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald/3.0/Roman/800/src/Oswald-Heavy.otf') format('opentype');
     font-weight: 900;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -95,8 +106,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/3.0/Roman/700/src/Oswald-Bold-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/3.0/Roman/700/src/Oswald-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -106,8 +117,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/3.0/Roman/600/src/Oswald-DemiBold-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/3.0/Roman/600/src/Oswald-DemiBold.otf') format('opentype');
     font-weight: 600;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -117,8 +128,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/3.0/Roman/500/src/Oswald-Medium-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/3.0/Roman/500/src/Oswald-Medium.otf') format('opentype');
     font-weight: 500;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -128,8 +139,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/3.0/Roman/400/src/Oswald-Regular-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/3.0/Roman/400/src/Oswald-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -139,8 +150,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/3.0/Roman/300/src/Oswald-Light-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/3.0/Roman/300/src/Oswald-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -150,8 +161,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/3.0/Roman/200/src/Oswald-ExtraLight-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/3.0/Roman/200/src/Oswald-ExtraLight.otf') format('opentype');
     font-weight: 200;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -161,8 +172,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/3.0/Italic/800/src/Oswald-HeavyItalic-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/3.0/Italic/800/src/Oswald-Heavy-Italic.otf') format('opentype');
     font-weight: 900;
     font-style: italic;
     font-feature-settings: "liga" on, "kern" on;
@@ -172,8 +183,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/3.0/Italic/700/src/Oswald-BoldItalic-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/3.0/Italic/700/src/Oswald-BoldItalic.otf') format('opentype');
     font-weight: 700;
     font-style: italic;
     font-feature-settings: "liga" on, "kern" on;
@@ -183,8 +194,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/3.0/Italic/600/src/Oswald-Demi-BoldItalic-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/3.0/Italic/600/src/Oswald-Demi-BoldItalic.otf') format('opentype');
     font-weight: 600;
     font-style: italic;
     font-feature-settings: "liga" on, "kern" on;
@@ -194,8 +205,19 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/3.0/Italic/500/src/Oswald-MediumItalic-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/3.0/Italic/600/src/Oswald-Demi-Bold-Italic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald/3.0/Italic/500/src/Oswald-MediumItalic.otf') format('opentype');
     font-weight: 500;
     font-style: italic;
     font-feature-settings: "liga" on, "kern" on;
@@ -205,8 +227,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/3.0/Italic/400/src/Oswald-RegularItalic-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/3.0/Italic/400/src/Oswald-RegularItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
     font-feature-settings: "liga" on, "kern" on;
@@ -216,8 +238,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/3.0/Italic/300/src/Oswald-LightItalic-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/3.0/Italic/300/src/Oswald-LightItalic.otf') format('opentype');
     font-weight: 300;
     font-style: italic;
     font-feature-settings: "liga" on, "kern" on;
@@ -227,8 +249,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/3.0/Italic/200/src/Oswald-Extra-LightItalic-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/3.0/Italic/200/src/Oswald-Extra-LightItalic.otf') format('opentype');
     font-weight: 200;
     font-style: italic;
     font-feature-settings: "liga" on, "kern" on;
@@ -238,8 +260,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/2.3/Regular/src/Oswald-Regular-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/2.3/Regular/src/Oswald-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -249,8 +271,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/2.3/Light/src/Oswald-Light-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/2.3/Light/src/Oswald-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -260,8 +282,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/2.3/Bold/src/Oswald-Bold-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/2.3/Bold/src/Oswald-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -271,8 +293,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/2.0/src/Oswald-Regular-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/2.0/src/Oswald-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -282,8 +304,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/2.0/src/Oswald-Light-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/2.0/src/Oswald-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -293,8 +315,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/2.0/src/Oswald-Bold-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/2.0/src/Oswald-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -304,8 +326,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/1.0/Regular/FINAL/src/Oswald-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/1.0/Regular/FINAL/src/Oswald.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -315,8 +337,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/1.0/Light/FINAL/src/Oswald-Light-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/1.0/Light/FINAL/src/Oswald-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;
@@ -326,8 +348,8 @@
         
 
 @font-face {
-    font-family: 'Oswald unhinted';
-    src: url('Oswald/1.0/Bold/FINAL/src/Oswald-Bold-unhinted.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('Oswald/1.0/Bold/FINAL/src/Oswald-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
     font-feature-settings: "liga" on, "kern" on;

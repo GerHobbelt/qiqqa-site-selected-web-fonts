@@ -1,0 +1,447 @@
+
+
+    /*
+    OTF
+    */
+
+    
+
+@font-face {
+    font-family: 'League Mono Wide';
+    src: url('League-Mono/instance_otf/LeagueMono-WideUltraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Wide';
+    src: url('League-Mono/instance_otf/LeagueMono-WideThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Wide';
+    src: url('League-Mono/instance_otf/LeagueMono-WideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Wide';
+    src: url('League-Mono/instance_otf/LeagueMono-WideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Wide';
+    src: url('League-Mono/instance_otf/LeagueMono-WideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Wide';
+    src: url('League-Mono/instance_otf/LeagueMono-WideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Wide';
+    src: url('League-Mono/instance_otf/LeagueMono-WideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Wide';
+    src: url('League-Mono/instance_otf/LeagueMono-WideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono';
+    src: url('League-Mono/instance_otf/LeagueMono-UltraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono';
+    src: url('League-Mono/instance_otf/LeagueMono-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono';
+    src: url('League-Mono/instance_otf/LeagueMono-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono';
+    src: url('League-Mono/instance_otf/LeagueMono-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Narrow';
+    src: url('League-Mono/instance_otf/LeagueMono-NarrowUltraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Narrow';
+    src: url('League-Mono/instance_otf/LeagueMono-NarrowThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Narrow';
+    src: url('League-Mono/instance_otf/LeagueMono-NarrowSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Narrow';
+    src: url('League-Mono/instance_otf/LeagueMono-NarrowRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Narrow';
+    src: url('League-Mono/instance_otf/LeagueMono-NarrowMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Narrow';
+    src: url('League-Mono/instance_otf/LeagueMono-NarrowLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Narrow';
+    src: url('League-Mono/instance_otf/LeagueMono-NarrowExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Narrow';
+    src: url('League-Mono/instance_otf/LeagueMono-NarrowBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono';
+    src: url('League-Mono/instance_otf/LeagueMono-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono';
+    src: url('League-Mono/instance_otf/LeagueMono-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono';
+    src: url('League-Mono/instance_otf/LeagueMono-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Extended';
+    src: url('League-Mono/instance_otf/LeagueMono-ExtendedUltraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Extended';
+    src: url('League-Mono/instance_otf/LeagueMono-ExtendedThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Extended';
+    src: url('League-Mono/instance_otf/LeagueMono-ExtendedSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Extended';
+    src: url('League-Mono/instance_otf/LeagueMono-ExtendedRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Extended';
+    src: url('League-Mono/instance_otf/LeagueMono-ExtendedMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Extended';
+    src: url('League-Mono/instance_otf/LeagueMono-ExtendedLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Extended';
+    src: url('League-Mono/instance_otf/LeagueMono-ExtendedExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Extended';
+    src: url('League-Mono/instance_otf/LeagueMono-ExtendedBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Condensed';
+    src: url('League-Mono/instance_otf/LeagueMono-CondensedUltraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Condensed';
+    src: url('League-Mono/instance_otf/LeagueMono-CondensedThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Condensed';
+    src: url('League-Mono/instance_otf/LeagueMono-CondensedSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Condensed';
+    src: url('League-Mono/instance_otf/LeagueMono-CondensedMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Condensed';
+    src: url('League-Mono/instance_otf/LeagueMono-CondensedLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Condensed';
+    src: url('League-Mono/instance_otf/LeagueMono-CondensedExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Condensed';
+    src: url('League-Mono/instance_otf/LeagueMono-CondensedBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono Condensed';
+    src: url('League-Mono/instance_otf/LeagueMono-Condensed.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'League Mono';
+    src: url('League-Mono/instance_otf/LeagueMono-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        

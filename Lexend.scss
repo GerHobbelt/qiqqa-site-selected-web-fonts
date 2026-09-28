@@ -1,0 +1,799 @@
+
+
+    /*
+    TTF
+    */
+
+    
+
+@font-face {
+    font-family: 'Lexend Zetta';
+    src: url('Lexend/fonts/zetta/ttf/LexendZetta-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Zetta';
+    src: url('Lexend/fonts/zetta/ttf/LexendZetta-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Zetta';
+    src: url('Lexend/fonts/zetta/ttf/LexendZetta-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Zetta';
+    src: url('Lexend/fonts/zetta/ttf/LexendZetta-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Zetta';
+    src: url('Lexend/fonts/zetta/ttf/LexendZetta-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Zetta';
+    src: url('Lexend/fonts/zetta/ttf/LexendZetta-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Zetta';
+    src: url('Lexend/fonts/zetta/ttf/LexendZetta-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Zetta';
+    src: url('Lexend/fonts/zetta/ttf/LexendZetta-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Zetta';
+    src: url('Lexend/fonts/zetta/ttf/LexendZetta-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Tera';
+    src: url('Lexend/fonts/tera/ttf/LexendTera-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Tera';
+    src: url('Lexend/fonts/tera/ttf/LexendTera-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Tera';
+    src: url('Lexend/fonts/tera/ttf/LexendTera-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Tera';
+    src: url('Lexend/fonts/tera/ttf/LexendTera-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Tera';
+    src: url('Lexend/fonts/tera/ttf/LexendTera-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Tera';
+    src: url('Lexend/fonts/tera/ttf/LexendTera-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Tera';
+    src: url('Lexend/fonts/tera/ttf/LexendTera-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Tera';
+    src: url('Lexend/fonts/tera/ttf/LexendTera-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Tera';
+    src: url('Lexend/fonts/tera/ttf/LexendTera-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Peta';
+    src: url('Lexend/fonts/peta/ttf/LexendPeta-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Peta';
+    src: url('Lexend/fonts/peta/ttf/LexendPeta-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Peta';
+    src: url('Lexend/fonts/peta/ttf/LexendPeta-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Peta';
+    src: url('Lexend/fonts/peta/ttf/LexendPeta-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Peta';
+    src: url('Lexend/fonts/peta/ttf/LexendPeta-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Peta';
+    src: url('Lexend/fonts/peta/ttf/LexendPeta-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Peta';
+    src: url('Lexend/fonts/peta/ttf/LexendPeta-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Peta';
+    src: url('Lexend/fonts/peta/ttf/LexendPeta-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Peta';
+    src: url('Lexend/fonts/peta/ttf/LexendPeta-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Mega';
+    src: url('Lexend/fonts/mega/ttf/LexendMega-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Mega';
+    src: url('Lexend/fonts/mega/ttf/LexendMega-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Mega';
+    src: url('Lexend/fonts/mega/ttf/LexendMega-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Mega';
+    src: url('Lexend/fonts/mega/ttf/LexendMega-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Mega';
+    src: url('Lexend/fonts/mega/ttf/LexendMega-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Mega';
+    src: url('Lexend/fonts/mega/ttf/LexendMega-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Mega';
+    src: url('Lexend/fonts/mega/ttf/LexendMega-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Mega';
+    src: url('Lexend/fonts/mega/ttf/LexendMega-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Mega';
+    src: url('Lexend/fonts/mega/ttf/LexendMega-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('Lexend/fonts/lexend/ttf/Lexend-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('Lexend/fonts/lexend/ttf/Lexend-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('Lexend/fonts/lexend/ttf/Lexend-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('Lexend/fonts/lexend/ttf/Lexend-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('Lexend/fonts/lexend/ttf/Lexend-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('Lexend/fonts/lexend/ttf/Lexend-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('Lexend/fonts/lexend/ttf/Lexend-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('Lexend/fonts/lexend/ttf/Lexend-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('Lexend/fonts/lexend/ttf/Lexend-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Giga';
+    src: url('Lexend/fonts/giga/ttf/LexendGiga-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Giga';
+    src: url('Lexend/fonts/giga/ttf/LexendGiga-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Giga';
+    src: url('Lexend/fonts/giga/ttf/LexendGiga-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Giga';
+    src: url('Lexend/fonts/giga/ttf/LexendGiga-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Giga';
+    src: url('Lexend/fonts/giga/ttf/LexendGiga-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Giga';
+    src: url('Lexend/fonts/giga/ttf/LexendGiga-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Giga';
+    src: url('Lexend/fonts/giga/ttf/LexendGiga-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Giga';
+    src: url('Lexend/fonts/giga/ttf/LexendGiga-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Giga';
+    src: url('Lexend/fonts/giga/ttf/LexendGiga-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Exa';
+    src: url('Lexend/fonts/exa/ttf/LexendExa-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Exa';
+    src: url('Lexend/fonts/exa/ttf/LexendExa-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Exa';
+    src: url('Lexend/fonts/exa/ttf/LexendExa-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Exa';
+    src: url('Lexend/fonts/exa/ttf/LexendExa-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Exa';
+    src: url('Lexend/fonts/exa/ttf/LexendExa-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Exa';
+    src: url('Lexend/fonts/exa/ttf/LexendExa-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Exa';
+    src: url('Lexend/fonts/exa/ttf/LexendExa-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Exa';
+    src: url('Lexend/fonts/exa/ttf/LexendExa-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Exa';
+    src: url('Lexend/fonts/exa/ttf/LexendExa-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('Lexend/fonts/deca/ttf/LexendDeca-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('Lexend/fonts/deca/ttf/LexendDeca-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('Lexend/fonts/deca/ttf/LexendDeca-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('Lexend/fonts/deca/ttf/LexendDeca-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('Lexend/fonts/deca/ttf/LexendDeca-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('Lexend/fonts/deca/ttf/LexendDeca-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('Lexend/fonts/deca/ttf/LexendDeca-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('Lexend/fonts/deca/ttf/LexendDeca-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('Lexend/fonts/deca/ttf/LexendDeca-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        

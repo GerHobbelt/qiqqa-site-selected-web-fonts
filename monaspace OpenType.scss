@@ -1,0 +1,4627 @@
+
+
+    /*
+    OTF
+    */
+
+    
+
+@font-face {
+    font-family: 'Monaspace Xenon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-WideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-WideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-WideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-WideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-WideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-WideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-WideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-WideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-WideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-WideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-WideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-WideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-WideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-WideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-SemiWideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-SemiWideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-SemiWideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-SemiWideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-SemiWideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-SemiWideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-SemiWideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-SemiWideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-SemiWideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-SemiWideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-SemiWideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-SemiWideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-SemiWideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-SemiWideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Xenon/MonaspaceXenon-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-WideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-WideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-WideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-WideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-WideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-WideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-WideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-WideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-WideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-WideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-WideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-WideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-WideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-WideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-SemiWideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-SemiWideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-SemiWideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-SemiWideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-SemiWideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-SemiWideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-SemiWideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-SemiWideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-SemiWideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-SemiWideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-SemiWideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-SemiWideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-SemiWideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-SemiWideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Radon/MonaspaceRadon-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-WideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-WideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-WideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-WideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-WideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-WideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-WideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-WideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-WideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-WideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-WideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-WideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-WideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-WideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-SemiWideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-SemiWideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-SemiWideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-SemiWideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-SemiWideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-SemiWideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-SemiWideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-SemiWideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-SemiWideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-SemiWideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-SemiWideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-SemiWideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-SemiWideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-SemiWideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Neon/MonaspaceNeon-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-WideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-WideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-WideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-WideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-WideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-WideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-WideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-WideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-WideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-WideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-WideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-WideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-WideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-WideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-SemiWideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-SemiWideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-SemiWideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-SemiWideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-SemiWideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-SemiWideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-SemiWideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-SemiWideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-SemiWideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-SemiWideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-SemiWideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-SemiWideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-SemiWideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-SemiWideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Krypton/MonaspaceKrypton-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-WideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-WideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-WideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-WideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-WideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-WideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-WideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-WideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-WideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-WideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-WideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-WideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-WideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-WideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-SemiWideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-SemiWideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-SemiWideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-SemiWideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-SemiWideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-SemiWideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-SemiWideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-SemiWideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-SemiWideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-SemiWideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-SemiWideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-SemiWideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-SemiWideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon Semi Wide';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-SemiWideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon';
+    src: url('monaspace/fonts/Static Fonts/Monaspace Argon/MonaspaceArgon-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-WideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-WideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-WideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-WideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-WideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-WideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-WideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-WideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-WideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-WideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-WideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-WideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-WideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-WideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-SemiWideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-SemiWideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-SemiWideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-SemiWideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-SemiWideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-SemiWideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-SemiWideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-SemiWideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-SemiWideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-SemiWideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-SemiWideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-SemiWideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-SemiWideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-SemiWideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Xenon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Xenon/MonaspaceXenonNF-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-WideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-WideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-WideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-WideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-WideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-WideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-WideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-WideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-WideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-WideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-WideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-WideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-WideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-WideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-SemiWideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-SemiWideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-SemiWideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-SemiWideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-SemiWideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-SemiWideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-SemiWideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-SemiWideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-SemiWideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-SemiWideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-SemiWideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-SemiWideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-SemiWideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-SemiWideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Radon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Radon/MonaspaceRadonNF-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-WideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-WideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-WideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-WideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-WideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-WideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-WideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-WideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-WideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-WideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-WideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-WideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-WideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-WideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-SemiWideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-SemiWideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-SemiWideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-SemiWideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-SemiWideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-SemiWideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-SemiWideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-SemiWideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-SemiWideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-SemiWideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-SemiWideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-SemiWideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-SemiWideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-SemiWideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Neon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Neon/MonaspaceNeonNF-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-WideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-WideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-WideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-WideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-WideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-WideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-WideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-WideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-WideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-WideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-WideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-WideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-WideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-WideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-SemiWideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-SemiWideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-SemiWideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-SemiWideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-SemiWideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-SemiWideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-SemiWideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-SemiWideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-SemiWideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-SemiWideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-SemiWideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-SemiWideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-SemiWideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-SemiWideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Krypton NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Krypton/MonaspaceKryptonNF-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-WideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-WideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-WideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-WideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-WideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-WideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-WideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-WideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-WideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-WideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-WideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-WideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-WideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-WideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-SemiWideSemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-SemiWideSemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-SemiWideRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-SemiWideMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-SemiWideMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-SemiWideLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-SemiWideLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-SemiWideItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-SemiWideExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-SemiWideExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-SemiWideExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-SemiWideExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-SemiWideBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF Semi Wide';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-SemiWideBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Monaspace Argon NF';
+    src: url('monaspace/fonts/NerdFonts/Monaspace Argon/MonaspaceArgonNF-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        

@@ -1,0 +1,601 @@
+
+
+    /*
+    OTF
+    */
+
+    
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-ThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('Commissioner/fonts/otf/CommissionerLoud-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-ThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner Flare';
+    src: url('Commissioner/fonts/otf/CommissionerFlare-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-ThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('Commissioner/fonts/otf/Commissioner-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        

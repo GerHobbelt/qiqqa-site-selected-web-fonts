@@ -1,0 +1,931 @@
+
+
+    /*
+    OTF
+    */
+
+    
+
+@font-face {
+    font-family: 'Ysabeau SC';
+    src: url('Ysabeau/fonts/otf/YsabeauSC-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau SC';
+    src: url('Ysabeau/fonts/otf/YsabeauSC-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau SC';
+    src: url('Ysabeau/fonts/otf/YsabeauSC-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau SC';
+    src: url('Ysabeau/fonts/otf/YsabeauSC-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau SC';
+    src: url('Ysabeau/fonts/otf/YsabeauSC-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau SC Hairline';
+    src: url('Ysabeau/fonts/otf/YsabeauSC-Hairline.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau SC Extra';
+    src: url('Ysabeau/fonts/otf/YsabeauSC-ExtraThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau SC';
+    src: url('Ysabeau/fonts/otf/YsabeauSC-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau SC';
+    src: url('Ysabeau/fonts/otf/YsabeauSC-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau SC Extra';
+    src: url('Ysabeau/fonts/otf/YsabeauSC-ExtraBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau SC';
+    src: url('Ysabeau/fonts/otf/YsabeauSC-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau SC';
+    src: url('Ysabeau/fonts/otf/YsabeauSC-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-ThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office Hairline';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-HairlineItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office Hairline';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-Hairline.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office Extra';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-ExtraThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office Extra';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-ExtraThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office Extra';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-ExtraBlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office Extra';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-ExtraBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Office';
+    src: url('Ysabeau/fonts/otf/YsabeauOffice-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-ThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant Hairline';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-HairlineItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant Hairline';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-Hairline.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant Extra';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-ExtraThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant Extra';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-ExtraThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant Extra';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-ExtraBlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant Extra';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-ExtraBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    src: url('Ysabeau/fonts/otf/YsabeauInfant-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-ThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Hairline';
+    src: url('Ysabeau/fonts/otf/Ysabeau-HairlineItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Hairline';
+    src: url('Ysabeau/fonts/otf/Ysabeau-Hairline.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Extra';
+    src: url('Ysabeau/fonts/otf/Ysabeau-ExtraThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Extra';
+    src: url('Ysabeau/fonts/otf/Ysabeau-ExtraThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Extra';
+    src: url('Ysabeau/fonts/otf/Ysabeau-ExtraBlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau Extra';
+    src: url('Ysabeau/fonts/otf/Ysabeau-ExtraBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: url('Ysabeau/fonts/otf/Ysabeau-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
+}
+
+        

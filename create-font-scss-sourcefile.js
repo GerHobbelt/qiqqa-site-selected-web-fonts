@@ -49,9 +49,13 @@ function cleanup4fontname(p) {
     .replace(/\bD DIN/g, 'D-DIN')               // D-DIN fonts
     .replace(/Bodoni It/, 'Bodoni')
     .replace(/KOMTXT/, 'Komika Text ')
+    .replace(/KOMTXK/, 'Komika Text K')
     .replace(/KOMIKS/, 'Komika Slick ')
     .replace(/KOMIKA/, 'Komika ')
+    .replace(/KOMIK/, 'Komika ')
     .replace(/KMKDSP/, 'Komika Display ')
+    .replace(/KMKDSK/, 'Komika Display K')
+    .replace(/FahKwang/i, 'Fah Kwang')
     .replace(/ +/g, ' ')
     .trim()
     console.log("cleanup4fontname", p, "-->", n, "         +w:", name2weight(p));
@@ -102,8 +106,8 @@ const glob_cfg = {
   // only want the files, not the dirs
   nodir: true,
   ignore: {
-    ignored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p->isNamed('proofs'),
-    childrenIgnored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p->isNamed('proofs'),
+    ignored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p.isNamed('proofs'),
+    childrenIgnored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p.isNamed('proofs'),
   },
 };
 
@@ -151,7 +155,7 @@ if (variable_list.length > 0) {
         let has_flar = /FLAR,/i.test(path.basename(ttf_path));
         let has_volm = /VOLM,/i.test(path.basename(ttf_path));
         let has_opsz = /opsz,/i.test(path.basename(ttf_path));
-
+        let has_wdth = /wdth,/i.test(path.basename(ttf_path));
 
         src += `
 
@@ -165,6 +169,7 @@ if (variable_list.length > 0) {
     ${ has_flar ? "font-variation-settings: 'FLAR' var(--text-flar);" : "" }
     ${ has_volm ? "font-variation-settings: 'VOLM' var(--text-volm);" : "" }
     ${ has_opsz ? "font-variation-settings: 'OPSZ' var(--text-opsz);" : "" }
+    ${ has_wdth ? "font-variation-settings: 'WDTH' var(--text-wdth);" : "" }
 }
 
         `;

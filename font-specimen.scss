@@ -4,6 +4,9 @@
   --text-width: 100%;
   --text-weight: 400;
   --text-size: 32px;
+
+  /* this dot-matrix printer font shows up in entries which do not correctly reference their custom font... */
+  --font-showcase-fallback-font: 'matricha';
 }
 
 
@@ -25,6 +28,23 @@ p {
   margin: 1em auto;
   text-align: center;
   font-size: calc(2.5 * var(--text-size));
+}
+
+pre {
+  font-family: inherit;
+}
+h1, .glyph {
+  font-family: inherit;
+}
+p {
+  font-family: inherit;
+}
+    
+.showcase-another-font {
+}
+
+hr {
+  border: solid red 1em;
 }
 
 .dig-normal {
@@ -61,9 +81,9 @@ p {
 
 
 
-.firacode-font { 
-	font-family: "Fira Code"; 
-  line-height: 1.5em;
+div.firacode-font { 
+	font-family: "Fira Code", var(--font-showcase-fallback-font); 
+    line-height: 1.5em;
 
     .code {
       font-feature-settings: "calt" 1;  /* Enable ligatures for IE 10+, Edge */
@@ -105,21 +125,35 @@ p {
 
 
 
-.fira-font {
-	font-family: 'Fira Sans';
+div.fira-font {
+	font-family: 'Fira Sans', var(--font-showcase-fallback-font);
 	font-weight: 300;
 	overflow-x: hidden;
+}
 
-    
-    h1, .glyph {
-      font-family: 'Fira Sans';
-    }
-    p {
-      font-family: 'Fira Sans';
-    }
-    .mono {
-      font-family: 'Fira Mono';
-    }
+div.fira-compressed-font {
+	font-family: 'Fira Sans Compressed', var(--font-showcase-fallback-font);
+	font-weight: 300;
+	overflow-x: hidden;
+}
+
+div.fira-condensed-font {
+	font-family: 'Fira Sans Condensed', var(--font-showcase-fallback-font);
+	font-weight: 300;
+	overflow-x: hidden;
+}
+
+
+div.fira-mono-font {
+	font-family: 'Fira Mono', var(--font-showcase-fallback-font);
+	font-weight: 400;
+	overflow-x: hidden;
+}
+
+div.fira-code-font {
+	font-family: 'Fira Code VF', var(--font-showcase-fallback-font);
+	font-weight: 400;
+	overflow-x: hidden;
 }
 
 
@@ -132,18 +166,40 @@ p {
 
 
 
-.economica-font {
-  font-family: 'Economica';
+
+div.economica-font {
+  font-family: 'Economica', var(--font-showcase-fallback-font);
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+div.fah-kwang-font {
+  font-family: 'Fah Kwang', var(--font-showcase-fallback-font);
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+div.commissioner-font {
+  font-family: 'Commissioner VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
 
-    
-    h1, .glyph {
-      font-family: 'Economica';
-    }
-    p {
-      font-family: 'Economica';
-    }
+  font-variation-settings: 'FLAR' var(--text-flar);
+  font-variation-settings: 'VOLM' var(--text-volm);
 }
 
 
@@ -153,39 +209,26 @@ p {
 
 
 
-.fah-kwang-font {
-  font-family: 'Fah Kwang';
+div.commissioner-flare-font {
+  font-family: 'Commissioner VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
 
-    
-    h1, .glyph {
-      font-family: 'Fah Kwang';
-    }
-    p {
-      font-family: 'Fah Kwang';
-    }
+  font-variation-settings: 'FLAR' var(--text-flar);
+  font-variation-settings: 'VOLM' var(--text-volm);
 }
 
 
 
 
 
-
-
-
-.commissioner-font {
-  font-family: 'Commissioner';
+div.commissioner-loud-font {
+  font-family: 'Commissioner VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
 
-    
-    h1, .glyph {
-      font-family: 'Commissioner';
-    }
-    p {
-      font-family: 'Commissioner';
-    }
+  font-variation-settings: 'FLAR' var(--text-flar);
+  font-variation-settings: 'VOLM' var(--text-volm);
 }
 
 
@@ -193,367 +236,181 @@ p {
 
 
 
-
-
-.commissioner-flare-font {
-  font-family: 'Commissioner Flare';
-  font-weight: 400;
-  overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Commissioner Flare';
-    }
-    p {
-      font-family: 'Commissioner Flare';
-    }
-}
-
-
-
-
-
-.commissioner-loud-font {
-  font-family: 'Commissioner Loud';
-  font-weight: 400;
-  overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Commissioner Loud';
-    }
-    p {
-      font-family: 'Commissioner Loud';
-    }
-}
-
-
-
-
-
-
-.georama-font {
-  font-family: 'Georama VF';
+div.georama-font {
+  font-family: 'Georama VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
 
   font-weight: var(--text-weight);
   font-stretch: var(--text-width);
-    
-    h1, .glyph {
-      font-family: 'Georama VF';
-
-      font-weight: var(--text-weight);
-      font-stretch: var(--text-width);
-    }
-    p {
-      font-family: 'Georama VF';
-    }
 }
 
 
 
 
-.grenze-font {
-  font-family: 'Grenze';
+div.grenze-font {
+  font-family: 'Grenze VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Grenze';
-    }
-    p {
-      font-family: 'Grenze';
-    }
 }
 
 
 
-.jost-font {
-  font-family: 'Jost';
+div.jost-font {
+  font-family: 'Jost VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Jost';
-    }
-    p {
-      font-family: 'Jost';
-    }
 }
 
 
 
 
 
-.newsreader-tiny-font {
-  font-family: 'Newsreader 6pt';
+div.newsreader-tiny-font {
+  font-family: 'Newsreader VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
   line-height: 1.5em;
 
-    
-    h1, .glyph {
-      font-family: 'Newsreader 6pt';
-      line-height: 1.5em;
-    }
-    p {
-      font-family: 'Newsreader 6pt';
-      line-height: 1.5em;
-    }
+  font-variation-settings: 'OPSZ' var(--text-opsz);
 }
 
 
-.newsreader-font {
-  font-family: 'Newsreader 16pt';
+div.newsreader-font {
+  font-family: 'Newsreader VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
   line-height: 1.5em;
 
-    
-    h1, .glyph {
-      font-family: 'Newsreader 16pt';
-      line-height: 1.5em;
-    }
-    p {
-      font-family: 'Newsreader 16pt';
-      line-height: 1.5em;
-    }
+  font-variation-settings: 'OPSZ' var(--text-opsz);
 }
 
 
-.newsreader-titling-font {
-  font-family: 'Newsreader 72pt';
+div.newsreader-titling-font {
+  font-family: 'Newsreader VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
   line-height: 1.5em;
-    
-    h1, .glyph {
-      font-family: 'Newsreader 72pt';
-      line-height: 1.5em;
-    }
-    p {
-      font-family: 'Newsreader 72pt';
-      line-height: 1.5em;
-    }
+
+  font-variation-settings: 'OPSZ' var(--text-opsz);
 }
 
 
 
 
 
-.saira-font {
-  font-family: 'Saira';
+div.saira-font {
+  font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Saira';
-    }
-    p {
-      font-family: 'Saira';
-    }
+  
+  font-variation-settings: 'WDTH' var(--text-wdth);
 }
 
-.saira-semi-condensed-font {
-  font-family: 'Saira Semi Condensed';
+div.saira-semi-condensed-font {
+  font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Saira Semi Condensed';
-    }
-    p {
-      font-family: 'Saira Semi Condensed';
-    }
+  
+  font-variation-settings: 'WDTH' var(--text-wdth);
 }
 
-.saira-condensed-font {
-  font-family: 'Saira Condensed';
+div.saira-condensed-font {
+  font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Saira Condensed';
-    }
-    p {
-      font-family: 'Saira Condensed';
-    }
+  
+  font-variation-settings: 'WDTH' var(--text-wdth);
 }
 
-.saira-extra-condensed-font {
-  font-family: 'Saira Extra Condensed';
+div.saira-extra-condensed-font {
+  font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Saira Extra Condensed';
-    }
-    p {
-      font-family: 'Saira Extra Condensed';
-    }
+  
+  font-variation-settings: 'WDTH' var(--text-wdth);
 }
 
-.saira-ultra-condensed-font {
-  font-family: 'Saira Ultra Condensed';
+div.saira-ultra-condensed-font {
+  font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Saira Ultra Condensed';
-    }
-    p {
-      font-family: 'Saira Ultra Condensed';
-    }
+  
+  font-variation-settings: 'WDTH' var(--text-wdth);
 }
 
-.saira-semi-expanded-font {
-  font-family: 'Saira Semi Expanded';
+div.saira-semi-expanded-font {
+  font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Saira Semi Expanded';
-    }
-    p {
-      font-family: 'Saira Semi Expanded';
-    }
+  
+  font-variation-settings: 'WDTH' var(--text-wdth);
 }
 
-.saira-expanded-font {
-  font-family: 'Saira Expanded';
+div.saira-expanded-font {
+  font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Saira Expanded';
-    }
-    p {
-      font-family: 'Saira Expanded';
-    }
+  
+  font-variation-settings: 'WDTH' var(--text-wdth);
 }
 
-.saira-variable-font {
-  font-family: 'Saira VF';
+div.saira-variable-font {
+  font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
 
   font-weight: var(--text-weight);
   font-stretch: var(--text-width);
-    
-    h1, .glyph {
-      font-family: 'Saira VF';
-
-      font-weight: var(--text-weight);
-      font-stretch: var(--text-width);
-    }
-    p {
-      font-family: 'Saira VF';
-    }
+  
+  font-variation-settings: 'WDTH' var(--text-wdth);
 }
 
 
 
 
-.spectral-font {
-  font-family: 'Spectral';
+div.spectral-font {
+  font-family: 'Spectral', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Spectral';
-    }
-    p {
-      font-family: 'Spectral';
-    }
 }
 
 
-.spectral-smallcaps-font {
-  font-family: 'Spectral SmallCaps';
+div.spectral-smallcaps-font {
+  font-family: 'Spectral SC', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Spectral SmallCaps';
-    }
-    p {
-      font-family: 'Spectral SmallCaps';
-    }
 }
 
 
-.zilla-slab-font {
-  font-family: 'Zilla Slab';
+div.zilla-slab-font {
+  font-family: 'Zilla Slab', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Zilla Slab';
-    }
-    p {
-      font-family: 'Zilla Slab';
-    }
 }
 
 
 
-.cinzel-font {
-  font-family: 'Cinzel';
+div.cinzel-font {
+  font-family: 'Cinzel VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Cinzel';
-    }
-    p {
-      font-family: 'Cinzel';
-    }
 }
 
 
-.cinzel-decorative-font {
-  font-family: 'Cinzel Decorative';
+div.cinzel-decorative-font {
+  font-family: 'Cinzel Decorative VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'Cinzel Decorative';
-    }
-    p {
-      font-family: 'Cinzel Decorative';
-    }
 }
 
 
 
 
-.garamond-font {
-  font-family: 'EBGaramond12';
+div.garamond-font {
+  font-family: 'EBGaramond VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-
-    
-    h1, .glyph {
-      font-family: 'EBGaramond12';
-    }
-    p {
-      font-family: 'EBGaramond12';
-    }
 }
 
 
@@ -566,6 +423,7 @@ p {
 
 
 
+@import "./01-Digit";
 @import "./3270font";
 @import "./Abhaya-Libre Variable";
 @import "./abril-fatface";
@@ -601,6 +459,7 @@ p {
 @import "./devicon";
 @import "./Devonshire";
 @import "./didactic Variable";
+@import "./DotMatrix-Regular";
 @import "./EBGaramond12 Variable";
 @import "./Economica";
 @import "./Edo.SZ.Regular";
@@ -647,6 +506,7 @@ p {
 @import "./LxgwWenKai";
 @import "./Ma_Shan_Zheng";
 @import "./Marcellus_SC";
+@import "./Matricha";
 @import "./Mengshen-pinyin-font";
 @import "./metropolis";
 @import "./mona-sans Variable";

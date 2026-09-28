@@ -160,3 +160,12 @@
 [submodule "pragmasevka"]
 	path = pragmasevka
 	url = git@github.com:GerHobbelt/pragmasevka.git
+[submodule "last-resort-font"]
+	path = last-resort-font
+	url = git@github.com:GerHobbelt/last-resort-font.git
+[submodule "unscii"]
+	path = unscii
+	url = git@github.com:GerHobbelt/unscii.git
+[submodule "UnifontEX"]
+	path = UnifontEX
+	url = git@github.com:GerHobbelt/UnifontEX.git

@@ -7,46 +7,23 @@
     
 
 @font-face {
-    font-family: 'Sawarabi Mincho';
-    src: url('Mengshen-pinyin-font/res/fonts/SawarabiMincho-Regular.ttf') format('truetype');
+    font-family: 'Mengshen Han Serif';
+    src: url('Mengshen-pinyin-font/released/Mengshen-HanSerif.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
 
 @font-face {
-    font-family: 'Xiaolai Mono SC without Hangul';
-    src: url('Mengshen-pinyin-font/res/fonts/handwritten/XiaolaiMonoSC-without-Hangul-Regular.ttf') format('truetype');
+    font-family: 'Mengshen Handwritten';
+    src: url('Mengshen-pinyin-font/released/Mengshen-Handwritten.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
-}
-
-        
-
-@font-face {
-    font-family: 'latin alphabet of Seto Font SP';
-    src: url('Mengshen-pinyin-font/res/fonts/handwritten/latin-alphabet-of-SetoFont-SP.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-        
-
-@font-face {
-    font-family: 'Source Han Serif CN';
-    src: url('Mengshen-pinyin-font/res/fonts/han-serif/SourceHanSerifCN-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-        
-
-@font-face {
-    font-family: 'mplus 1m medium';
-    src: url('Mengshen-pinyin-font/res/fonts/han-serif/mplus-1m-medium.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

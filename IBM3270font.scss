@@ -11,6 +11,8 @@
     src: url('3270font/build/3270SemiCondensed-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -20,6 +22,8 @@
     src: url('3270font/build/3270Condensed-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -29,6 +33,8 @@
     src: url('3270font/build/3270-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

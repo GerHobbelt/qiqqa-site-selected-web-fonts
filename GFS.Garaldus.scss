@@ -7,10 +7,12 @@
     
 
 @font-face {
-    font-family: 'GFSGaraldus';
+    font-family: 'GFS Garaldus';
     src: url('GFS_Garaldus/GFSGaraldus.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

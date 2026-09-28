@@ -7,46 +7,56 @@
     
 
 @font-face {
-    font-family: 'D-DINExp';
+    font-family: 'D-DIN Exp';
     src: url('d_din/D-DINExp.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
 
 @font-face {
-    font-family: 'D-DINExp';
+    font-family: 'D-DIN Exp';
     src: url('d_din/D-DINExp-Italic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
 
 @font-face {
-    font-family: 'D-DINExp';
+    font-family: 'D-DIN Exp';
     src: url('d_din/D-DINExp-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
 
 @font-face {
-    font-family: 'D-DINCondensed';
+    font-family: 'D-DIN Condensed';
     src: url('d_din/D-DINCondensed.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
 
 @font-face {
-    font-family: 'D-DINCondensed';
+    font-family: 'D-DIN Condensed';
     src: url('d_din/D-DINCondensed-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -56,6 +66,8 @@
     src: url('d_din/D-DIN.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -65,6 +77,8 @@
     src: url('d_din/D-DIN-Italic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -74,6 +88,8 @@
     src: url('d_din/D-DIN-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

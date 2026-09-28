@@ -7,10 +7,12 @@
     
 
 @font-face {
-    font-family: 'CATReporter';
+    font-family: 'CAT Reporter';
     src: url('cat_reporter/CATReporter.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

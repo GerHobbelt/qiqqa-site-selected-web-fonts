@@ -11,6 +11,8 @@
     src: url('UnifrakturCook/UnifrakturCook-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

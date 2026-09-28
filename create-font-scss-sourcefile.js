@@ -26,12 +26,12 @@ function cleanup_for_reconstruct(p) {
     .replace(/\\/g, '/');
 }
 
-function cleanup_for_SCSS_filename(p, suffix) {
-    p = path.basename(p);
+function cleanup_for_SCSS_filename(fp, suffix) {
+    let p = path.basename(fp);
     let n = p
     .replace(/[\[].*$/g, '')
     .replace(/Variable$/, '')
-    .replace(/Thin|SemiBold|Semibold|DemiBold|Demi-Bold|Regular|Demi|Medium|Extra-Light|ExtraLight|Light|ExtraBold|Extra-Bold|Bold|-bold|Black|Heavy|BdIta/, '')
+    .replace(/Thin|SemiBold|Semibold|DemiBold|Demi-Bold|Regular|Demi|Medium|Extra-Light|ExtraLight|UltraLight|Light|ExtraBold|Extra-Bold|Bold|-bold|Black|Heavy|BdIta/, '')
     .replace(/[-]?Italic/i, '')
     .replace(/[-]?Oblique/i, '')
     .replace(/[.-]regular/, '')
@@ -39,7 +39,7 @@ function cleanup_for_SCSS_filename(p, suffix) {
     // and some special name tweaks:
     .replace(/([0-9])([A-Z])/g, '$1 $2')        // 3270 fonts
     .replace(/([a-z])([A-Z])/g, '$1 $2')        // camelCased font filenames
-    .replace(/(URW)([A-Z])/g, '$1 $2')          // URW fonts
+    .replace(/([A-Z][A-Z][A-Z][A-Z]?)([A-Z][a-z])/g, '$1 $2')          // URW fonts, others...
     .replace(/ [0-9][.][0-9]+$/g, '')           // ditch version numbers
     .replace(/\bD DIN/ig, 'D-DIN')               // D-DIN fonts
     .replace(/ +/g, ' ')
@@ -58,8 +58,8 @@ function cleanup_for_SCSS_filename(p, suffix) {
     return n;
 }
 
-function cleanup4fontname(p) {
-    p = path.basename(p);
+function cleanup4fontname(fp) {
+    let p = path.basename(fp);
     let n = p
     .replace(/[\[].*$/g, '')
     .replace(/[.]ttc$/, '')
@@ -68,7 +68,7 @@ function cleanup4fontname(p) {
     .replace(/VariableFont_[a-zA-Z,]*wght/, 'Variable')
     .replace(/\bVar$/, '')
     .replace(/Variable$/, '')
-    .replace(/Thin|SemiBold|Semibold|DemiBold|Demi-Bold|Regular|Demi|Medium|Extra-Light|ExtraLight|Light|ExtraBold|Extra-Bold|Bold|-bold|Black|Heavy|BdIta/, '')
+    .replace(/Thin|SemiBold|Semibold|DemiBold|Demi-Bold|Regular|Demi|Medium|Extra-Light|ExtraLight|UltraLight|Light|ExtraBold|Extra-Bold|Bold|-bold|Black|Heavy|BdIta/, '')
     .replace(/[-]?Italic/i, '')
     .replace(/[-]?Oblique/i, '')
     .replace(/[.-]regular/, '')
@@ -76,8 +76,8 @@ function cleanup4fontname(p) {
     // and some special name tweaks:
     .replace(/([0-9])([A-Z])/g, '$1 $2')        // 3270 fonts
     .replace(/([a-z])([A-Z])/g, '$1 $2')        // camelCased font filenames
-    .replace(/(URW)([A-Z])/g, '$1 $2')          // URW fonts
-    .replace(/ [0-9][.][0-9]+$/g, '')           // ditch version numbers
+    .replace(/([A-Z][A-Z][A-Z][A-Z]?)([A-Z][a-z])/g, '$1 $2')          // URW fonts, others...
+    .replace(/[0-9][.][0-9]+$/g, '')            // ditch version numbers
     .replace(/\bD DIN/g, 'D-DIN')               // D-DIN fonts
     .replace(/Bodoni It/, 'Bodoni')
     .replace(/KOMTXT/, 'Komika Text ')
@@ -94,6 +94,10 @@ function cleanup4fontname(p) {
 	if (n === "font") {
 		n = "Cal Sans";
 	}
+	if (fp.includes('CF-D-DIN')) {
+		// second D-DIN Pro font set: make sure these are uniquely identifiable!
+		n = "CF-" + n;
+	}
 	// fontnames cannot start with a digit!  :-(
 	n = n
 	.replace(/^01/, "N01")
@@ -105,7 +109,7 @@ function cleanup4fontname(p) {
 function name2weight(p) {
     p = path.basename(p)
     .replace(/BodoniIt/, 'Bodoni Italic');
-    let re = /Thin|SemiBold|Semibold|DemiBold|Demi-Bold|Regular|Demi|Medium|Extra-Light|ExtraLight|Light|ExtraBold|Extra-Bold|Bold|-bold|Black|Heavy|BdIta/;
+    let re = /Thin|SemiBold|Semibold|DemiBold|Demi-Bold|Regular|Demi|Medium|Extra-Light|ExtraLight|UltraLight|Light|ExtraBold|Extra-Bold|Bold|-bold|Black|Heavy|BdIta/;
     let m = re.exec(p);
     let w = (m ? m[0] : "regular").toLowerCase();
     //console.log("name2weight", p, "-->", "-->", w);
@@ -113,6 +117,7 @@ function name2weight(p) {
     case "thin":
         return 100;
     case "extra-light":
+    case "ultralight":
     case "extralight":
         return 200;
     case "light":
@@ -146,8 +151,8 @@ const glob_cfg = {
   // only want the files, not the dirs
   nodir: true,
   ignore: {
-    ignored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p.isNamed('proofs'),
-    childrenIgnored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p.isNamed('proofs'),
+    ignored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p.isNamed('proofs') || p.isNamed('res') || p.isNamed('3D') || p.isNamed('test'),
+    childrenIgnored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p.isNamed('proofs') || p.isNamed('res') || p.isNamed('3D') || p.isNamed('test'),
   },
 };
 
@@ -192,10 +197,12 @@ if (variable_list.length > 0) {
 		.replace(/ VF/, '');
         let is_italic = /italic|bdita|BodoniIt/i.test(path.basename(ttf_path));
         let is_oblique = /oblique|,slnt,/i.test(path.basename(ttf_path));
-        let has_flar = /FLAR,/i.test(path.basename(ttf_path));
-        let has_volm = /VOLM,/i.test(path.basename(ttf_path));
-        let has_opsz = /opsz,/i.test(path.basename(ttf_path));
-        let has_wdth = /wdth,/i.test(path.basename(ttf_path));
+        let has_flar = /FLAR[,\]]/i.test(path.basename(ttf_path));
+        let has_volm = /VOLM[,\]]/i.test(path.basename(ttf_path));
+        let has_opsz = /opsz[,\]]/i.test(path.basename(ttf_path));
+        let has_wdth = /wdth[,\]]/i.test(path.basename(ttf_path));
+        let has_ital = /ital[,\]]/i.test(path.basename(ttf_path));
+        let has_slnt = /slnt[,\]]/i.test(path.basename(ttf_path));
 
         src += `
 
@@ -205,11 +212,15 @@ if (variable_list.length > 0) {
     /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
     font-weight: 100 950;
     font-stretch: 75% 125%;
-    font-style: ${ is_italic ? "italic" : is_oblique ? "oblique 0deg 12deg" : "normal" };
+    font-style: ${ is_italic ? "italic" : is_oblique ? "oblique" : "normal" };
     ${ has_flar ? "font-variation-settings: 'FLAR' var(--text-flar);" : "" }
     ${ has_volm ? "font-variation-settings: 'VOLM' var(--text-volm);" : "" }
     ${ has_opsz ? "font-variation-settings: 'OPSZ' var(--text-opsz);" : "" }
     ${ has_wdth ? "font-variation-settings: 'WDTH' var(--text-wdth);" : "" }
+    ${ has_ital ? "font-variation-settings: 'ITAL' var(--text-ital);" : "" }
+    ${ has_slnt ? "font-variation-settings: 'SLNT' var(--text-slnt);" : "" }
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         `;
@@ -257,6 +268,8 @@ if (opentype_list.length > 0) {
     src: url('${ttf_path}') format('opentype');
     font-weight: ${ font_weight };
     font-style: ${ is_italic ? "italic" : is_oblique ? "oblique" : "normal" };
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         `;
@@ -305,6 +318,8 @@ if (ttf_list.length > 0) {
     src: url('${ttf_path}') format('truetype');
     font-weight: ${ font_weight };
     font-style: ${ is_italic ? "italic" : is_oblique ? "oblique" : "normal" };
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         `;

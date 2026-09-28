@@ -17,6 +17,10 @@
     
     font-variation-settings: 'OPSZ' var(--text-opsz);
     
+    
+    
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -32,6 +36,10 @@
     
     font-variation-settings: 'OPSZ' var(--text-opsz);
     
+    
+    
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

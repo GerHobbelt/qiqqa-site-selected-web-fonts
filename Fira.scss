@@ -7,19 +7,23 @@
     
 
 @font-face {
-    font-family: 'Fira Sans Condensed Ultra';
+    font-family: 'Fira Sans Condensed';
     src: url('Fira/otf/FiraSansCondensed-UltraLightItalic.otf') format('opentype');
-    font-weight: 300;
+    font-weight: 200;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
 
 @font-face {
-    font-family: 'Fira Sans Condensed Ultra';
+    font-family: 'Fira Sans Condensed';
     src: url('Fira/otf/FiraSansCondensed-UltraLight.otf') format('opentype');
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -29,6 +33,8 @@
     src: url('Fira/otf/FiraSansCondensed-TwoItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -38,6 +44,8 @@
     src: url('Fira/otf/FiraSansCondensed-Two.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -47,6 +55,8 @@
     src: url('Fira/otf/FiraSansCondensed-ThinItalic.otf') format('opentype');
     font-weight: 100;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -56,6 +66,8 @@
     src: url('Fira/otf/FiraSansCondensed-Thin.otf') format('opentype');
     font-weight: 100;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -65,6 +77,8 @@
     src: url('Fira/otf/FiraSansCondensed-SemiBoldItalic.otf') format('opentype');
     font-weight: 600;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -74,6 +88,8 @@
     src: url('Fira/otf/FiraSansCondensed-SemiBold.otf') format('opentype');
     font-weight: 600;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -83,6 +99,8 @@
     src: url('Fira/otf/FiraSansCondensed-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -92,6 +110,8 @@
     src: url('Fira/otf/FiraSansCondensed-MediumItalic.otf') format('opentype');
     font-weight: 500;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -101,6 +121,8 @@
     src: url('Fira/otf/FiraSansCondensed-Medium.otf') format('opentype');
     font-weight: 500;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -110,6 +132,8 @@
     src: url('Fira/otf/FiraSansCondensed-LightItalic.otf') format('opentype');
     font-weight: 300;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -119,6 +143,8 @@
     src: url('Fira/otf/FiraSansCondensed-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -128,6 +154,8 @@
     src: url('Fira/otf/FiraSansCondensed-Italic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -137,6 +165,8 @@
     src: url('Fira/otf/FiraSansCondensed-HeavyItalic.otf') format('opentype');
     font-weight: 900;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -146,6 +176,8 @@
     src: url('Fira/otf/FiraSansCondensed-Heavy.otf') format('opentype');
     font-weight: 900;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -155,6 +187,8 @@
     src: url('Fira/otf/FiraSansCondensed-HairItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -164,6 +198,8 @@
     src: url('Fira/otf/FiraSansCondensed-Hair.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -173,6 +209,8 @@
     src: url('Fira/otf/FiraSansCondensed-FourItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -182,6 +220,8 @@
     src: url('Fira/otf/FiraSansCondensed-Four.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -191,6 +231,8 @@
     src: url('Fira/otf/FiraSansCondensed-ExtraLightItalic.otf') format('opentype');
     font-weight: 200;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -200,6 +242,8 @@
     src: url('Fira/otf/FiraSansCondensed-ExtraLight.otf') format('opentype');
     font-weight: 200;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -209,6 +253,8 @@
     src: url('Fira/otf/FiraSansCondensed-ExtraBoldItalic.otf') format('opentype');
     font-weight: 800;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -218,6 +264,8 @@
     src: url('Fira/otf/FiraSansCondensed-ExtraBold.otf') format('opentype');
     font-weight: 800;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -227,6 +275,8 @@
     src: url('Fira/otf/FiraSansCondensed-EightItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -236,6 +286,8 @@
     src: url('Fira/otf/FiraSansCondensed-Eight.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -245,6 +297,8 @@
     src: url('Fira/otf/FiraSansCondensed-BookItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -254,6 +308,8 @@
     src: url('Fira/otf/FiraSansCondensed-Book.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -263,6 +319,8 @@
     src: url('Fira/otf/FiraSansCondensed-BoldItalic.otf') format('opentype');
     font-weight: 700;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -272,24 +330,30 @@
     src: url('Fira/otf/FiraSansCondensed-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
 
 @font-face {
-    font-family: 'Fira Sans Compressed Ultra';
+    font-family: 'Fira Sans Compressed';
     src: url('Fira/otf/FiraSansCompressed-UltraLightItalic.otf') format('opentype');
-    font-weight: 300;
+    font-weight: 200;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
 
 @font-face {
-    font-family: 'Fira Sans Compressed Ultra';
+    font-family: 'Fira Sans Compressed';
     src: url('Fira/otf/FiraSansCompressed-UltraLight.otf') format('opentype');
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -299,6 +363,8 @@
     src: url('Fira/otf/FiraSansCompressed-TwoItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -308,6 +374,8 @@
     src: url('Fira/otf/FiraSansCompressed-Two.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -317,6 +385,8 @@
     src: url('Fira/otf/FiraSansCompressed-ThinItalic.otf') format('opentype');
     font-weight: 100;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -326,6 +396,8 @@
     src: url('Fira/otf/FiraSansCompressed-Thin.otf') format('opentype');
     font-weight: 100;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -335,6 +407,8 @@
     src: url('Fira/otf/FiraSansCompressed-SemiBoldItalic.otf') format('opentype');
     font-weight: 600;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -344,6 +418,8 @@
     src: url('Fira/otf/FiraSansCompressed-SemiBold.otf') format('opentype');
     font-weight: 600;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -353,6 +429,8 @@
     src: url('Fira/otf/FiraSansCompressed-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -362,6 +440,8 @@
     src: url('Fira/otf/FiraSansCompressed-MediumItalic.otf') format('opentype');
     font-weight: 500;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -371,6 +451,8 @@
     src: url('Fira/otf/FiraSansCompressed-Medium.otf') format('opentype');
     font-weight: 500;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -380,6 +462,8 @@
     src: url('Fira/otf/FiraSansCompressed-LightItalic.otf') format('opentype');
     font-weight: 300;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -389,6 +473,8 @@
     src: url('Fira/otf/FiraSansCompressed-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -398,6 +484,8 @@
     src: url('Fira/otf/FiraSansCompressed-Italic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -407,6 +495,8 @@
     src: url('Fira/otf/FiraSansCompressed-HeavyItalic.otf') format('opentype');
     font-weight: 900;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -416,6 +506,8 @@
     src: url('Fira/otf/FiraSansCompressed-Heavy.otf') format('opentype');
     font-weight: 900;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -425,6 +517,8 @@
     src: url('Fira/otf/FiraSansCompressed-HairItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -434,6 +528,8 @@
     src: url('Fira/otf/FiraSansCompressed-Hair.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -443,6 +539,8 @@
     src: url('Fira/otf/FiraSansCompressed-FourItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -452,6 +550,8 @@
     src: url('Fira/otf/FiraSansCompressed-Four.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -461,6 +561,8 @@
     src: url('Fira/otf/FiraSansCompressed-ExtraLightItalic.otf') format('opentype');
     font-weight: 200;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -470,6 +572,8 @@
     src: url('Fira/otf/FiraSansCompressed-ExtraLight.otf') format('opentype');
     font-weight: 200;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -479,6 +583,8 @@
     src: url('Fira/otf/FiraSansCompressed-ExtraBoldItalic.otf') format('opentype');
     font-weight: 800;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -488,6 +594,8 @@
     src: url('Fira/otf/FiraSansCompressed-ExtraBold.otf') format('opentype');
     font-weight: 800;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -497,6 +605,8 @@
     src: url('Fira/otf/FiraSansCompressed-EightItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -506,6 +616,8 @@
     src: url('Fira/otf/FiraSansCompressed-Eight.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -515,6 +627,8 @@
     src: url('Fira/otf/FiraSansCompressed-BookItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -524,6 +638,8 @@
     src: url('Fira/otf/FiraSansCompressed-Book.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -533,6 +649,8 @@
     src: url('Fira/otf/FiraSansCompressed-BoldItalic.otf') format('opentype');
     font-weight: 700;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -542,24 +660,30 @@
     src: url('Fira/otf/FiraSansCompressed-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
 
 @font-face {
-    font-family: 'Fira Sans Ultra';
+    font-family: 'Fira Sans';
     src: url('Fira/otf/FiraSans-UltraLightItalic.otf') format('opentype');
-    font-weight: 300;
+    font-weight: 200;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
 
 @font-face {
-    font-family: 'Fira Sans Ultra';
+    font-family: 'Fira Sans';
     src: url('Fira/otf/FiraSans-UltraLight.otf') format('opentype');
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -569,6 +693,8 @@
     src: url('Fira/otf/FiraSans-UltraItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -578,6 +704,8 @@
     src: url('Fira/otf/FiraSans-Ultra.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -587,6 +715,8 @@
     src: url('Fira/otf/FiraSans-TwoItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -596,6 +726,8 @@
     src: url('Fira/otf/FiraSans-Two.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -605,6 +737,8 @@
     src: url('Fira/otf/FiraSans-ThinItalic.otf') format('opentype');
     font-weight: 100;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -614,6 +748,8 @@
     src: url('Fira/otf/FiraSans-Thin.otf') format('opentype');
     font-weight: 100;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -623,6 +759,8 @@
     src: url('Fira/otf/FiraSans-SemiBoldItalic.otf') format('opentype');
     font-weight: 600;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -632,6 +770,8 @@
     src: url('Fira/otf/FiraSans-SemiBold.otf') format('opentype');
     font-weight: 600;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -641,6 +781,8 @@
     src: url('Fira/otf/FiraSans-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -650,6 +792,8 @@
     src: url('Fira/otf/FiraSans-MediumItalic.otf') format('opentype');
     font-weight: 500;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -659,6 +803,8 @@
     src: url('Fira/otf/FiraSans-Medium.otf') format('opentype');
     font-weight: 500;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -668,6 +814,8 @@
     src: url('Fira/otf/FiraSans-LightItalic.otf') format('opentype');
     font-weight: 300;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -677,6 +825,8 @@
     src: url('Fira/otf/FiraSans-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -686,6 +836,8 @@
     src: url('Fira/otf/FiraSans-Italic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -695,6 +847,8 @@
     src: url('Fira/otf/FiraSans-HeavyItalic.otf') format('opentype');
     font-weight: 900;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -704,6 +858,8 @@
     src: url('Fira/otf/FiraSans-Heavy.otf') format('opentype');
     font-weight: 900;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -713,6 +869,8 @@
     src: url('Fira/otf/FiraSans-HairItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -722,6 +880,8 @@
     src: url('Fira/otf/FiraSans-Hair.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -731,6 +891,8 @@
     src: url('Fira/otf/FiraSans-FourItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -740,6 +902,8 @@
     src: url('Fira/otf/FiraSans-Four.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -749,6 +913,8 @@
     src: url('Fira/otf/FiraSans-ExtraLightItalic.otf') format('opentype');
     font-weight: 200;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -758,6 +924,8 @@
     src: url('Fira/otf/FiraSans-ExtraLight.otf') format('opentype');
     font-weight: 200;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -767,6 +935,8 @@
     src: url('Fira/otf/FiraSans-ExtraBoldItalic.otf') format('opentype');
     font-weight: 800;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -776,6 +946,8 @@
     src: url('Fira/otf/FiraSans-ExtraBold.otf') format('opentype');
     font-weight: 800;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -785,6 +957,8 @@
     src: url('Fira/otf/FiraSans-EightItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -794,6 +968,8 @@
     src: url('Fira/otf/FiraSans-Eight.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -803,6 +979,8 @@
     src: url('Fira/otf/FiraSans-BookItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -812,6 +990,8 @@
     src: url('Fira/otf/FiraSans-Book.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -821,6 +1001,8 @@
     src: url('Fira/otf/FiraSans-BoldItalic.otf') format('opentype');
     font-weight: 700;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -830,6 +1012,8 @@
     src: url('Fira/otf/FiraSans-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -839,6 +1023,8 @@
     src: url('Fira/otf/FiraMono-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -848,6 +1034,8 @@
     src: url('Fira/otf/FiraMono-Medium.otf') format('opentype');
     font-weight: 500;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -857,6 +1045,8 @@
     src: url('Fira/otf/FiraMono-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -866,6 +1056,8 @@
     src: url('Fira/otf/FiraCode-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -875,6 +1067,8 @@
     src: url('Fira/otf/FiraCode-Medium.otf') format('opentype');
     font-weight: 500;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -884,6 +1078,8 @@
     src: url('Fira/otf/FiraCode-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

@@ -7,10 +7,12 @@
     
 
 @font-face {
-    font-family: 'GFSElpis';
+    font-family: 'GFS Elpis';
     src: url('GFS_Elpis/GFSElpis.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

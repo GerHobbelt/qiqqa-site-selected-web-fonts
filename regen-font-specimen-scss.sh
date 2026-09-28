@@ -6,6 +6,7 @@ sed -E -e '/<!-- FONT-PRELOADS -->/r   tmp.tmp'  -e '/<link rel="preload"/d'   -
 sed -E -e '/<!-- FONT-PRELOADS -->/r   tmp.tmp'  -e '/<link rel="preload"/d'   -i specimen2.html
 rm tmp.tmp
 
+rm font-specimen.scss
 grep font-family *.scss -h | tr ' \t' ' ' | sed -E -e 's/font-family: //' -e 's/,.*$//' -e "s/[\"';]//g" -e 's/^ +//' -e 's/ +$//' | sort -u | sed -E -e 's#(.*)#        <option value="\1">\1</option>#' > tmp.tmp
 sed -E -e '/<!-- FONT SELECT LIST -->/r   tmp.tmp'  -e '/<option value="/d'   -i specimen2.html
 rm tmp.tmp

@@ -11,6 +11,8 @@
     src: url('bookman/URWBookman-LightItalic.otf') format('opentype');
     font-weight: 300;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -20,6 +22,8 @@
     src: url('bookman/URWBookman-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -29,6 +33,8 @@
     src: url('bookman/URWBookman-DemiItalic.otf') format('opentype');
     font-weight: 500;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -38,6 +44,8 @@
     src: url('bookman/URWBookman-Demi.otf') format('opentype');
     font-weight: 500;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

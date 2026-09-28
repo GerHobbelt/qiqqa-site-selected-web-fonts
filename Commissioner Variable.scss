@@ -17,6 +17,10 @@
     font-variation-settings: 'VOLM' var(--text-volm);
     
     
+    
+    
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -27,11 +31,15 @@
     /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
     font-weight: 100 950;
     font-stretch: 75% 125%;
-    font-style: oblique 0deg 12deg;
+    font-style: oblique;
     font-variation-settings: 'FLAR' var(--text-flar);
     font-variation-settings: 'VOLM' var(--text-volm);
     
     
+    
+    font-variation-settings: 'SLNT' var(--text-slnt);
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -47,6 +55,10 @@
     font-variation-settings: 'VOLM' var(--text-volm);
     
     
+    
+    
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

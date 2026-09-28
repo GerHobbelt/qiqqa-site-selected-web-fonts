@@ -17,6 +17,10 @@
     
     
     font-variation-settings: 'WDTH' var(--text-wdth);
+    
+    
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

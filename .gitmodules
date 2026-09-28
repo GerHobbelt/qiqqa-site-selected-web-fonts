@@ -169,3 +169,9 @@
 [submodule "UnifontEX"]
 	path = UnifontEX
 	url = git@github.com:GerHobbelt/UnifontEX.git
+[submodule "fontfaceobserver"]
+	path = fontfaceobserver
+	url = git@github.com:GerHobbelt/fontfaceobserver.git
+[submodule "CF-D-DIN-PRO"]
+	path = CF-D-DIN-PRO
+	url = https://github.com/CyberFei/D-DIN-PRO.git

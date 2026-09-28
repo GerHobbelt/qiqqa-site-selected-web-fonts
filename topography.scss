@@ -11,6 +11,8 @@
     src: url('topography/Topography-RomanUpright.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -20,6 +22,8 @@
     src: url('topography/Topography-RomanRight.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -29,6 +33,8 @@
     src: url('topography/Topography-RomanLeft.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -38,6 +44,8 @@
     src: url('topography/Topography-ItalicUpright.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -47,6 +55,8 @@
     src: url('topography/Topography-ItalicRight.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -56,6 +66,8 @@
     src: url('topography/Topography-ItalicLeft.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

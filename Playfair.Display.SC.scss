@@ -11,6 +11,8 @@
     src: url('Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -20,6 +22,8 @@
     src: url('Playfair_Display_SC/PlayfairDisplaySC-Italic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -29,6 +33,8 @@
     src: url('Playfair_Display_SC/PlayfairDisplaySC-BoldItalic.ttf') format('truetype');
     font-weight: 700;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -38,6 +44,8 @@
     src: url('Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -47,6 +55,8 @@
     src: url('Playfair_Display_SC/PlayfairDisplaySC-BlackItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -56,6 +66,8 @@
     src: url('Playfair_Display_SC/PlayfairDisplaySC-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

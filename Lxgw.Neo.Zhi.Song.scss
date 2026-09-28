@@ -7,19 +7,23 @@
     
 
 @font-face {
-    font-family: 'LXGWNeo Zhi Song Plus';
+    font-family: 'LXGW Neo Zhi Song Plus';
     src: url('LxgwNeoZhiSong/released/LXGWNeoZhiSongPlus.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
 
 @font-face {
-    font-family: 'LXGWNeo Zhi Song';
+    font-family: 'LXGW Neo Zhi Song';
     src: url('LxgwNeoZhiSong/released/LXGWNeoZhiSong.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

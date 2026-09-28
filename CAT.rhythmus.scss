@@ -7,10 +7,12 @@
     
 
 @font-face {
-    font-family: 'CATRhythmus';
+    font-family: 'CAT Rhythmus';
     src: url('CAT_rhythmus/CATRhythmus.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

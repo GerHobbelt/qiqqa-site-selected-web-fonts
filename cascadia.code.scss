@@ -11,6 +11,8 @@
     src: url('cascadia-code/sources/vtt_data/CascadiaCode_VTT.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -20,6 +22,8 @@
     src: url('cascadia-code/sources/vtt_data/CascadiaCodeItalic_VTT.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

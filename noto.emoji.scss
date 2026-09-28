@@ -7,91 +7,12 @@
     
 
 @font-face {
-    font-family: 'Noto 3 D watch';
-    src: url('noto-emoji/3D/fonts/Noto-3D-watch.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-        
-
-@font-face {
-    font-family: 'Noto 3 D watch noflags';
-    src: url('noto-emoji/3D/fonts/Noto-3D-watch-noflags.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-        
-
-@font-face {
-    font-family: 'Noto 3 D watch flagsonly';
-    src: url('noto-emoji/3D/fonts/Noto-3D-watch-flagsonly.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-        
-
-@font-face {
-    font-family: 'Noto 3 D 192';
-    src: url('noto-emoji/3D/fonts/Noto-3D-192.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-        
-
-@font-face {
-    font-family: 'Noto 3 D 192 noflags';
-    src: url('noto-emoji/3D/fonts/Noto-3D-192-noflags.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-        
-
-@font-face {
-    font-family: 'Noto 3 D 192 flagsonly';
-    src: url('noto-emoji/3D/fonts/Noto-3D-192-flagsonly.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-        
-
-@font-face {
-    font-family: 'Noto 3 D 128';
-    src: url('noto-emoji/3D/fonts/Noto-3D-128.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-        
-
-@font-face {
-    font-family: 'Noto 3 D 128 noflags';
-    src: url('noto-emoji/3D/fonts/Noto-3D-128-noflags.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-        
-
-@font-face {
-    font-family: 'Noto 3 D 128 flagsonly';
-    src: url('noto-emoji/3D/fonts/Noto-3D-128-flagsonly.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-        
-
-@font-face {
     font-family: 'Noto Color Emoji Windows Compatible';
     src: url('noto-emoji/2D/fonts/NotoColorEmoji_WindowsCompatible.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -101,6 +22,8 @@
     src: url('noto-emoji/2D/fonts/NotoColorEmoji.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -110,6 +33,8 @@
     src: url('noto-emoji/2D/fonts/NotoColorEmoji-noflags.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -119,6 +44,8 @@
     src: url('noto-emoji/2D/fonts/NotoColorEmoji-flagsonly.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
@@ -128,33 +55,41 @@
     src: url('noto-emoji/2D/fonts/NotoColorEmoji-emojicompat.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
 
 @font-face {
-    font-family: 'Noto COLRv1';
+    font-family: 'Noto COL Rv1';
     src: url('noto-emoji/2D/fonts/Noto-COLRv1.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
 
 @font-face {
-    font-family: 'Noto COLRv1 noflags';
+    font-family: 'Noto COL Rv1 noflags';
     src: url('noto-emoji/2D/fonts/Noto-COLRv1-noflags.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         
 
 @font-face {
-    font-family: 'Noto COLRv1 emojicompat';
+    font-family: 'Noto COL Rv1 emojicompat';
     src: url('noto-emoji/2D/fonts/Noto-COLRv1-emojicompat.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-feature-settings: "liga" on, "kern" on;
+    font-display: auto;
 }
 
         

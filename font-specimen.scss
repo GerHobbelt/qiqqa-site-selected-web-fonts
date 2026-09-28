@@ -9,9 +9,14 @@
   --text-flar: 20;
   --text-opsz: 100;
   --text-wdth: var(--text-width);
+  --text-ital: 10;
+  --text-slnt: -10;
 
   /* this dot-matrix printer font shows up in entries which do not correctly reference their custom font... */
-  --font-showcase-fallback-font: 'matricha';
+  --font-showcase-fallback-font-1: 'Redacted VF';
+  --font-showcase-fallback-font-2: 'Last Resort';
+  
+  --background-warning-color: white;
 }
 
 
@@ -20,6 +25,13 @@ article {
   margin: 0 auto;
   max-width: 76vw;
   padding: 1em;
+}
+html {
+    background-color: var(--background-warning-color);
+}
+body {
+    background-color: #fffffff5;
+    margin: 1em;
 }
 h1 {
   font-size: calc(1.2 * var(--text-size));
@@ -126,12 +138,8 @@ h2 {
 
 
 div.firacode-font { 
-	font-family: "Fira Code", var(--font-showcase-fallback-font); 
+	font-family: "Fira Code VF", var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2); 
     line-height: 1.5em;
-
-    .variable { 
-      font-family: 'Fira Code VF'; 
-    }
 }
 
 
@@ -152,32 +160,32 @@ div.firacode-font {
 
 
 div.fira-font {
-	font-family: 'Fira Sans', var(--font-showcase-fallback-font);
+	font-family: "Fira Sans", var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2); 
 	font-weight: 300;
 	overflow-x: hidden;
 }
 
 div.fira-compressed-font {
-	font-family: 'Fira Sans Compressed', var(--font-showcase-fallback-font);
+	font-family: 'Fira Sans Compressed', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
 	font-weight: 300;
 	overflow-x: hidden;
 }
 
 div.fira-condensed-font {
-	font-family: 'Fira Sans Condensed', var(--font-showcase-fallback-font);
+	font-family: 'Fira Sans Condensed', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
 	font-weight: 300;
 	overflow-x: hidden;
 }
 
 
 div.fira-mono-font {
-	font-family: 'Fira Mono', var(--font-showcase-fallback-font);
+	font-family: 'Fira Mono', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
 	font-weight: 400;
 	overflow-x: hidden;
 }
 
 div.fira-code-font {
-	font-family: 'Fira Code VF', var(--font-showcase-fallback-font);
+	font-family: 'Fira Code VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
 	font-weight: 400;
 	overflow-x: hidden;
 
@@ -197,7 +205,7 @@ div.fira-code-font {
 
 
 div.economica-font {
-  font-family: 'Economica', var(--font-showcase-fallback-font);
+  font-family: 'Economica', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 }
@@ -210,7 +218,7 @@ div.economica-font {
 
 
 div.fah-kwang-font {
-  font-family: 'Fah Kwang', var(--font-showcase-fallback-font);
+  font-family: 'Fah Kwang', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 }
@@ -223,7 +231,7 @@ div.fah-kwang-font {
 
 
 div.commissioner-font {
-  font-family: 'Commissioner VF', var(--font-showcase-fallback-font);
+  font-family: 'Commissioner VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 
@@ -239,7 +247,7 @@ div.commissioner-font {
 
 
 div.commissioner-flare-font {
-  font-family: 'Commissioner VF', var(--font-showcase-fallback-font);
+  font-family: 'Commissioner VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 
@@ -252,7 +260,7 @@ div.commissioner-flare-font {
 
 
 div.commissioner-loud-font {
-  font-family: 'Commissioner VF', var(--font-showcase-fallback-font);
+  font-family: 'Commissioner VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 
@@ -266,7 +274,7 @@ div.commissioner-loud-font {
 
 
 div.georama-font {
-  font-family: 'Georama VF', var(--font-showcase-fallback-font);
+  font-family: 'Georama VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 
@@ -278,7 +286,7 @@ div.georama-font {
 
 
 div.grenze-font {
-  font-family: 'Grenze VF', var(--font-showcase-fallback-font);
+  font-family: 'Grenze VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 
@@ -289,7 +297,7 @@ div.grenze-font {
 
 
 div.jost-font {
-  font-family: 'Jost VF', var(--font-showcase-fallback-font);
+  font-family: 'Jost VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 }
@@ -299,7 +307,7 @@ div.jost-font {
 
 
 div.newsreader-tiny-font {
-  font-family: 'Newsreader VF', var(--font-showcase-fallback-font);
+  font-family: 'Newsreader VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
   line-height: 1.5em;
@@ -312,7 +320,7 @@ div.newsreader-tiny-font {
 
 
 div.newsreader-font {
-  font-family: 'Newsreader VF', var(--font-showcase-fallback-font);
+  font-family: 'Newsreader VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
   line-height: 1.5em;
@@ -325,7 +333,7 @@ div.newsreader-font {
 
 
 div.newsreader-titling-font {
-  font-family: 'Newsreader VF', var(--font-showcase-fallback-font);
+  font-family: 'Newsreader VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
   line-height: 1.5em;
@@ -341,7 +349,7 @@ div.newsreader-titling-font {
 
 
 div.saira-font {
-  font-family: 'Saira VF', var(--font-showcase-fallback-font);
+  font-family: 'Saira VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 
@@ -352,7 +360,7 @@ div.saira-font {
 }
 
 div.saira-semi-condensed-font {
-  font-family: 'Saira VF', var(--font-showcase-fallback-font);
+  font-family: 'Saira VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 
@@ -363,7 +371,7 @@ div.saira-semi-condensed-font {
 }
 
 div.saira-condensed-font {
-  font-family: 'Saira VF', var(--font-showcase-fallback-font);
+  font-family: 'Saira VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 
@@ -374,7 +382,7 @@ div.saira-condensed-font {
 }
 
 div.saira-extra-condensed-font {
-  font-family: 'Saira VF', var(--font-showcase-fallback-font);
+  font-family: 'Saira VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 
@@ -385,7 +393,7 @@ div.saira-extra-condensed-font {
 }
 
 div.saira-ultra-condensed-font {
-  font-family: 'Saira VF', var(--font-showcase-fallback-font);
+  font-family: 'Saira VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 
@@ -396,7 +404,7 @@ div.saira-ultra-condensed-font {
 }
 
 div.saira-semi-expanded-font {
-  font-family: 'Saira VF', var(--font-showcase-fallback-font);
+  font-family: 'Saira VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 
@@ -407,7 +415,7 @@ div.saira-semi-expanded-font {
 }
 
 div.saira-expanded-font {
-  font-family: 'Saira VF', var(--font-showcase-fallback-font);
+  font-family: 'Saira VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 
@@ -418,7 +426,7 @@ div.saira-expanded-font {
 }
 
 div.saira-variable-font {
-  font-family: 'Saira VF', var(--font-showcase-fallback-font);
+  font-family: 'Saira VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 
@@ -432,21 +440,21 @@ div.saira-variable-font {
 
 
 div.spectral-font {
-  font-family: 'Spectral', var(--font-showcase-fallback-font);
+  font-family: 'Spectral', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 }
 
 
 div.spectral-smallcaps-font {
-  font-family: 'Spectral SC', var(--font-showcase-fallback-font);
+  font-family: 'Spectral SC', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 }
 
 
 div.zilla-slab-font {
-  font-family: 'Zilla Slab', var(--font-showcase-fallback-font);
+  font-family: 'Zilla Slab', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 }
@@ -454,7 +462,7 @@ div.zilla-slab-font {
 
 
 div.cinzel-font {
-  font-family: 'Cinzel VF', var(--font-showcase-fallback-font);
+  font-family: 'Cinzel VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 
@@ -464,7 +472,7 @@ div.cinzel-font {
 
 
 div.cinzel-decorative-font {
-  font-family: 'Cinzel Decorative VF', var(--font-showcase-fallback-font);
+  font-family: 'Cinzel Decorative VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 
@@ -476,7 +484,7 @@ div.cinzel-decorative-font {
 
 
 div.garamond-font {
-  font-family: 'EBGaramond VF', var(--font-showcase-fallback-font);
+  font-family: 'EBGaramond VF', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
   font-weight: 400;
   overflow-x: hidden;
 
@@ -487,19 +495,19 @@ div.garamond-font {
 
 
 div.ibm3270-font {
-	font-family: '3270', var(--font-showcase-fallback-font);
+	font-family: '3270', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
 	font-weight: 400;
 	overflow-x: hidden;
 }
 
 div.ibm3270-condensed-font {
-	font-family: '3270 Condensed', var(--font-showcase-fallback-font);
+	font-family: '3270 Condensed', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
 	font-weight: 400;
 	overflow-x: hidden;
 }
 
 div.ibm3270-semi-condensed-font {
-	font-family: '3270 Semi Condensed', var(--font-showcase-fallback-font);
+	font-family: '3270 Semi Condensed', var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
 	font-weight: 400;
 	overflow-x: hidden;
 }
@@ -523,6 +531,7 @@ div.ibm3270-semi-condensed-font {
 @import "./archistico";
 @import "./Bagnard.Sans";
 @import "./Bagnard";
+@import "./Bang.Nokia";
 @import "./Bebas";
 @import "./Big.Shoulders.Display Variable";
 @import "./bookman";
@@ -536,6 +545,7 @@ div.ibm3270-semi-condensed-font {
 @import "./CAT.rhythmus";
 @import "./Catamaran Variable";
 @import "./Caviar.Dreams";
+@import "./CF.D-DIN.PRO";
 @import "./Cinzel Variable";
 @import "./clarity.city.next";
 @import "./comforter.brush";
@@ -583,6 +593,7 @@ div.ibm3270-semi-condensed-font {
 @import "./Kingthings.Printingkit";
 @import "./Komika";
 @import "./Kumbh.Sans Variable";
+@import "./last.resort.font";
 @import "./League.Gothic";
 @import "./League.Mono Variable";
 @import "./League.Spartan Variable";
@@ -603,6 +614,7 @@ div.ibm3270-semi-condensed-font {
 @import "./new.century.schoolbook";
 @import "./Newsreader Variable";
 @import "./NOKIA.5110.Font.Set";
+@import "./nokia.cellphone";
 @import "./noto.emoji";
 @import "./nuernberg";
 @import "./nymphette";
@@ -650,8 +662,10 @@ div.ibm3270-semi-condensed-font {
 @import "./troubleside";
 @import "./Ubuntu.Sans.fonts Variable";
 @import "./Ubuntu.Sans.Mono.fonts Variable";
+@import "./Unifont.EX";
 @import "./Unifraktur.Cook";
 @import "./Unna";
+@import "./unscii";
 @import "./urw.gothic";
 @import "./Young.Serif Variable";
 @import "./Ysabeau Variable";

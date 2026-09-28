@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="font-specimen.css">
 
+  <script src="./fontfaceobserver/fontfaceobserver.js"></script>
   <script type="text/javascript">
     function onWeightChange(weight) {
       // code_variable.style['font-weight'] = weight;
@@ -49,13 +50,36 @@
 
     function onFontPickChange(name) {
       console.log("--text-font-name =", name);
-      document.documentElement.style.setProperty('--font-code-demo-family-name', name);
-      document.documentElement.style.setProperty('--font-demo-family-name', name);
+      document.documentElement.style.setProperty('--font-code-demo-family-name', '"' + name + '"'); // must quote the fontname, or the spaces in there will break the reference for us (sometimes [sic]!)
+      document.documentElement.style.setProperty('--font-demo-family-name', '"' + name + '"');
+      
+      document.documentElement.style.setProperty('--background-warning-color', 'white');
 
       let elems = document.querySelectorAll('article > h1');
       elems.forEach(element => {
         element.innerHTML = name;
       });
+      
+      var font = new FontFaceObserver(name, {
+        //weight: 400
+      });
+
+      font.load("Brs").then(function () {
+        console.log(`Font '${ name }' is available.`);
+        document.documentElement.style.setProperty('--background-warning-color', 'white');
+        
+        const element2check = elems[0];
+        const fontFamily = window.getComputedStyle(element2check).fontFamily;        
+        console.log('Computed Font:', fontFamily);
+        // when the computed font-family devolved to 'Times New Roman', it won't list the CSS-specified font-family list, so it will be lacking any ',' comma:
+        if (!fontFamily.includes(',')) {
+          console.log(`Something went wrong: font '${ name }' is *NOT* used!`);
+          document.documentElement.style.setProperty('--background-warning-color', '#ff7e00');  // orange
+        }
+      }, function () {
+        console.log(`Font '${ name }' is *NOT* available.`);
+        document.documentElement.style.setProperty('--background-warning-color', 'red');
+      });      
     }
 
     function showDefinitiveContent() {
@@ -85,12 +109,14 @@
       --font-demo-family-name: "Fira Sans";
     }
     div.code-font-demo {
-        font-family: var(--font-code-demo-family-name), var(--font-showcase-fallback-font);
+        font-family: var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
+        font-family: var(--font-code-demo-family-name), var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
         line-height: 1.5em;
     }
 
     div.font-demo {
-        font-family: var(--font-demo-family-name), var(--font-showcase-fallback-font);
+        font-family: var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
+        font-family: var(--font-demo-family-name), var(--font-showcase-fallback-font-1), var(--font-showcase-fallback-font-2);
         overflow-x: hidden;
     }
 
@@ -199,6 +225,7 @@
         <option value="Bagnard">Bagnard</option>
         <option value="Bagnard Sans">Bagnard Sans</option>
         <option value="Bebas">Bebas</option>
+        <option value="BFUnifont Ex Mono">BFUnifont Ex Mono</option>
         <option value="Big Shoulders Display VF">Big Shoulders Display VF</option>
         <option value="braille grid hc">braille grid hc</option>
         <option value="braille latin hc">braille latin hc</option>
@@ -210,13 +237,35 @@
         <option value="Cal Sans Flex VF">Cal Sans Flex VF</option>
         <option value="Cal Sans Text UI VF">Cal Sans Text UI VF</option>
         <option value="Cal Sans VF">Cal Sans VF</option>
+        <option value="Calc Unifont Ex Mono">Calc Unifont Ex Mono</option>
         <option value="Caramel">Caramel</option>
         <option value="Cascadia Code VTT">Cascadia Code VTT</option>
+        <option value="CAT Linz">CAT Linz</option>
+        <option value="CAT Reporter">CAT Reporter</option>
+        <option value="CAT Rhythmus">CAT Rhythmus</option>
         <option value="Catamaran VF">Catamaran VF</option>
-        <option value="CATLinz">CATLinz</option>
-        <option value="CATReporter">CATReporter</option>
-        <option value="CATRhythmus">CATRhythmus</option>
         <option value="Caviar Dreams">Caviar Dreams</option>
+        <option value="CF-D-DIN PRO 300">CF-D-DIN PRO 300</option>
+        <option value="CF-D-DIN PRO 400">CF-D-DIN PRO 400</option>
+        <option value="CF-D-DIN PRO 500">CF-D-DIN PRO 500</option>
+        <option value="CF-D-DIN PRO 600">CF-D-DIN PRO 600</option>
+        <option value="CF-D-DIN PRO 700">CF-D-DIN PRO 700</option>
+        <option value="CF-D-DIN PRO 800">CF-D-DIN PRO 800</option>
+        <option value="CF-D-DIN PRO 900">CF-D-DIN PRO 900</option>
+        <option value="CF-D-DIN PRO Condensed 300">CF-D-DIN PRO Condensed 300</option>
+        <option value="CF-D-DIN PRO Condensed 400">CF-D-DIN PRO Condensed 400</option>
+        <option value="CF-D-DIN PRO Condensed 500">CF-D-DIN PRO Condensed 500</option>
+        <option value="CF-D-DIN PRO Condensed 600">CF-D-DIN PRO Condensed 600</option>
+        <option value="CF-D-DIN PRO Condensed 700">CF-D-DIN PRO Condensed 700</option>
+        <option value="CF-D-DIN PRO Condensed 800">CF-D-DIN PRO Condensed 800</option>
+        <option value="CF-D-DIN PRO Condensed 900">CF-D-DIN PRO Condensed 900</option>
+        <option value="CF-D-DIN PRO Exp 300">CF-D-DIN PRO Exp 300</option>
+        <option value="CF-D-DIN PRO Exp 400">CF-D-DIN PRO Exp 400</option>
+        <option value="CF-D-DIN PRO Exp 500">CF-D-DIN PRO Exp 500</option>
+        <option value="CF-D-DIN PRO Exp 600">CF-D-DIN PRO Exp 600</option>
+        <option value="CF-D-DIN PRO Exp 700">CF-D-DIN PRO Exp 700</option>
+        <option value="CF-D-DIN PRO Exp 800">CF-D-DIN PRO Exp 800</option>
+        <option value="CF-D-DIN PRO Exp 900">CF-D-DIN PRO Exp 900</option>
         <option value="Cinzel Decorative VF">Cinzel Decorative VF</option>
         <option value="Cinzel VF">Cinzel VF</option>
         <option value="Clarity City">Clarity City</option>
@@ -226,14 +275,14 @@
         <option value="Comic Neue Angular">Comic Neue Angular</option>
         <option value="Commissioner VF">Commissioner VF</option>
         <option value="D-DIN">D-DIN</option>
+        <option value="D-DIN Condensed">D-DIN Condensed</option>
+        <option value="D-DIN Exp">D-DIN Exp</option>
         <option value="D-DIN PRO 400">D-DIN PRO 400</option>
         <option value="D-DIN PRO 500">D-DIN PRO 500</option>
         <option value="D-DIN PRO 600">D-DIN PRO 600</option>
         <option value="D-DIN PRO 700">D-DIN PRO 700</option>
         <option value="D-DIN PRO 800">D-DIN PRO 800</option>
         <option value="D-DIN PRO 900">D-DIN PRO 900</option>
-        <option value="D-DINCondensed">D-DINCondensed</option>
-        <option value="D-DINExp">D-DINExp</option>
         <option value="devicon">devicon</option>
         <option value="Devonshire">Devonshire</option>
         <option value="Didactic VF">Didactic VF</option>
@@ -259,31 +308,29 @@
         <option value="Fira Sans Compressed Four">Fira Sans Compressed Four</option>
         <option value="Fira Sans Compressed Hair">Fira Sans Compressed Hair</option>
         <option value="Fira Sans Compressed Two">Fira Sans Compressed Two</option>
-        <option value="Fira Sans Compressed Ultra">Fira Sans Compressed Ultra</option>
         <option value="Fira Sans Condensed">Fira Sans Condensed</option>
         <option value="Fira Sans Condensed Book">Fira Sans Condensed Book</option>
         <option value="Fira Sans Condensed Eight">Fira Sans Condensed Eight</option>
         <option value="Fira Sans Condensed Four">Fira Sans Condensed Four</option>
         <option value="Fira Sans Condensed Hair">Fira Sans Condensed Hair</option>
         <option value="Fira Sans Condensed Two">Fira Sans Condensed Two</option>
-        <option value="Fira Sans Condensed Ultra">Fira Sans Condensed Ultra</option>
         <option value="Fira Sans Eight">Fira Sans Eight</option>
         <option value="Fira Sans Four">Fira Sans Four</option>
         <option value="Fira Sans Hair">Fira Sans Hair</option>
         <option value="Fira Sans Two">Fira Sans Two</option>
         <option value="Fira Sans Ultra">Fira Sans Ultra</option>
-        <option value="FPDPressure">FPDPressure</option>
+        <option value="FPD Pressure">FPD Pressure</option>
         <option value="Fraunces Goofy Axis test VF">Fraunces Goofy Axis test VF</option>
         <option value="Fraunces VF">Fraunces VF</option>
         <option value="Frederickathe Great">Frederickathe Great</option>
         <option value="Gandhi Sans">Gandhi Sans</option>
         <option value="Gandhi Serif">Gandhi Serif</option>
         <option value="Georama VF">Georama VF</option>
-        <option value="GFSBodoni">GFSBodoni</option>
-        <option value="GFSDidot">GFSDidot</option>
-        <option value="GFSElpis">GFSElpis</option>
-        <option value="GFSFleischman">GFSFleischman</option>
-        <option value="GFSGaraldus">GFSGaraldus</option>
+        <option value="GFS Bodoni">GFS Bodoni</option>
+        <option value="GFS Didot">GFS Didot</option>
+        <option value="GFS Elpis">GFS Elpis</option>
+        <option value="GFS Fleischman">GFS Fleischman</option>
+        <option value="GFS Garaldus">GFS Garaldus</option>
         <option value="Girassol">Girassol</option>
         <option value="Goudy Bookletter1911">Goudy Bookletter1911</option>
         <option value="Grenze VF">Grenze VF</option>
@@ -338,7 +385,8 @@
         <option value="Komika Title Wide">Komika Title Wide</option>
         <option value="Komika X">Komika X</option>
         <option value="Kumbh Sans VF">Kumbh Sans VF</option>
-        <option value="latin alphabet of Seto Font SP">latin alphabet of Seto Font SP</option>
+        <option value="Last Resort">Last Resort</option>
+        <option value="Last Resort HE">Last Resort HE</option>
         <option value="League Gothic">League Gothic</option>
         <option value="League Gothic Condensed">League Gothic Condensed</option>
         <option value="League Mono VF">League Mono VF</option>
@@ -360,18 +408,20 @@
         <option value="Libertinus Serif Initials">Libertinus Serif Initials</option>
         <option value="Libre Baskerville VF">Libre Baskerville VF</option>
         <option value="Libre Bodoni VF">Libre Bodoni VF</option>
+        <option value="LXGW Mun Hae Hangul B">LXGW Mun Hae Hangul B</option>
+        <option value="LXGW Mun Hae Hangul L">LXGW Mun Hae Hangul L</option>
+        <option value="LXGW Mun Hae Hangul R">LXGW Mun Hae Hangul R</option>
+        <option value="LXGW Mun Hae Hangul Spilt Strokes">LXGW Mun Hae Hangul Spilt Strokes</option>
+        <option value="LXGW Neo Zhi Song">LXGW Neo Zhi Song</option>
+        <option value="LXGW Neo Zhi Song Plus">LXGW Neo Zhi Song Plus</option>
+        <option value="LXGW Wen Kai">LXGW Wen Kai</option>
+        <option value="LXGW Wen Kai Mono">LXGW Wen Kai Mono</option>
         <option value="Lxgw Wen Kai Mono Latin">Lxgw Wen Kai Mono Latin</option>
-        <option value="LXGWMun Hae Hangul B">LXGWMun Hae Hangul B</option>
-        <option value="LXGWMun Hae Hangul L">LXGWMun Hae Hangul L</option>
-        <option value="LXGWMun Hae Hangul R">LXGWMun Hae Hangul R</option>
-        <option value="LXGWMun Hae Hangul Spilt Strokes">LXGWMun Hae Hangul Spilt Strokes</option>
-        <option value="LXGWNeo Zhi Song">LXGWNeo Zhi Song</option>
-        <option value="LXGWNeo Zhi Song Plus">LXGWNeo Zhi Song Plus</option>
-        <option value="LXGWWen Kai">LXGWWen Kai</option>
-        <option value="LXGWWen Kai Mono">LXGWWen Kai Mono</option>
         <option value="Ma Shan Zheng">Ma Shan Zheng</option>
         <option value="Marcellus SC">Marcellus SC</option>
         <option value="matricha">matricha</option>
+        <option value="Mengshen Han Serif">Mengshen Han Serif</option>
+        <option value="Mengshen Handwritten">Mengshen Handwritten</option>
         <option value="Metropolis">Metropolis</option>
         <option value="Mona Sans Condensed VF">Mona Sans Condensed VF</option>
         <option value="Mona Sans Expanded VF">Mona Sans Expanded VF</option>
@@ -384,27 +434,20 @@
         <option value="Monaspace Neon VF">Monaspace Neon VF</option>
         <option value="Monaspace Radon VF">Monaspace Radon VF</option>
         <option value="Monaspace Xenon VF">Monaspace Xenon VF</option>
-        <option value="mplus 1m medium">mplus 1m medium</option>
         <option value="N01 Digit">N01 Digit</option>
         <option value="Newsreader VF">Newsreader VF</option>
+        <option value="Nokia Pure Headline">Nokia Pure Headline</option>
+        <option value="Nokia Pure Text">Nokia Pure Text</option>
         <option value="Nokia.5110.Font Set">Nokia.5110.Font Set</option>
-        <option value="Noto 3 D 128">Noto 3 D 128</option>
-        <option value="Noto 3 D 128 flagsonly">Noto 3 D 128 flagsonly</option>
-        <option value="Noto 3 D 128 noflags">Noto 3 D 128 noflags</option>
-        <option value="Noto 3 D 192">Noto 3 D 192</option>
-        <option value="Noto 3 D 192 flagsonly">Noto 3 D 192 flagsonly</option>
-        <option value="Noto 3 D 192 noflags">Noto 3 D 192 noflags</option>
-        <option value="Noto 3 D watch">Noto 3 D watch</option>
-        <option value="Noto 3 D watch flagsonly">Noto 3 D watch flagsonly</option>
-        <option value="Noto 3 D watch noflags">Noto 3 D watch noflags</option>
+        <option value="nokiafc22">nokiafc22</option>
+        <option value="Noto COL Rv1">Noto COL Rv1</option>
+        <option value="Noto COL Rv1 emojicompat">Noto COL Rv1 emojicompat</option>
+        <option value="Noto COL Rv1 noflags">Noto COL Rv1 noflags</option>
         <option value="Noto Color Emoji">Noto Color Emoji</option>
         <option value="Noto Color Emoji emojicompat">Noto Color Emoji emojicompat</option>
         <option value="Noto Color Emoji flagsonly">Noto Color Emoji flagsonly</option>
         <option value="Noto Color Emoji noflags">Noto Color Emoji noflags</option>
         <option value="Noto Color Emoji Windows Compatible">Noto Color Emoji Windows Compatible</option>
-        <option value="Noto COLRv1">Noto COLRv1</option>
-        <option value="Noto COLRv1 emojicompat">Noto COLRv1 emojicompat</option>
-        <option value="Noto COLRv1 noflags">Noto COLRv1 noflags</option>
         <option value="Nuernberg">Nuernberg</option>
         <option value="Nymphette">Nymphette</option>
         <option value="Offenbacher Reform CAT">Offenbacher Reform CAT</option>
@@ -454,10 +497,8 @@
         <option value="Saira VF">Saira VF</option>
         <option value="Sangha Kali">Sangha Kali</option>
         <option value="Sansita Swashed VF">Sansita Swashed VF</option>
-        <option value="Sawarabi Mincho">Sawarabi Mincho</option>
         <option value="Siruca Pictograms1.1">Siruca Pictograms1.1</option>
         <option value="Smiley Sans">Smiley Sans</option>
-        <option value="Source Han Serif CN">Source Han Serif CN</option>
         <option value="Sparks Bar">Sparks Bar</option>
         <option value="Sparks Bar Extranarrow">Sparks Bar Extranarrow</option>
         <option value="Sparks Bar Extrawide">Sparks Bar Extrawide</option>
@@ -495,12 +536,17 @@
         <option value="Troubleside">Troubleside</option>
         <option value="Ubuntu Sans Mono VF">Ubuntu Sans Mono VF</option>
         <option value="Ubuntu Sans VF">Ubuntu Sans VF</option>
+        <option value="Unifont Ex Mono">Unifont Ex Mono</option>
         <option value="Unifraktur Cook">Unifraktur Cook</option>
         <option value="Unna">Unna</option>
+        <option value="unscii 16">unscii 16</option>
+        <option value="unscii 16 full">unscii 16 full</option>
+        <option value="unscii 8">unscii 8</option>
+        <option value="unscii 8 alt">unscii 8 alt</option>
+        <option value="unscii 8 tall">unscii 8 tall</option>
         <option value="URW Bookman">URW Bookman</option>
         <option value="URW Gothic">URW Gothic</option>
         <option value="URW Gothic Book">URW Gothic Book</option>
-        <option value="Xiaolai Mono SC without Hangul">Xiaolai Mono SC without Hangul</option>
         <option value="Young Serif SC VF">Young Serif SC VF</option>
         <option value="Young Serif VF">Young Serif VF</option>
         <option value="Ysabeau Infant VF">Ysabeau Infant VF</option>
@@ -623,6 +669,7 @@ void main(int argc, const char *argv[]) {
          ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
          1234567890!@#$%^&amp;*()`~{}[]+=:;'"&#8216;&#8217;&#8220;&#8221;
          <br>
+         &#xE900;&#xE90F;&#xE921;&#xE932;&#xE92F;&#xE93C;&#xE963;&#xE969;
          <br>
          Ligatures: fi ffi; The quick brown fox jumped over @Ötly4051?! Kerning: AV VA WI-to Alabamboys. Å symbol Ångström, bäng 1209çrèñálätïòns@5% quoque bugjam nurxi.
          <br>
@@ -633,6 +680,28 @@ void main(int argc, const char *argv[]) {
           – — ―
           <br>
           ฟ้ากว้าง แบบอักษรที่มีจุดเด่นคือความกว้างต่างไปจากโครงสร้างอักษรไทยในอุดมคติ 
+          <br>
+          - - -
+          <br>
+Traditionally, text is composed to create a readable, coherent, and visually satisfying typeface that works invisibly, without the awareness of the reader. Even distribution of typeset material, with a minimum of distractions and anomalies, is aimed at producing clarity and transparency. Choice of typeface(s) is the primary aspect of text typography—prose fiction, non-fiction, editorial, educational, religious, scientific, spiritual, and commercial writing all have differing characteristics and requirements of appropriate typefaces (and their fonts or styles). For historic material, established text typefaces frequently are chosen according to a scheme of historical genre acquired by a long process of accretion, with considerable overlap among historical periods.
+<br>
+印刷技术的演进对字体排印的传统与发展有着重要影响。排版的对象是活字。桌面出版技术引入的数字字体，又可以视作是数码活字。在桌面出版时代和计算机普及之前，印刷文字的排版一直由专门人员完成，如排字工人、字体排印师、平面设计师、漫画家等等。现代的文字编码与字体技术使得排版作为一项技艺的门槛降低。正如英国科尔切斯特学院平面设计院院长，David Jury所言：“字体排印现已成为每个人都在做的事情。”
+<br>
+التيبوغرافية أي فن صياغة الحروف (بالفرنسية القديمة: typographie) هو فن وأسلوب ترتيب اللغة المكتوبة لجعلها مرئية وساهلة قراءة وجاذبة.  ترتيب الحوف يشمل كل من اختيار عائلة الخط وحجم وطول الخط والمسافة بين السطور وبين الحروف وحتى تعديل المسافة بين زوجين من الحروف والوصلات الأبجدية. وتصميم الخطوط فن وثيق الصلة، حتى يعتبر جزءا من فن صيا
+<br>
+Երբ ձեռքս նոր գիրք է ընկնում՝ մի առարկա, որը պատրաստվել է տպարանում գրաշարի, յուրահատուկ այդ հերոսի ձեռքով, մի ինչ-որ այլ հերոսի հնարած մեքենայի օգնությամբ, ես զգում եմ, որ նոր, կենդանի, խոսող, հրաշալի մի բան է մտնում իմ կյանքի մեջ։ Դա նոր պատգամ է, որ մարդը գրել է իր մասին աշխարհի ամենաբարդ, ամենախորհրդավոր, ամենամեծ սիրո արժանի արարածի մասին, որի աշխատանքով ու երեւակայությամբ են ստեղծվել աշխարհում այն ամենը, ինչ մեծ է ու սքանչելի։
+<br>
+Но расцвет типографики как отдельной сферы деятельности начался в Европе, где она появилась в середине XV века. Её распространению способствовали лёгкость и относительно малое количество символов в латинском шрифте, в отличие от китайских иероглифов. Первым, кто серьёзно занялся европейским типографическим искусством, стал Иоганн Гутенберг (1397—1468 гг.), немецкий изобретатель и ювелир. Создав в 1440 году из свинцовых букв наборную форму, он подарил миру первый печатный станок.
+<br>
+Τυπογραφία είναι η τέχνη της αποτύπωσης γραπτού λόγου και εικόνων σε χαρτί, ύφασμα, μέταλλο ή άλλο υλικό με τη βοήθεια τεχνικών μέσων και συνήθως σε μαζική κλίμακα. Η τυπογραφία ξεκίνησε ουσιαστικά τον 15ο αι. με την εφεύρεση του επίπεδου πιεστηρίου από τον Γουτεμβέργιο. Μέχρι τα τέλη του 20ού αι., η παραδοσιακή τυπογραφία χρησιμοποιούσε κινητά στοιχεία σε διάφορα μεγέθη και οικογένειες (γραμματοσειρές) φτιαγμένες από μέταλλο και σπανιότερα από ξύλο.
+<br>
+טיפוגרפיה (Typography) היא האמנות והטכניקה של סידור ועיצוב טקסט. סידור אותיות כולל בחירת גופנים, גודל אות, גודל השוליים, אורך שורה, ריווח בין שורות, בין מילים, בין אותיות ובין צמדי אותיות. במלאכת הטיפוגרפיה עוסקים, בין היתר, מעצבים גרפיים, מעצבי אותיות, טיפוגרפים ופרסומאים.
+<br>
+मुद्रण कला मुद्रण को सजाने, मुद्रण डिजाइन तथा मुद्रण ग्लिफ्स को संशोधित करने की कला एवं तकनीक है। मुद्रण ग्लिफ़ को विभिन्न उदाहरण तकनीकों का उपयोग करके बनाया और संशोधित किया जाता है। मुद्रण की सजावट में टाइपफेस का चुनाव, प्वायंट साईज, लाइन की लंबाई, लिडिंग (लाइन स्पेसिंग) अक्षर समूहों के बीच स्पेस (ट्रैकिंग) तथा अक्षर जोड़ों के बीच के स्पेस (केर्निंग) को व्यवस्थित करना शामिल हैं.
+<br>
+Hệ chữ viết là là một phương pháp lưu trữ thông tin và chuyển giao tin nhắn (thể hiện suy nghĩ hoặc ý tưởng) được tổ chức (thông thường được chuẩn hóa) trong một ngôn ngữ bằng cách mã hóa và giải mã theo cách trực quan (hoặc có thể gián tiếp). Quá trình mã hóa và giải mã này được gọi là viết và đọc, bao gồm một tập hợp các dấu hiệu hoặc chữ tượng hình, cả hai được biết đến như là các ký tự. Các ký tự này bao gồm cả chữ và số, thường được ghi vào một vật lưu trữ như giấy hoặc thiết bị lưu trữ điện tử.
+<br>
+        - - -
         <br>
         Values:
         <br>

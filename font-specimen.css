@@ -847,6 +847,7 @@ VARIABLE
   font-weight: 100 950;
   font-stretch: 75% 125%;
   font-style: normal;
+  font-variation-settings: "WDTH" var(--text-wdth);
 }
 @font-face {
   font-family: "Cabin VF";
@@ -855,6 +856,7 @@ VARIABLE
   font-weight: 100 950;
   font-stretch: 75% 125%;
   font-style: italic;
+  font-variation-settings: "WDTH" var(--text-wdth);
 }
 /*
 TTF
@@ -2372,6 +2374,7 @@ VARIABLE
   font-weight: 100 950;
   font-stretch: 75% 125%;
   font-style: normal;
+  font-variation-settings: "WDTH" var(--text-wdth);
 }
 @font-face {
   font-family: "Georama VF";
@@ -2380,6 +2383,7 @@ VARIABLE
   font-weight: 100 950;
   font-stretch: 75% 125%;
   font-style: italic;
+  font-variation-settings: "WDTH" var(--text-wdth);
 }
 /*
 OTF
@@ -2545,6 +2549,7 @@ VARIABLE
   font-weight: 100 950;
   font-stretch: 75% 125%;
   font-style: normal;
+  font-variation-settings: "WDTH" var(--text-wdth);
 }
 /*
 VARIABLE
@@ -3444,6 +3449,7 @@ VARIABLE
   font-weight: 100 950;
   font-stretch: 75% 125%;
   font-style: normal;
+  font-variation-settings: "WDTH" var(--text-wdth);
 }
 @font-face {
   font-family: "Mona Sans VF";
@@ -3452,6 +3458,7 @@ VARIABLE
   font-weight: 100 950;
   font-stretch: 75% 125%;
   font-style: italic;
+  font-variation-settings: "WDTH" var(--text-wdth);
 }
 @font-face {
   font-family: "Mona Sans VF";
@@ -3461,6 +3468,7 @@ VARIABLE
   font-stretch: 75% 125%;
   font-style: normal;
   font-variation-settings: "OPSZ" var(--text-opsz);
+  font-variation-settings: "WDTH" var(--text-wdth);
 }
 @font-face {
   font-family: "Mona Sans VF";
@@ -3470,6 +3478,7 @@ VARIABLE
   font-stretch: 75% 125%;
   font-style: normal;
   font-variation-settings: "OPSZ" var(--text-opsz);
+  font-variation-settings: "WDTH" var(--text-wdth);
 }
 @font-face {
   font-family: "Mona Sans VF";
@@ -3488,6 +3497,7 @@ VARIABLE
   font-stretch: 75% 125%;
   font-style: italic;
   font-variation-settings: "OPSZ" var(--text-opsz);
+  font-variation-settings: "WDTH" var(--text-wdth);
 }
 @font-face {
   font-family: "Mona Sans VF";
@@ -3531,6 +3541,7 @@ VARIABLE
   font-weight: 100 950;
   font-stretch: 75% 125%;
   font-style: normal;
+  font-variation-settings: "WDTH" var(--text-wdth);
 }
 @font-face {
   font-family: "Mona Sans Mono Expanded VF";
@@ -3638,6 +3649,15 @@ VARIABLE
   font-stretch: 75% 125%;
   font-style: italic;
   font-variation-settings: "OPSZ" var(--text-opsz);
+}
+/*
+TTF
+*/
+@font-face {
+  font-family: "Nokia.5110.Font Set";
+  src: url("NOKIA-5110-FontSet/Nokia.5110.FontSet.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 /*
 TTF
@@ -4671,6 +4691,7 @@ VARIABLE
   font-weight: 100 950;
   font-stretch: 75% 125%;
   font-style: normal;
+  font-variation-settings: "WDTH" var(--text-wdth);
 }
 @font-face {
   font-family: "Saira VF";
@@ -4679,6 +4700,7 @@ VARIABLE
   font-weight: 100 950;
   font-stretch: 75% 125%;
   font-style: italic;
+  font-variation-settings: "WDTH" var(--text-wdth);
 }
 /*
 OTF
@@ -5296,6 +5318,7 @@ VARIABLE
   font-weight: 100 950;
   font-stretch: 75% 125%;
   font-style: normal;
+  font-variation-settings: "WDTH" var(--text-wdth);
 }
 @font-face {
   font-family: "Ubuntu Sans VF";
@@ -5304,6 +5327,7 @@ VARIABLE
   font-weight: 100 950;
   font-stretch: 75% 125%;
   font-style: italic;
+  font-variation-settings: "WDTH" var(--text-wdth);
 }
 /*
 VARIABLE

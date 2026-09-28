@@ -427,7 +427,7 @@ div.ibm3270-semi-condensed-font {
 VARIABLE
 */
 @font-face {
-  font-family: "Abhaya Libre VF";
+  font-family: "Abhaya Libre WGHT VF";
   src: url("Abhaya-Libre/released/abhaya-libre-font_v2.000_20250327/variable/AbhayaLibre[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -1333,7 +1333,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Cabin VF";
+  font-family: "Cabin WDTH.WGHT VF";
   src: url("Cabin/fonts/VF/Cabin[wdth,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -1344,7 +1344,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Cabin VF";
+  font-family: "Cabin WDTH.WGHT VF";
   src: url("Cabin/fonts/VF/Cabin-Italic[wdth,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -1378,7 +1378,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Cal Sans Text UI VF";
+  font-family: "Cal Sans Text UI WGHT VF";
   src: url("font/fonts/calsans-gf-api-textui/CalSansTextUI[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -1388,7 +1388,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Cal Sans Text UI VF";
+  font-family: "Cal Sans Text UI WGHT VF";
   src: url("font/fonts/calsans-gf-api-textui/CalSansTextUI-Italic[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -1398,7 +1398,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Cal Sans VF";
+  font-family: "Cal Sans GEOM.SHRP.YTAS.OPSZ.WGHT VF";
   src: url("font/fonts/calsans-gf-api/CalSans[GEOM,SHRP,YTAS,opsz,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -1409,7 +1409,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Cal Sans VF";
+  font-family: "Cal Sans GEOM.SHRP.YTAS.OPSZ.WGHT VF";
   src: url("font/fonts/calsans-gf-api/CalSans-Italic[GEOM,SHRP,YTAS,opsz,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -1419,433 +1419,9 @@ VARIABLE
   font-feature-settings: "liga" on, "kern" on;
   font-display: auto;
 }
-@font-face {
-  font-family: "Cal Sans VF";
-  src: url("font/fonts/calsans-cossui/CalSansVF.ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans VF";
-  src: url("font/fonts/calsans-cossui/CalSansVF-Italic.ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans VF";
-  src: url("font/fonts/calsans-adobe-vf/CalSansVF.ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans VF";
-  src: url("font/fonts/calsans-adobe-vf/CalSansVF-Italic.ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
 /*
 TTF
 */
-@font-face {
-  font-family: "Cal Sans UI";
-  src: url("font/fonts/calsans-static-ui/CalSansUI-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI";
-  src: url("font/fonts/calsans-static-ui/CalSansUI-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI";
-  src: url("font/fonts/calsans-static-ui/CalSansUI-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI";
-  src: url("font/fonts/calsans-static-ui/CalSansUI-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI";
-  src: url("font/fonts/calsans-static-ui/CalSansUI-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI";
-  src: url("font/fonts/calsans-static-ui/CalSansUI-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI";
-  src: url("font/fonts/calsans-static-ui/CalSansUI-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI";
-  src: url("font/fonts/calsans-static-ui/CalSansUI-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-static-ui/CalSansTextUI-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-static-ui/CalSansTextUI-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-static-ui/CalSansTextUI-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-static-ui/CalSansTextUI-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-static-ui/CalSansTextUI-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-static-ui/CalSansTextUI-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-static-ui/CalSansTextUI-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-static-ui/CalSansTextUI-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro UI";
-  src: url("font/fonts/calsans-static-ui/CalSansMicroUI-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro UI";
-  src: url("font/fonts/calsans-static-ui/CalSansMicroUI-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro UI";
-  src: url("font/fonts/calsans-static-ui/CalSansMicroUI-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro UI";
-  src: url("font/fonts/calsans-static-ui/CalSansMicroUI-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro UI";
-  src: url("font/fonts/calsans-static-ui/CalSansMicroUI-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro UI";
-  src: url("font/fonts/calsans-static-ui/CalSansMicroUI-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro UI";
-  src: url("font/fonts/calsans-static-ui/CalSansMicroUI-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro UI";
-  src: url("font/fonts/calsans-static-ui/CalSansMicroUI-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansTextGeo-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansTextGeo-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansTextGeo-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansTextGeo-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansTextGeo-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansTextGeo-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansTextGeo-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansTextGeo-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansMicroGeo-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansMicroGeo-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansMicroGeo-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansMicroGeo-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansMicroGeo-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansMicroGeo-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansMicroGeo-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansMicroGeo-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansGeo-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansGeo-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansGeo-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansGeo-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansGeo-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansGeo-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansGeo-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo";
-  src: url("font/fonts/calsans-static-geo/CalSansGeo-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
 @font-face {
   font-family: "Cal Sans UITall Sharp";
   src: url("font/fonts/calsans-static-full/ttf/CalSansUITallSharp-SemiBoldItalic.ttf") format("truetype");
@@ -4918,1414 +4494,6 @@ TTF
   font-feature-settings: "liga" on, "kern" on;
   font-display: auto;
 }
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-static-essentials/CalSansTextUI-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-static-essentials/CalSansTextUI-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-static-essentials/CalSansTextUI-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-static-essentials/CalSansTextUI-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-static-essentials/CalSansTextUI-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-static-essentials/CalSansTextUI-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-static-essentials/CalSansTextUI-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-static-essentials/CalSansTextUI-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-static-essentials/CalSans-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-static-essentials/CalSans-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-static-essentials/CalSans-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-static-essentials/CalSans-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-static-essentials/CalSans-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-static-essentials/CalSans-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-static-essentials/CalSans-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-static-essentials/CalSans-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text";
-  src: url("font/fonts/calsans-static-base/CalSansText-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text";
-  src: url("font/fonts/calsans-static-base/CalSansText-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text";
-  src: url("font/fonts/calsans-static-base/CalSansText-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text";
-  src: url("font/fonts/calsans-static-base/CalSansText-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text";
-  src: url("font/fonts/calsans-static-base/CalSansText-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text";
-  src: url("font/fonts/calsans-static-base/CalSansText-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text";
-  src: url("font/fonts/calsans-static-base/CalSansText-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text";
-  src: url("font/fonts/calsans-static-base/CalSansText-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro";
-  src: url("font/fonts/calsans-static-base/CalSansMicro-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro";
-  src: url("font/fonts/calsans-static-base/CalSansMicro-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro";
-  src: url("font/fonts/calsans-static-base/CalSansMicro-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro";
-  src: url("font/fonts/calsans-static-base/CalSansMicro-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro";
-  src: url("font/fonts/calsans-static-base/CalSansMicro-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro";
-  src: url("font/fonts/calsans-static-base/CalSansMicro-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro";
-  src: url("font/fonts/calsans-static-base/CalSansMicro-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro";
-  src: url("font/fonts/calsans-static-base/CalSansMicro-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-static-base/CalSans-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-static-base/CalSans-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-static-base/CalSans-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-static-base/CalSans-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-static-base/CalSans-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-static-base/CalSans-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-static-base/CalSans-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-static-base/CalSans-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansTextA11y-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansTextA11y-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansTextA11y-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansTextA11y-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansTextA11y-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansTextA11y-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansTextA11y-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansTextA11y-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansMicroA11y-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansMicroA11y-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansMicroA11y-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansMicroA11y-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansMicroA11y-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansMicroA11y-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansMicroA11y-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Micro A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansMicroA11y-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansA11y-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansA11y-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansA11y-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansA11y-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansA11y-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansA11y-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansA11y-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y";
-  src: url("font/fonts/calsans-static-a11y/CalSansA11y-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-gf-workspace/CalSansTextUI-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-gf-workspace/CalSansTextUI-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-gf-workspace/CalSansTextUI-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-gf-workspace/CalSansTextUI-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-gf-workspace/CalSansTextUI-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-gf-workspace/CalSansTextUI-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-gf-workspace/CalSansTextUI-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Text UI";
-  src: url("font/fonts/calsans-gf-workspace/CalSansTextUI-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-gf-workspace/CalSans-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-gf-workspace/CalSans-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-gf-workspace/CalSans-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-gf-workspace/CalSans-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-gf-workspace/CalSans-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-gf-workspace/CalSans-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-gf-workspace/CalSans-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-gf-workspace/CalSans-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSans_8pt-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSans_8pt-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSans_8pt-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSans_8pt-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSans_8pt-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSans_8pt-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSans_8pt-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSans_8pt-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSans_10pt-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSans_10pt-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSans_10pt-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSans_10pt-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSans_10pt-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSans_10pt-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSans_10pt-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSans_10pt-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI_8pt-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI_8pt-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI_8pt-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI_8pt-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI_8pt-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI_8pt-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI_8pt-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI_8pt-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI_10pt-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI_10pt-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI_10pt-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI_10pt-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI_10pt-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI_10pt-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI_10pt-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI_10pt-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans UI";
-  src: url("font/fonts/calsans-gf-api-static/CalSansUI-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo_8pt-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo_8pt-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo_8pt-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo_8pt-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo_8pt-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo_8pt-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo_8pt-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo_8pt-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo_10pt-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo_10pt-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo_10pt-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo_10pt-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo_10pt-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo_10pt-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo_10pt-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo_10pt-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans Geo";
-  src: url("font/fonts/calsans-gf-api-static/CalSansGeo-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y_8pt-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y_8pt-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y_8pt-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y_8pt-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y_8pt-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y_8pt-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y_8pt-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y 8pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y_8pt-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y_10pt-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y_10pt-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y_10pt-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y_10pt-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y_10pt-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y_10pt-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y_10pt-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y 10pt";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y_10pt-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans A11y";
-  src: url("font/fonts/calsans-gf-api-static/CalSansA11y-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-gf-api-static/CalSans-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-gf-api-static/CalSans-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-gf-api-static/CalSans-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-gf-api-static/CalSans-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-gf-api-static/CalSans-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-gf-api-static/CalSans-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-gf-api-static/CalSans-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Cal Sans";
-  src: url("font/fonts/calsans-gf-api-static/CalSans-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
 /*
 TTF
 */
@@ -6855,7 +5023,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Cinzel VF";
+  font-family: "Cinzel WGHT VF";
   src: url("Cinzel/fonts/variable/Cinzel[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -6865,7 +5033,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Cinzel Decorative VF";
+  font-family: "Cinzel Decorative WGHT VF";
   src: url("Cinzel/fonts/variable/CinzelDecorative[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -7632,7 +5800,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Commissioner VF";
+  font-family: "Commissioner FLAR.VOLM.WGHT VF";
   src: url("Commissioner/fonts/variable/Commissioner[FLAR,VOLM,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -7644,7 +5812,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Commissioner VF";
+  font-family: "Commissioner FLAR.VOLM.SLNT.WGHT VF";
   src: url("Commissioner/fonts/variable/Commissioner[FLAR,VOLM,slnt,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -7657,7 +5825,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Commissioner VF";
+  font-family: "Commissioner FLAR.VOLM.WGHT VF";
   src: url("Commissioner/fonts/variable/Commissioner-Italic[FLAR,VOLM,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -7855,7 +6023,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Didactic VF";
+  font-family: "Didactic WGHT VF";
   src: url("didactic/fonts/variable/Didactic[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -7962,7 +6130,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "EBGaramond VF";
+  font-family: "EBGaramond WGHT VF";
   src: url("EBGaramond12/fonts/variable/EBGaramond[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -7972,7 +6140,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "EBGaramond VF";
+  font-family: "EBGaramond WGHT VF";
   src: url("EBGaramond12/fonts/variable/EBGaramond-Italic[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -9987,43 +8155,11 @@ OTF
   font-feature-settings: "liga" on, "kern" on;
   font-display: auto;
 }
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("Fraunces/documentation/family_planning/final_designspace/Fonts/IBMPlexMono-Medium.otf") format("opentype");
-  font-weight: 500;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("Fraunces/documentation/family_planning/final_designspace/Fonts/IBMPlexMono-LightItalic.otf") format("opentype");
-  font-weight: 300;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("Fraunces/documentation/family_planning/final_designspace/Fonts/IBMPlexMono-Light.otf") format("opentype");
-  font-weight: 300;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("Fraunces/documentation/family_planning/final_designspace/Fonts/IBMPlexMono-Bold.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
 /*
 VARIABLE
 */
 @font-face {
-  font-family: "Fraunces VF";
+  font-family: "Fraunces SOFT.WONK.OPSZ.WGHT VF";
   src: url("Fraunces/fonts/variable/Fraunces[SOFT,WONK,opsz,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -10034,43 +8170,13 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Fraunces VF";
+  font-family: "Fraunces SOFT.WONK.OPSZ.WGHT VF";
   src: url("Fraunces/fonts/variable/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
   font-stretch: 75% 125%;
   font-style: italic;
   font-variation-settings: "OPSZ" var(--text-opsz);
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Fraunces VF";
-  src: url("Fraunces/documentation/family_planning/initial_tests/06_15_19_instanceconsistency/fonts/FrauncesItalic-VF.ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Fraunces VF";
-  src: url("Fraunces/documentation/family_planning/initial_tests/06_15_19_instanceconsistency/fonts/Fraunces-VF.ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Fraunces Goofy Axis test VF";
-  src: url("Fraunces/documentation/family_planning/final_designspace/Fonts/Fraunces_GoofyAxis_test-VF.ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: normal;
   font-feature-settings: "liga" on, "kern" on;
   font-display: auto;
 }
@@ -10156,7 +8262,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Georama VF";
+  font-family: "Georama WDTH.WGHT VF";
   src: url("Georama/fonts/variable/Georama[wdth,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -10167,7 +8273,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Georama VF";
+  font-family: "Georama WDTH.WGHT VF";
   src: url("Georama/fonts/variable/Georama-Italic[wdth,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -10453,7 +8559,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Grenze VF";
+  font-family: "Grenze WGHT VF";
   src: url("Grenze/fonts/variable/Grenze[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -10463,7 +8569,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Grenze VF";
+  font-family: "Grenze WGHT VF";
   src: url("Grenze/fonts/variable/Grenze-Italic[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -11209,7 +9315,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Inconsolata VF";
+  font-family: "Inconsolata WDTH.WGHT VF";
   src: url("Inconsolata/fonts/variable/Inconsolata[wdth,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -11338,7 +9444,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Josefin Sans VF";
+  font-family: "Josefin Sans WGHT VF";
   src: url("Josefin-Sans/fonts/variable/JosefinSans[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -11348,7 +9454,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Josefin Sans VF";
+  font-family: "Josefin Sans WGHT VF";
   src: url("Josefin-Sans/fonts/variable/JosefinSans-Italic[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -11508,7 +9614,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Jost VF";
+  font-family: "Jost WGHT VF";
   src: url("Jost/fonts/variable/Jost[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -11518,7 +9624,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Jost VF";
+  font-family: "Jost WGHT VF";
   src: url("Jost/fonts/variable/Jost-Italic[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -12607,7 +10713,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "League Spartan VF";
+  font-family: "League Spartan WGHT VF";
   src: url("League-Spartan/fonts/variable/LeagueSpartan[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -12620,7 +10726,7 @@ VARIABLE
 VARIABLE
 */
 @font-face {
-  font-family: "Lexend Zetta VF";
+  font-family: "Lexend Zetta WGHT VF";
   src: url("Lexend/fonts/zetta/variable/LexendZetta[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -12630,7 +10736,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Lexend Tera VF";
+  font-family: "Lexend Tera WGHT VF";
   src: url("Lexend/fonts/tera/variable/LexendTera[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -12640,7 +10746,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Lexend Peta VF";
+  font-family: "Lexend Peta WGHT VF";
   src: url("Lexend/fonts/peta/variable/LexendPeta[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -12650,7 +10756,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Lexend Mega VF";
+  font-family: "Lexend Mega WGHT VF";
   src: url("Lexend/fonts/mega/variable/LexendMega[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -12660,7 +10766,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Lexend VF";
+  font-family: "Lexend HEXP.WGHT VF";
   src: url("Lexend/fonts/lexend/variable/Lexend[HEXP,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -12670,7 +10776,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Lexend Giga VF";
+  font-family: "Lexend Giga WGHT VF";
   src: url("Lexend/fonts/giga/variable/LexendGiga[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -12680,7 +10786,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Lexend Exa VF";
+  font-family: "Lexend Exa WGHT VF";
   src: url("Lexend/fonts/exa/variable/LexendExa[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -12690,7 +10796,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Lexend Deca VF";
+  font-family: "Lexend Deca WGHT VF";
   src: url("Lexend/fonts/deca/variable/LexendDeca[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -13464,7 +11570,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Libre Baskerville VF";
+  font-family: "Libre Baskerville WGHT VF";
   src: url("Libre-Baskerville/fonts/variable/LibreBaskerville[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -13474,7 +11580,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Libre Baskerville VF";
+  font-family: "Libre Baskerville WGHT VF";
   src: url("Libre-Baskerville/fonts/variable/LibreBaskerville-Italic[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -15505,7 +13611,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Mona Sans VF";
+  font-family: "Mona Sans WDTH.WGHT VF";
   src: url("mona-sans/googlefonts/variable/MonaSans[wdth,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -15516,7 +13622,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Mona Sans VF";
+  font-family: "Mona Sans WDTH.WGHT VF";
   src: url("mona-sans/googlefonts/variable/MonaSans-Italic[wdth,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -15527,7 +13633,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Mona Sans VF";
+  font-family: "Mona Sans WDTH.WGHT.OPSZ.ITAL VF";
   src: url("mona-sans/fonts/variable/MonaSansVF[wdth,wght,opsz,ital].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -15540,7 +13646,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Mona Sans VF";
+  font-family: "Mona Sans WDTH.OPSZ.WGHT VF";
   src: url("mona-sans/fonts/variable/MonaSansVF[wdth,opsz,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -15552,7 +13658,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Mona Sans VF";
+  font-family: "Mona Sans OPSZ.WGHT VF";
   src: url("mona-sans/fonts/variable/MonaSansVF[opsz,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -15563,7 +13669,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Mona Sans VF";
+  font-family: "Mona Sans WDTH.OPSZ.WGHT VF";
   src: url("mona-sans/fonts/variable/MonaSansVF-Italic[wdth,opsz,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -15575,7 +13681,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Mona Sans VF";
+  font-family: "Mona Sans OPSZ.WGHT VF";
   src: url("mona-sans/fonts/variable/MonaSansVF-Italic[opsz,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -15586,7 +13692,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Mona Sans Expanded VF";
+  font-family: "Mona Sans Expanded OPSZ.WGHT.ITAL VF";
   src: url("mona-sans/fonts/variable/MonaSansVF-Expanded[opsz,wght,ital].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -15598,7 +13704,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Mona Sans Condensed VF";
+  font-family: "Mona Sans Condensed OPSZ.WGHT.ITAL VF";
   src: url("mona-sans/fonts/variable/MonaSansVF-Condensed[opsz,wght,ital].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -15610,7 +13716,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Mona Sans Mono VF";
+  font-family: "Mona Sans Mono WGHT VF";
   src: url("mona-sans/fonts/variable/MonaSansMonoVF[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -15620,7 +13726,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Mona Sans Mono VF";
+  font-family: "Mona Sans Mono WDTH.WGHT VF";
   src: url("mona-sans/fonts/variable/MonaSansMonoVF[wdth,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -15631,7 +13737,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Mona Sans Mono Expanded VF";
+  font-family: "Mona Sans Mono Expanded WGHT VF";
   src: url("mona-sans/fonts/variable/MonaSansMonoVF-Expanded[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -15641,7 +13747,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Mona Sans Mono Condensed VF";
+  font-family: "Mona Sans Mono Condensed WGHT VF";
   src: url("mona-sans/fonts/variable/MonaSansMonoVF-Condensed[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -20799,7 +18905,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Newsreader VF";
+  font-family: "Newsreader OPSZ.WGHT VF";
   src: url("Newsreader/fonts/variable/ttf/Newsreader[opsz,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -20810,7 +18916,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Newsreader VF";
+  font-family: "Newsreader OPSZ.WGHT VF";
   src: url("Newsreader/fonts/variable/ttf/Newsreader-Italic[opsz,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -22162,57 +20268,6 @@ OTF
 TTF
 */
 @font-face {
-  font-family: "Playfair Display SC";
-  src: url("Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("Playfair_Display_SC/PlayfairDisplaySC-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("Playfair_Display_SC/PlayfairDisplaySC-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("Playfair_Display_SC/PlayfairDisplaySC-BlackItalic.ttf") format("truetype");
-  font-weight: 900;
-  font-style: italic;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("Playfair_Display_SC/PlayfairDisplaySC-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-  font-feature-settings: "liga" on, "kern" on;
-  font-display: auto;
-}
-/*
-TTF
-*/
-@font-face {
   font-family: "Poller One";
   src: url("Poller_One/PollerOne.ttf") format("truetype");
   font-weight: 400;
@@ -22519,7 +20574,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Public Sans VF";
+  font-family: "Public Sans WGHT VF";
   src: url("public-sans/fonts/variable/PublicSans[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -22529,7 +20584,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Public Sans VF";
+  font-family: "Public Sans WGHT VF";
   src: url("public-sans/fonts/variable/PublicSans-Italic[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -22863,7 +20918,7 @@ VARIABLE
 VARIABLE
 */
 @font-face {
-  font-family: "Readexpro VF";
+  font-family: "Readexpro HEXP.WGHT VF";
   src: url("readex_pro/fonts/variable/Readexpro[HEXP,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -22938,7 +20993,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Redacted VF";
+  font-family: "Redacted WGHT VF";
   src: url("redacted-font/Redacted/fonts/variable/Redacted[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -24338,7 +22393,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Saira VF";
+  font-family: "Saira WDTH.WGHT VF";
   src: url("Saira/Saira/fonts/variable/Saira[wdth,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -24349,7 +22404,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Saira VF";
+  font-family: "Saira WDTH.WGHT VF";
   src: url("Saira/Saira/fonts/variable/Saira-Italic[wdth,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -25473,7 +23528,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Ubuntu Sans VF";
+  font-family: "Ubuntu Sans WDTH.WGHT VF";
   src: url("Ubuntu-Sans-fonts/fonts/variable/UbuntuSans[wdth,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -25484,7 +23539,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Ubuntu Sans VF";
+  font-family: "Ubuntu Sans WDTH.WGHT VF";
   src: url("Ubuntu-Sans-fonts/fonts/variable/UbuntuSans-Italic[wdth,wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -25589,7 +23644,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Ubuntu Sans Mono VF";
+  font-family: "Ubuntu Sans Mono WGHT VF";
   src: url("Ubuntu-Sans-Mono-fonts/fonts/variable-subset/UbuntuSansMono[wght]-subset.ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -25599,7 +23654,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Ubuntu Sans Mono VF";
+  font-family: "Ubuntu Sans Mono WGHT VF";
   src: url("Ubuntu-Sans-Mono-fonts/fonts/variable/UbuntuSansMono[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -25609,7 +23664,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Ubuntu Sans Mono VF";
+  font-family: "Ubuntu Sans Mono WGHT VF";
   src: url("Ubuntu-Sans-Mono-fonts/fonts/variable/UbuntuSansMono-Italic[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -25840,7 +23895,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Young Serif VF";
+  font-family: "Young Serif WGHT VF";
   src: url("YoungSerif/fonts/variable/Young-Serif[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -25850,7 +23905,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Young Serif VF";
+  font-family: "Young Serif WGHT VF";
   src: url("YoungSerif/fonts/variable/Young-Serif-Italic[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -25860,7 +23915,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Young Serif VF";
+  font-family: "Young Serif WGHT VF";
   src: url("YoungSerif/docs/proof/Young-Serif[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -25870,7 +23925,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Young Serif SC VF";
+  font-family: "Young Serif SC WGHT VF";
   src: url("YoungSerif/docs/proof/Young-SerifSC[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -25880,7 +23935,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Young Serif SC VF";
+  font-family: "Young Serif SC WGHT VF";
   src: url("YoungSerif/docs/proof/Young-SerifSC-Italic[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -25890,7 +23945,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Young Serif VF";
+  font-family: "Young Serif WGHT VF";
   src: url("YoungSerif/docs/proof/Young-Serif-Italic[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -26578,7 +24633,7 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Ysabeau VF";
+  font-family: "Ysabeau WGHT VF";
   src: url("Ysabeau/fonts/googlefonts/variable/Ysabeau[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -26588,7 +24643,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Ysabeau SC VF";
+  font-family: "Ysabeau SC WGHT VF";
   src: url("Ysabeau/fonts/googlefonts/variable/YsabeauSC[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -26598,7 +24653,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Ysabeau Office VF";
+  font-family: "Ysabeau Office WGHT VF";
   src: url("Ysabeau/fonts/googlefonts/variable/YsabeauOffice[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -26608,7 +24663,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Ysabeau Office VF";
+  font-family: "Ysabeau Office WGHT VF";
   src: url("Ysabeau/fonts/googlefonts/variable/YsabeauOffice-Italic[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -26618,7 +24673,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Ysabeau Infant VF";
+  font-family: "Ysabeau Infant WGHT VF";
   src: url("Ysabeau/fonts/googlefonts/variable/YsabeauInfant[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -26628,7 +24683,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Ysabeau Infant VF";
+  font-family: "Ysabeau Infant WGHT VF";
   src: url("Ysabeau/fonts/googlefonts/variable/YsabeauInfant-Italic[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
@@ -26638,7 +24693,7 @@ VARIABLE
   font-display: auto;
 }
 @font-face {
-  font-family: "Ysabeau VF";
+  font-family: "Ysabeau WGHT VF";
   src: url("Ysabeau/fonts/googlefonts/variable/Ysabeau-Italic[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;

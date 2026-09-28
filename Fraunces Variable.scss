@@ -7,7 +7,7 @@
     
 
 @font-face {
-    font-family: 'Fraunces VF';
+    font-family: 'Fraunces SOFT.WONK.OPSZ.WGHT VF';
     src: url('Fraunces/fonts/variable/Fraunces[SOFT,WONK,opsz,wght].ttf') format('truetype-variations');
     /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
     font-weight: 100 950;
@@ -26,7 +26,7 @@
         
 
 @font-face {
-    font-family: 'Fraunces VF';
+    font-family: 'Fraunces SOFT.WONK.OPSZ.WGHT VF';
     src: url('Fraunces/fonts/variable/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf') format('truetype-variations');
     /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
     font-weight: 100 950;
@@ -35,63 +35,6 @@
     
     
     font-variation-settings: 'OPSZ' var(--text-opsz);
-    
-    
-    
-    font-feature-settings: "liga" on, "kern" on;
-    font-display: auto;
-}
-
-        
-
-@font-face {
-    font-family: 'Fraunces VF';
-    src: url('Fraunces/documentation/family_planning/initial_tests/06_15_19_instanceconsistency/fonts/FrauncesItalic-VF.ttf') format('truetype-variations');
-    /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-    font-weight: 100 950;
-    font-stretch: 75% 125%;
-    font-style: italic;
-    
-    
-    
-    
-    
-    
-    font-feature-settings: "liga" on, "kern" on;
-    font-display: auto;
-}
-
-        
-
-@font-face {
-    font-family: 'Fraunces VF';
-    src: url('Fraunces/documentation/family_planning/initial_tests/06_15_19_instanceconsistency/fonts/Fraunces-VF.ttf') format('truetype-variations');
-    /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-    font-weight: 100 950;
-    font-stretch: 75% 125%;
-    font-style: normal;
-    
-    
-    
-    
-    
-    
-    font-feature-settings: "liga" on, "kern" on;
-    font-display: auto;
-}
-
-        
-
-@font-face {
-    font-family: 'Fraunces Goofy Axis test VF';
-    src: url('Fraunces/documentation/family_planning/final_designspace/Fonts/Fraunces_GoofyAxis_test-VF.ttf') format('truetype-variations');
-    /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-    font-weight: 100 950;
-    font-stretch: 75% 125%;
-    font-style: normal;
-    
-    
-    
     
     
     

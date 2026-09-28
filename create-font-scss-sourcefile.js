@@ -62,6 +62,14 @@ function cleanup_for_SCSS_filename(fp, suffix) {
 
 function cleanup4fontname(fp) {
     let p = path.basename(fp);
+	let attrs = /\[([^\]\/]+)\]/.exec(p);
+	//console.log('attrs? :: ', p, ' --> ', attrs);
+	if (attrs) {
+		attrs = attrs[1];
+	}
+	else {
+		attrs = undefined;
+	}
     let n = p
     .replace(/[\[].*$/g, '')
     .replace(/[.]ttc$/, '')
@@ -106,7 +114,11 @@ function cleanup4fontname(fp) {
 	n = n
 	.replace(/^01/, "N01")
 	.replace(/^3270/, "IBM3270");
-    console.log("cleanup4fontname", p, "-->", n, "         +w:", name2weight(p));
+	if (attrs) {
+		attrs = ' ' + attrs.toUpperCase().replace(/,/g, '.');
+		n += attrs;
+	}
+    console.log("cleanup4fontname", p, "-->", n, "         +w:", name2weight(p), ', attrs:', attrs);
     return n;
 }
 
@@ -155,8 +167,8 @@ const glob_cfg = {
   // only want the files, not the dirs
   nodir: true,
   ignore: {
-    ignored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p.isNamed('proofs') || p.isNamed('res') || p.isNamed('3D') || p.isNamed('test') || p.isNamed('webfonts') || p.isNamed('development'),
-    childrenIgnored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p.isNamed('proofs') || p.isNamed('res') || p.isNamed('3D') || p.isNamed('test') || p.isNamed('webfonts') || p.isNamed('development'),
+    ignored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p.isNamed('proofs') || p.isNamed('res') || p.isNamed('3D') || p.isNamed('test') || p.isNamed('webfonts') || p.isNamed('development') || p.isNamed('calsans-static-geo') || p.isNamed('calsans-static-ui') || p.isNamed('calsans-gf-api-static') || p.isNamed('calsans-gf-workspace') || p.isNamed('calsans-static-base') || p.isNamed('calsans-static-essentials') || p.isNamed('calsans-static-a11y') || p.isNamed('calsans-cossui') || p.isNamed('calsans-adobe-vf') || p.isNamed('family_planning'),
+    childrenIgnored: p => p.isNamed('glyphs') || p.isNamed('fonts-tests') || p.isNamed('older sources') || p.isNamed('legacy') || p.isNamed('old') || p.isNamed('_temp') || p.isNamed('proofs') || p.isNamed('res') || p.isNamed('3D') || p.isNamed('test') || p.isNamed('webfonts') || p.isNamed('development') || p.isNamed('calsans-static-geo') || p.isNamed('calsans-static-ui') || p.isNamed('calsans-gf-api-static') || p.isNamed('calsans-gf-workspace') || p.isNamed('calsans-static-base') || p.isNamed('calsans-static-essentials') || p.isNamed('calsans-static-a11y') || p.isNamed('calsans-cossui') || p.isNamed('calsans-adobe-vf') || p.isNamed('family_planning'),
   },
 };
 

@@ -15,6 +15,7 @@ else
 	grep -h 'src: url' *.css | sed -e 's/src: url(\([^)]*\)).*$/<link rel="preload" href=\1 as="font" >/' > tmp.tmp
 	
 	sed -E -e '/<!-- FONT-PRELOADS -->/r   tmp.tmp'  -e '/<link rel="preload"/d'   -i specimen.html
+	rm tmp.tmp
 	
 	cat font-specimen.scss.source   > font-specimen.scss
 	./update-font-specimen-scss.sh

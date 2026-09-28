@@ -26,8 +26,36 @@ function cleanup_for_reconstruct(p) {
     .replace(/\\/g, '/');
 }
 
+function cleanup_for_SCSS_filename(p, suffix) {
+    p = path.basename(p);
+    let n = p
+    .replace(/[\[].*$/g, '')
+    .replace(/Variable$/, '')
+    .replace(/Thin|SemiBold|Semibold|DemiBold|Demi-Bold|Regular|Demi|Medium|Extra-Light|ExtraLight|Light|ExtraBold|Extra-Bold|Bold|-bold|Black|Heavy|BdIta/, '')
+    .replace(/[-]?Italic/i, '')
+    .replace(/[-]?Oblique/i, '')
+    .replace(/[.-]regular/, '')
+    .replace(/[._ -]+/g, ' ')
+    // and some special name tweaks:
+    .replace(/([0-9])([A-Z])/g, '$1 $2')        // 3270 fonts
+    .replace(/([a-z])([A-Z])/g, '$1 $2')        // camelCased font filenames
+    .replace(/(URW)([A-Z])/g, '$1 $2')          // URW fonts
+    .replace(/ [0-9][.][0-9]+$/g, '')           // ditch version numbers
+    .replace(/\bD DIN/ig, 'D-DIN')               // D-DIN fonts
+    .replace(/ +/g, ' ')
+    .trim()
+    .replace(/ /g, '.');
+    // and some special name tweaks:
+	if (n === "font") {
+		n = "Cal Sans";
+	}
+	n += suffix;
+    console.log("SCSS name", p, "+", suffix, "-->", n);
+    return n;
+}
+
 function cleanup4fontname(p) {
-    p = path.basename(p)
+    p = path.basename(p);
     let n = p
     .replace(/[\[].*$/g, '')
     .replace(/[.]ttc$/, '')
@@ -136,7 +164,7 @@ for (let i = 0; i < flist.length; i++) {
 }
 
 if (variable_list.length > 0) {
-    let scssfile = rootdir + " Variable.scss";
+    let scssfile = cleanup_for_SCSS_filename(rootdir, " Variable.scss");
 
     let src = `
 
@@ -193,7 +221,7 @@ for (let i = 0; i < flist.length; i++) {
 }
 
 if (opentype_list.length > 0) {
-    let scssfile = rootdir + ".scss";
+    let scssfile = cleanup_for_SCSS_filename(rootdir, ".scss");
 
     let src = `
 
@@ -241,7 +269,7 @@ for (let i = 0; i < flist.length; i++) {
 }
 
 if (ttf_list.length > 0) {
-    let scssfile = rootdir + ".scss";
+    let scssfile = cleanup_for_SCSS_filename(rootdir, ".scss");
 
     let src = `
 

@@ -2,6 +2,10 @@
   --text-width: 100%;
   --text-weight: 400;
   --text-size: 32px;
+  --text-volm: 100;
+  --text-flar: 20;
+  --text-opsz: 100;
+  --text-wdth: var(--text-width);
   /* this dot-matrix printer font shows up in entries which do not correctly reference their custom font... */
   --font-showcase-fallback-font: "matricha";
 }
@@ -78,11 +82,7 @@ hr {
     font-size: calc(0.75 * var(--text-size));
   }
 }
-div.firacode-font {
-  font-family: "Fira Code", var(--font-showcase-fallback-font);
-  line-height: 1.5em;
-}
-div.firacode-font .code {
+.code {
   font-feature-settings: "calt" 1; /* Enable ligatures for IE 10+, Edge */
   text-rendering: optimizeLegibility; /* Force ligatures for Webkit, Blink, Gecko */
   width: 30em;
@@ -90,36 +90,75 @@ div.firacode-font .code {
   white-space: pre-wrap;
   word-break: break-all;
 }
-div.firacode-font .light {
+
+.thin {
+  font-weight: 100;
+}
+
+.ultralight {
+  font-weight: 200;
+}
+
+.light {
   font-weight: 300;
 }
-div.firacode-font .regular {
+
+.regular {
   font-weight: 400;
 }
-div.firacode-font .medium {
+
+.medium {
   font-weight: 500;
 }
-div.firacode-font .semibold {
+
+.semibold {
   font-weight: 600;
 }
-div.firacode-font .bold {
+
+.bold {
   font-weight: 700;
 }
-div.firacode-font .variable {
-  font-family: "Fira Code VF";
-  font-weight: 400;
+
+.extrabold {
+  font-weight: 800;
+}
+
+.black {
+  font-weight: 900;
+}
+
+.variable {
   font-weight: var(--text-weight);
   font-stretch: var(--text-width);
   font-size: var(--text-size);
   line-height: 1.5em;
 }
-div.firacode-font i {
-  font-style: normal;
+
+i {
+  font-style: italic;
   color: #c33;
 }
-div.firacode-font b {
-  font-weight: inherit;
+
+b {
+  font-weight: calc(1.5 * var(--text-weight));
   color: #c33;
+}
+
+h2 {
+  border-top: solid 3px red;
+  padding-top: 0.5em;
+  border-bottom: solid 1px red;
+  padding-bottom: 0.2em;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+div.firacode-font {
+  font-family: "Fira Code", var(--font-showcase-fallback-font);
+  line-height: 1.5em;
+}
+div.firacode-font .variable {
+  font-family: "Fira Code VF";
 }
 
 div.fira-font {
@@ -150,6 +189,8 @@ div.fira-code-font {
   font-family: "Fira Code VF", var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
 }
 
 div.economica-font {
@@ -168,8 +209,8 @@ div.commissioner-font {
   font-family: "Commissioner VF", var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-  font-variation-settings: "FLAR" var(--text-flar);
-  font-variation-settings: "VOLM" var(--text-volm);
+  font-variation-settings: "FLAR" 0;
+  font-variation-settings: "VOLM" 100;
 }
 
 div.commissioner-flare-font {
@@ -185,7 +226,7 @@ div.commissioner-loud-font {
   font-weight: 400;
   overflow-x: hidden;
   font-variation-settings: "FLAR" var(--text-flar);
-  font-variation-settings: "VOLM" var(--text-volm);
+  font-variation-settings: "VOLM" 100;
 }
 
 div.georama-font {
@@ -200,6 +241,8 @@ div.grenze-font {
   font-family: "Grenze VF", var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
 }
 
 div.jost-font {
@@ -213,7 +256,9 @@ div.newsreader-tiny-font {
   font-weight: 400;
   overflow-x: hidden;
   line-height: 1.5em;
-  font-variation-settings: "OPSZ" var(--text-opsz);
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
+  font-variation-settings: "OPSZ" 6;
 }
 
 div.newsreader-font {
@@ -221,6 +266,8 @@ div.newsreader-font {
   font-weight: 400;
   overflow-x: hidden;
   line-height: 1.5em;
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
   font-variation-settings: "OPSZ" var(--text-opsz);
 }
 
@@ -229,13 +276,17 @@ div.newsreader-titling-font {
   font-weight: 400;
   overflow-x: hidden;
   line-height: 1.5em;
-  font-variation-settings: "OPSZ" var(--text-opsz);
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
+  font-variation-settings: "OPSZ" 72;
 }
 
 div.saira-font {
   font-family: "Saira VF", var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
   font-variation-settings: "WDTH" var(--text-wdth);
 }
 
@@ -243,42 +294,54 @@ div.saira-semi-condensed-font {
   font-family: "Saira VF", var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-  font-variation-settings: "WDTH" var(--text-wdth);
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
+  font-variation-settings: "WDTH" 90;
 }
 
 div.saira-condensed-font {
   font-family: "Saira VF", var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-  font-variation-settings: "WDTH" var(--text-wdth);
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
+  font-variation-settings: "WDTH" 80;
 }
 
 div.saira-extra-condensed-font {
   font-family: "Saira VF", var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-  font-variation-settings: "WDTH" var(--text-wdth);
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
+  font-variation-settings: "WDTH" 70;
 }
 
 div.saira-ultra-condensed-font {
   font-family: "Saira VF", var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-  font-variation-settings: "WDTH" var(--text-wdth);
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
+  font-variation-settings: "WDTH" 60;
 }
 
 div.saira-semi-expanded-font {
   font-family: "Saira VF", var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-  font-variation-settings: "WDTH" var(--text-wdth);
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
+  font-variation-settings: "WDTH" 110;
 }
 
 div.saira-expanded-font {
   font-family: "Saira VF", var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
-  font-variation-settings: "WDTH" var(--text-wdth);
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
+  font-variation-settings: "WDTH" 120;
 }
 
 div.saira-variable-font {
@@ -312,56 +375,50 @@ div.cinzel-font {
   font-family: "Cinzel VF", var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
 }
 
 div.cinzel-decorative-font {
   font-family: "Cinzel Decorative VF", var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
 }
 
 div.garamond-font {
   font-family: "EBGaramond VF", var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
 }
 
-/*
-TTF
-*/
-@font-face {
-  font-family: "01 Digit";
-  src: url("01-Digit/01 Digit.ttf") format("truetype");
+div.ibm3270-font {
+  font-family: "3270", var(--font-showcase-fallback-font);
   font-weight: 400;
-  font-style: normal;
+  overflow-x: hidden;
 }
-/*
-OTF
-*/
-@font-face {
-  font-family: "3270 Semi Condensed";
-  src: url("3270font/build/3270SemiCondensed-Regular.otf") format("opentype");
+
+div.ibm3270-condensed-font {
+  font-family: "3270 Condensed", var(--font-showcase-fallback-font);
   font-weight: 400;
-  font-style: normal;
+  overflow-x: hidden;
 }
-@font-face {
-  font-family: "3270 Condensed";
-  src: url("3270font/build/3270Condensed-Regular.otf") format("opentype");
+
+div.ibm3270-semi-condensed-font {
+  font-family: "3270 Semi Condensed", var(--font-showcase-fallback-font);
   font-weight: 400;
-  font-style: normal;
+  overflow-x: hidden;
 }
-@font-face {
-  font-family: "3270";
-  src: url("3270font/build/3270-Regular.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-}
+
 /*
 VARIABLE
 */
 @font-face {
   font-family: "Abhaya Libre VF";
-  src: url("Abhaya-Libre/fonts/variable/AbhayaLibre[wght].ttf") format("truetype-variations");
+  src: url("Abhaya-Libre/released/abhaya-libre-font_v2.000_20250327/variable/AbhayaLibre[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
   font-stretch: 75% 125%;
@@ -749,8 +806,8 @@ TTF
 OTF
 */
 @font-face {
-  font-family: "Bagnard";
-  src: url("Bagnard/Bagnard.otf") format("opentype");
+  font-family: "Bagnard Sans";
+  src: url("Bagnard-Sans/BagnardSans.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
@@ -758,8 +815,8 @@ OTF
 OTF
 */
 @font-face {
-  font-family: "Bagnard Sans";
-  src: url("Bagnard-Sans/BagnardSans.otf") format("opentype");
+  font-family: "Bagnard";
+  src: url("Bagnard/Bagnard.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
@@ -857,6 +914,91 @@ VARIABLE
   font-stretch: 75% 125%;
   font-style: italic;
   font-variation-settings: "WDTH" var(--text-wdth);
+}
+/*
+VARIABLE
+*/
+@font-face {
+  font-family: "Cal Sans VF";
+  src: url("font/fonts/calsans-var-full/CalSansVF.ttf") format("truetype-variations");
+  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 100 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cal Sans Flex VF";
+  src: url("font/fonts/calsans-var-flex/CalSansFlexVF.ttf") format("truetype-variations");
+  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 100 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cal Sans Text UI VF";
+  src: url("font/fonts/calsans-gf-api-textui/CalSansTextUI[wght].ttf") format("truetype-variations");
+  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 100 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cal Sans Text UI VF";
+  src: url("font/fonts/calsans-gf-api-textui/CalSansTextUI-Italic[wght].ttf") format("truetype-variations");
+  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 100 950;
+  font-stretch: 75% 125%;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cal Sans VF";
+  src: url("font/fonts/calsans-gf-api/CalSans[GEOM,SHRP,YTAS,opsz,wght].ttf") format("truetype-variations");
+  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 100 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+  font-variation-settings: "OPSZ" var(--text-opsz);
+}
+@font-face {
+  font-family: "Cal Sans VF";
+  src: url("font/fonts/calsans-gf-api/CalSans-Italic[GEOM,SHRP,YTAS,opsz,wght].ttf") format("truetype-variations");
+  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 100 950;
+  font-stretch: 75% 125%;
+  font-style: italic;
+  font-variation-settings: "OPSZ" var(--text-opsz);
+}
+@font-face {
+  font-family: "Cal Sans VF";
+  src: url("font/fonts/calsans-cossui/CalSansVF.ttf") format("truetype-variations");
+  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 100 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cal Sans VF";
+  src: url("font/fonts/calsans-cossui/CalSansVF-Italic.ttf") format("truetype-variations");
+  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 100 950;
+  font-stretch: 75% 125%;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cal Sans VF";
+  src: url("font/fonts/calsans-adobe-vf/CalSansVF.ttf") format("truetype-variations");
+  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 100 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cal Sans VF";
+  src: url("font/fonts/calsans-adobe-vf/CalSansVF-Italic.ttf") format("truetype-variations");
+  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 100 950;
+  font-stretch: 75% 125%;
+  font-style: italic;
 }
 /*
 TTF
@@ -1081,8 +1223,8 @@ OTF
 OTF
 */
 @font-face {
-  font-family: "Comforter";
-  src: url("comforter/fonts/otf/Comforter-Regular.otf") format("opentype");
+  font-family: "Comforter Brush";
+  src: url("comforter_brush/fonts/otf/ComforterBrush-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
@@ -1090,8 +1232,8 @@ OTF
 OTF
 */
 @font-face {
-  font-family: "Comforter Brush";
-  src: url("comforter_brush/fonts/otf/ComforterBrush-Regular.otf") format("opentype");
+  font-family: "Comforter";
+  src: url("comforter/fonts/otf/Comforter-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
@@ -1207,6 +1349,45 @@ VARIABLE
 OTF
 */
 @font-face {
+  font-family: "D-DIN PRO 900";
+  src: url("d_din_pro/otf/D-DIN-PRO-900-Heavy.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "D-DIN PRO 800";
+  src: url("d_din_pro/otf/D-DIN-PRO-800-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "D-DIN PRO 700";
+  src: url("d_din_pro/otf/D-DIN-PRO-700-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "D-DIN PRO 600";
+  src: url("d_din_pro/otf/D-DIN-PRO-600-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "D-DIN PRO 500";
+  src: url("d_din_pro/otf/D-DIN-PRO-500-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "D-DIN PRO 400";
+  src: url("d_din_pro/otf/D-DIN-PRO-400-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+/*
+OTF
+*/
+@font-face {
   font-family: "D-DINExp";
   src: url("d_din/D-DINExp.otf") format("opentype");
   font-weight: 400;
@@ -1252,45 +1433,6 @@ OTF
   font-family: "D-DIN";
   src: url("d_din/D-DIN-Bold.otf") format("opentype");
   font-weight: 700;
-  font-style: normal;
-}
-/*
-OTF
-*/
-@font-face {
-  font-family: "D-DIN PRO 900";
-  src: url("d_din_pro/otf/D-DIN-PRO-900-Heavy.otf") format("opentype");
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: "D-DIN PRO 800";
-  src: url("d_din_pro/otf/D-DIN-PRO-800-ExtraBold.otf") format("opentype");
-  font-weight: 800;
-  font-style: normal;
-}
-@font-face {
-  font-family: "D-DIN PRO 700";
-  src: url("d_din_pro/otf/D-DIN-PRO-700-Bold.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: "D-DIN PRO 600";
-  src: url("d_din_pro/otf/D-DIN-PRO-600-SemiBold.otf") format("opentype");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: "D-DIN PRO 500";
-  src: url("d_din_pro/otf/D-DIN-PRO-500-Medium.otf") format("opentype");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "D-DIN PRO 400";
-  src: url("d_din_pro/otf/D-DIN-PRO-400-Regular.otf") format("opentype");
-  font-weight: 400;
   font-style: normal;
 }
 /*
@@ -1507,6 +1649,17 @@ TTF
   font-family: "FFF Tusj";
   src: url("FFF-Tusj/FFF_Tusj.ttf") format("truetype");
   font-weight: 400;
+  font-style: normal;
+}
+/*
+VARIABLE
+*/
+@font-face {
+  font-family: "Fira Code VF";
+  src: url("FiraCode/distr/variable_ttf/Fira Code/FiraCode-VF.ttf") format("truetype-variations");
+  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 100 950;
+  font-stretch: 75% 125%;
   font-style: normal;
 }
 /*
@@ -2101,102 +2254,6 @@ OTF
   font-style: normal;
 }
 /*
-VARIABLE
-*/
-@font-face {
-  font-family: "Fira Code VF";
-  src: url("FiraCode/distr/variable_ttf/Fira Code/FiraCode-VF.ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: normal;
-}
-/*
-VARIABLE
-*/
-@font-face {
-  font-family: "Cal Sans VF";
-  src: url("font/fonts/calsans-var-full/CalSansVF.ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Cal Sans Flex VF";
-  src: url("font/fonts/calsans-var-flex/CalSansFlexVF.ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Cal Sans Text UI VF";
-  src: url("font/fonts/calsans-gf-api-textui/CalSansTextUI[wght].ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Cal Sans Text UI VF";
-  src: url("font/fonts/calsans-gf-api-textui/CalSansTextUI-Italic[wght].ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Cal Sans VF";
-  src: url("font/fonts/calsans-gf-api/CalSans[GEOM,SHRP,YTAS,opsz,wght].ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: normal;
-  font-variation-settings: "OPSZ" var(--text-opsz);
-}
-@font-face {
-  font-family: "Cal Sans VF";
-  src: url("font/fonts/calsans-gf-api/CalSans-Italic[GEOM,SHRP,YTAS,opsz,wght].ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: italic;
-  font-variation-settings: "OPSZ" var(--text-opsz);
-}
-@font-face {
-  font-family: "Cal Sans VF";
-  src: url("font/fonts/calsans-cossui/CalSansVF.ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Cal Sans VF";
-  src: url("font/fonts/calsans-cossui/CalSansVF-Italic.ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Cal Sans VF";
-  src: url("font/fonts/calsans-adobe-vf/CalSansVF.ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Cal Sans VF";
-  src: url("font/fonts/calsans-adobe-vf/CalSansVF-Italic.ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: italic;
-}
-/*
 OTF
 */
 @font-face {
@@ -2518,6 +2575,27 @@ OTF
 @font-face {
   font-family: "Hurricane";
   src: url("hurricane/fonts/otf/Hurricane-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+/*
+OTF
+*/
+@font-face {
+  font-family: "IBM3270 Semi Condensed";
+  src: url("3270font/build/3270SemiCondensed-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IBM3270 Condensed";
+  src: url("3270font/build/3270Condensed-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IBM3270";
+  src: url("3270font/build/3270-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
@@ -3138,25 +3216,6 @@ OTF
 VARIABLE
 */
 @font-face {
-  font-family: "Libre Bodoni VF";
-  src: url("Libre_Bodoni/LibreBodoni-VariableFont_wght.ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Libre Bodoni VF";
-  src: url("Libre_Bodoni/LibreBodoni-Italic-VariableFont_wght.ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: italic;
-}
-/*
-VARIABLE
-*/
-@font-face {
   font-family: "Libre Baskerville VF";
   src: url("Libre-Baskerville/fonts/variable/LibreBaskerville[wght].ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
@@ -3167,6 +3226,25 @@ VARIABLE
 @font-face {
   font-family: "Libre Baskerville VF";
   src: url("Libre-Baskerville/fonts/variable/LibreBaskerville-Italic[wght].ttf") format("truetype-variations");
+  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 100 950;
+  font-stretch: 75% 125%;
+  font-style: italic;
+}
+/*
+VARIABLE
+*/
+@font-face {
+  font-family: "Libre Bodoni VF";
+  src: url("Libre_Bodoni/LibreBodoni-VariableFont_wght.ttf") format("truetype-variations");
+  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 100 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Libre Bodoni VF";
+  src: url("Libre_Bodoni/LibreBodoni-Italic-VariableFont_wght.ttf") format("truetype-variations");
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
   font-stretch: 75% 125%;
@@ -3600,6 +3678,15 @@ VARIABLE
   /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
   font-weight: 100 950;
   font-stretch: 75% 125%;
+  font-style: normal;
+}
+/*
+TTF
+*/
+@font-face {
+  font-family: "N01 Digit";
+  src: url("01-Digit/01 Digit.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal;
 }
 /*
@@ -4099,6 +4186,45 @@ TTF
   font-style: normal;
 }
 /*
+TTF
+*/
+@font-face {
+  font-family: "Playfair Display SC";
+  src: url("Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Playfair Display SC";
+  src: url("Playfair_Display_SC/PlayfairDisplaySC-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Playfair Display SC";
+  src: url("Playfair_Display_SC/PlayfairDisplaySC-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Playfair Display SC";
+  src: url("Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Playfair Display SC";
+  src: url("Playfair_Display_SC/PlayfairDisplaySC-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Playfair Display SC";
+  src: url("Playfair_Display_SC/PlayfairDisplaySC-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+/*
 OTF
 */
 @font-face {
@@ -4170,45 +4296,6 @@ OTF
 @font-face {
   font-family: "Playfair Display";
   src: url("Playfair_Display/PlayfairDisplay-Black.otf") format("opentype");
-  font-weight: 900;
-  font-style: normal;
-}
-/*
-TTF
-*/
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("Playfair_Display_SC/PlayfairDisplaySC-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("Playfair_Display_SC/PlayfairDisplaySC-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("Playfair_Display_SC/PlayfairDisplaySC-BlackItalic.ttf") format("truetype");
-  font-weight: 900;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("Playfair_Display_SC/PlayfairDisplaySC-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
@@ -5422,14 +5509,6 @@ OTF
 /*
 VARIABLE
 */
-@font-face {
-  font-family: "Young Serif VF";
-  src: url("YoungSerif/fonts/variable/Young-Serif[wght][ital].ttf") format("truetype-variations");
-  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
-  font-weight: 100 950;
-  font-stretch: 75% 125%;
-  font-style: normal;
-}
 @font-face {
   font-family: "Young Serif VF";
   src: url("YoungSerif/fonts/variable/Young-Serif[wght].ttf") format("truetype-variations");

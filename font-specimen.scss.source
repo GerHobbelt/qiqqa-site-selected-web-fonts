@@ -5,6 +5,11 @@
   --text-weight: 400;
   --text-size: 32px;
 
+  --text-volm: 100;
+  --text-flar: 20;
+  --text-opsz: 100;
+  --text-wdth: var(--text-width);
+
   /* this dot-matrix printer font shows up in entries which do not correctly reference their custom font... */
   --font-showcase-fallback-font: 'matricha';
 }
@@ -78,6 +83,45 @@ hr {
 }
 
 
+.code {
+  font-feature-settings: "calt" 1;  /* Enable ligatures for IE 10+, Edge */
+  text-rendering: optimizeLegibility; /* Force ligatures for Webkit, Blink, Gecko */
+  width: 30em;
+  margin: 5em auto;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+.thin { font-weight: 100; }
+.ultralight { font-weight: 200; }
+.light { font-weight: 300; }
+.regular { font-weight: 400; }
+.medium { font-weight: 500; }
+.semibold { font-weight: 600; }
+.bold { font-weight: 700; }
+.extrabold { font-weight: 800; }
+.black { font-weight: 900; }
+.variable { 
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
+  font-size: var(--text-size);
+  line-height: 1.5em;
+}
+i { font-style: italic; color: #c33; }
+b { font-weight: calc(1.5 * var(--text-weight)); color: #c33; }
+
+
+h2 {
+    border-top: solid 3px red;
+    padding-top: .5em;
+    border-bottom: solid 1px red;
+    padding-bottom: .2em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+
+
+
 
 
 
@@ -85,30 +129,12 @@ div.firacode-font {
 	font-family: "Fira Code", var(--font-showcase-fallback-font); 
     line-height: 1.5em;
 
-    .code {
-      font-feature-settings: "calt" 1;  /* Enable ligatures for IE 10+, Edge */
-      text-rendering: optimizeLegibility; /* Force ligatures for Webkit, Blink, Gecko */
-      width: 30em;
-      margin: 5em auto;
-      white-space: pre-wrap;
-      word-break: break-all;
-    }
-    .light { font-weight: 300; }
-    .regular { font-weight: 400; }
-    .medium { font-weight: 500; }
-    .semibold { font-weight: 600; }
-    .bold { font-weight: 700; }
     .variable { 
       font-family: 'Fira Code VF'; 
-      font-weight: 400;
-      font-weight: var(--text-weight);
-      font-stretch: var(--text-width);
-      font-size: var(--text-size);
-      line-height: 1.5em;
     }
-    i { font-style: normal; color: #c33; }
-    b { font-weight: inherit; color: #c33; }
 }
+
+
 
 
 
@@ -154,6 +180,9 @@ div.fira-code-font {
 	font-family: 'Fira Code VF', var(--font-showcase-fallback-font);
 	font-weight: 400;
 	overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
 }
 
 
@@ -198,8 +227,8 @@ div.commissioner-font {
   font-weight: 400;
   overflow-x: hidden;
 
-  font-variation-settings: 'FLAR' var(--text-flar);
-  font-variation-settings: 'VOLM' var(--text-volm);
+  font-variation-settings: 'FLAR' 0;
+  font-variation-settings: 'VOLM' 100;
 }
 
 
@@ -228,7 +257,7 @@ div.commissioner-loud-font {
   overflow-x: hidden;
 
   font-variation-settings: 'FLAR' var(--text-flar);
-  font-variation-settings: 'VOLM' var(--text-volm);
+  font-variation-settings: 'VOLM' 100;
 }
 
 
@@ -252,6 +281,9 @@ div.grenze-font {
   font-family: 'Grenze VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
 }
 
 
@@ -272,7 +304,10 @@ div.newsreader-tiny-font {
   overflow-x: hidden;
   line-height: 1.5em;
 
-  font-variation-settings: 'OPSZ' var(--text-opsz);
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
+
+  font-variation-settings: 'OPSZ' 6;
 }
 
 
@@ -281,6 +316,9 @@ div.newsreader-font {
   font-weight: 400;
   overflow-x: hidden;
   line-height: 1.5em;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
 
   font-variation-settings: 'OPSZ' var(--text-opsz);
 }
@@ -292,7 +330,10 @@ div.newsreader-titling-font {
   overflow-x: hidden;
   line-height: 1.5em;
 
-  font-variation-settings: 'OPSZ' var(--text-opsz);
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
+
+  font-variation-settings: 'OPSZ' 72;
 }
 
 
@@ -303,6 +344,9 @@ div.saira-font {
   font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
   
   font-variation-settings: 'WDTH' var(--text-wdth);
 }
@@ -311,48 +355,66 @@ div.saira-semi-condensed-font {
   font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
   
-  font-variation-settings: 'WDTH' var(--text-wdth);
+  font-variation-settings: 'WDTH' 90;
 }
 
 div.saira-condensed-font {
   font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
   
-  font-variation-settings: 'WDTH' var(--text-wdth);
+  font-variation-settings: 'WDTH' 80;
 }
 
 div.saira-extra-condensed-font {
   font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
   
-  font-variation-settings: 'WDTH' var(--text-wdth);
+  font-variation-settings: 'WDTH' 70;
 }
 
 div.saira-ultra-condensed-font {
   font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
   
-  font-variation-settings: 'WDTH' var(--text-wdth);
+  font-variation-settings: 'WDTH' 60;
 }
 
 div.saira-semi-expanded-font {
   font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
   
-  font-variation-settings: 'WDTH' var(--text-wdth);
+  font-variation-settings: 'WDTH' 110;
 }
 
 div.saira-expanded-font {
   font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
   
-  font-variation-settings: 'WDTH' var(--text-wdth);
+  font-variation-settings: 'WDTH' 120;
 }
 
 div.saira-variable-font {
@@ -395,6 +457,9 @@ div.cinzel-font {
   font-family: 'Cinzel VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
 }
 
 
@@ -402,6 +467,9 @@ div.cinzel-decorative-font {
   font-family: 'Cinzel Decorative VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
 }
 
 
@@ -411,9 +479,30 @@ div.garamond-font {
   font-family: 'EBGaramond VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
 }
 
 
+
+div.ibm3270-font {
+	font-family: '3270', var(--font-showcase-fallback-font);
+	font-weight: 400;
+	overflow-x: hidden;
+}
+
+div.ibm3270-condensed-font {
+	font-family: '3270 Condensed', var(--font-showcase-fallback-font);
+	font-weight: 400;
+	overflow-x: hidden;
+}
+
+div.ibm3270-semi-condensed-font {
+	font-family: '3270 Semi Condensed', var(--font-showcase-fallback-font);
+	font-weight: 400;
+	overflow-x: hidden;
+}
 
 
 

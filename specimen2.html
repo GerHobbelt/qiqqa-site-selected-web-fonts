@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- UTF8 content inference line for dumber editors and diff tools: 蒬蓣汉语 漢語संसद में काम  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Selected Font Specimens</title>
+
+  <link rel="stylesheet" href="font-specimen.css">
+
+  <script type="text/javascript">
+    function onWeightChange(weight) {
+      // code_variable.style['font-weight'] = weight;
+      console.log("--text-weight =", weight);
+      document.documentElement.style.setProperty('--text-weight', weight);
+      //code_variable.style['font-variation-settings'] = "'wght' " + weight;
+      span_wght.innerText = weight;
+
+      let elems = document.querySelectorAll('.weight-input');
+      elems.forEach(element => {
+        element.value = weight;
+      });
+    }
+
+    function onStretchChange(stretch) {
+      // code_variable.style['font-stretch'] = stretch;
+      console.log("--text-width =", stretch);
+      document.documentElement.style.setProperty('--text-width', stretch + '%');
+      //code_variable.style['font-variation-settings'] = "'wdth' " + stretch;
+      span_wdth.innerText = stretch;
+
+      let elems = document.querySelectorAll('.stretch-input');
+      elems.forEach(element => {
+        element.value = stretch;
+      });
+    }
+
+    function onFontsizeChange(size) {
+      // code_variable.style['font-size'] = size;
+      console.log("--text-size =", size);
+      document.documentElement.style.setProperty('--text-size', size + 'px');
+      span_size.innerText = size;
+
+      let elems = document.querySelectorAll('.size-input');
+      elems.forEach(element => {
+        element.value = size;
+      });
+    }
+
+    function onFontPickChange(name) {
+      console.log("--text-font-name =", name);
+      document.documentElement.style.setProperty('--font-code-demo-family-name', name);
+      document.documentElement.style.setProperty('--font-demo-family-name', name);
+
+      let elems = document.querySelectorAll('article > h1');
+      elems.forEach(element => {
+        element.innerHTML = name;
+      });
+    }
+
+    function showDefinitiveContent() {
+      onWeightChange(400);
+      onStretchChange(100);
+      onFontsizeChange(24);
+
+
+      let elems = document.querySelectorAll('.show-loading-text');
+
+      elems.forEach(element => {
+        element.className = 'hide-loading-text';
+      });
+
+      elems = document.querySelectorAll('.definitive-content-at-start');
+
+      elems.forEach(element => {
+        element.className = 'definitive-content';
+      });
+    }
+
+    window.onload = showDefinitiveContent;
+  </script>
+  <style>
+    :root {
+      --font-code-demo-family-name: "Fira Code";
+      --font-demo-family-name: "Fira Sans";
+    }
+    div.code-font-demo {
+        font-family: var(--font-code-demo-family-name), var(--font-showcase-fallback-font);
+        line-height: 1.5em;
+    }
+
+    div.font-demo {
+        font-family: var(--font-demo-family-name), var(--font-showcase-fallback-font);
+        overflow-x: hidden;
+    }
+
+    .definitive-content {
+    }
+    .definitive-content-at-start {
+      display: none;
+    }
+    .show-loading-text {
+      display: block;
+    }
+    .hide-loading-text {
+      display: none;
+    }
+
+    .user-tweak-vars {
+      font-size: 20px;
+      font-size: 1vw;
+
+      padding-bottom: .3em;
+      border-bottom: 2px solid red;
+      margin-bottom: .5em;      
+      padding-top: .2em;
+
+      position: sticky;
+      top: 0;
+      background-color: #fffffff2;      
+      z-index: 1;   /* fix for the span.code display:block (class below) painting over this sticky DIV */
+    }
+
+    .user-tweak-vars span.item {
+      display: inline-block;
+      padding: 0 2em;
+    }
+
+    span.code {
+      display: block;
+      white-space: pre-wrap;
+      tab-width: 2;
+
+      font-style: normal;
+      border: .1em gray solid;
+      padding: .3em;
+      background: #e8e8e8;
+      /* font-family: monospace; */
+
+      text-align: left;
+      letter-spacing: -.1em;
+      text-transform: full-width;
+
+      -webkit-transform:scale(.75,1.0);
+      -moz-transform:scale(.75, 1.0);
+      -ms-transform:scale(.75, 1.0);
+      -o-transform:scale(.75, 1.0);
+      transform:scale(.75,1.0);      
+    }
+  </style>
+
+  <!--
+    script used to generate preload list:
+
+
+     Why? See https://stackoverflow.com/questions/4712242/wait-for-fonts-to-load-before-rendering-web-page/52763507#52763507
+  -->
+
+</head>
+<body>
+  <div class="user-tweak-vars">
+    <span class="item">
+      <input type="range" min="50" max="1000" value="400" step="1" style="width: 16em;" oninput="onWeightChange(this.value)" onchange="onWeightChange(this.value)" class="weight-input"> 
+      <input type="value" min="50" max="1000" value="400" step="1" style="width: 5em;" oninput="onWeightChange(this.value)" onchange="onWeightChange(this.value)" class="weight-input"> 
+      Weight: <span id="span_wght">400</span>
+    </span>
+      
+    <span class="item">
+      <input type="range" min="40" max="300" value="100" step="1" style="width: 16em;" oninput="onStretchChange(this.value)" onchange="onStretchChange(this.value)" class="stretch-input"> 
+      <input type="value" min="40" max="300" value="100" step="1" style="width: 5em;" oninput="onStretchChange(this.value)" onchange="onStretchChange(this.value)" class="stretch-input"> 
+      Stretch: <span id="span_wdth">100</span>
+    </span>
+      
+    <span class="item">
+      <input type="range" min="4" max="100" value="32" step="1" style="width: 16em;" oninput="onFontsizeChange(this.value)" onchange="onFontsizeChange(this.value)" class="size-input"> 
+      <input type="value" min="4" max="100" value="32" step="1" style="width: 5em;" oninput="onFontsizeChange(this.value)" onchange="onFontsizeChange(this.value)" class="size-input"> 
+      Font size: <span id="span_size">32px</span>
+    </span>
+    
+    <span class="item">
+      <label for="pet-select">Choose a font:</label>
+
+      <select name="chosen-font" id="font-select" step="1" style="width: 20em;" oninput="onFontPickChange(this.value)" onchange="onFontPickChange(this.value)" >
+        <!-- FONT SELECT LIST -->
+        <option value="Abhaya Libre VF">Abhaya Libre VF</option>
+        <option value="Abril Display">Abril Display</option>
+        <option value="Abril Fatface">Abril Fatface</option>
+        <option value="Abril Text">Abril Text</option>
+        <option value="Academico">Academico</option>
+        <option value="Accuratist">Accuratist</option>
+        <option value="Alata">Alata</option>
+        <option value="Alfa Slab One">Alfa Slab One</option>
+        <option value="Allura">Allura</option>
+        <option value="Andada">Andada</option>
+        <option value="Andada SC">Andada SC</option>
+        <option value="Archistico">Archistico</option>
+        <option value="Archistico Simple">Archistico Simple</option>
+        <option value="Bagnard">Bagnard</option>
+        <option value="Bagnard Sans">Bagnard Sans</option>
+        <option value="Bebas">Bebas</option>
+        <option value="Big Shoulders Display VF">Big Shoulders Display VF</option>
+        <option value="braille grid hc">braille grid hc</option>
+        <option value="braille latin hc">braille latin hc</option>
+        <option value="braille pinboard hc">braille pinboard hc</option>
+        <option value="braille pixel hc">braille pixel hc</option>
+        <option value="C059">C059</option>
+        <option value="C059 Roman">C059 Roman</option>
+        <option value="Cabin VF">Cabin VF</option>
+        <option value="Cal Sans Flex VF">Cal Sans Flex VF</option>
+        <option value="Cal Sans Text UI VF">Cal Sans Text UI VF</option>
+        <option value="Cal Sans VF">Cal Sans VF</option>
+        <option value="Caramel">Caramel</option>
+        <option value="Cascadia Code VTT">Cascadia Code VTT</option>
+        <option value="Catamaran VF">Catamaran VF</option>
+        <option value="CATLinz">CATLinz</option>
+        <option value="CATReporter">CATReporter</option>
+        <option value="CATRhythmus">CATRhythmus</option>
+        <option value="Caviar Dreams">Caviar Dreams</option>
+        <option value="Cinzel Decorative VF">Cinzel Decorative VF</option>
+        <option value="Cinzel VF">Cinzel VF</option>
+        <option value="Clarity City">Clarity City</option>
+        <option value="Comforter">Comforter</option>
+        <option value="Comforter Brush">Comforter Brush</option>
+        <option value="Comic Neue">Comic Neue</option>
+        <option value="Comic Neue Angular">Comic Neue Angular</option>
+        <option value="Commissioner VF">Commissioner VF</option>
+        <option value="D-DIN">D-DIN</option>
+        <option value="D-DIN PRO 400">D-DIN PRO 400</option>
+        <option value="D-DIN PRO 500">D-DIN PRO 500</option>
+        <option value="D-DIN PRO 600">D-DIN PRO 600</option>
+        <option value="D-DIN PRO 700">D-DIN PRO 700</option>
+        <option value="D-DIN PRO 800">D-DIN PRO 800</option>
+        <option value="D-DIN PRO 900">D-DIN PRO 900</option>
+        <option value="D-DINCondensed">D-DINCondensed</option>
+        <option value="D-DINExp">D-DINExp</option>
+        <option value="devicon">devicon</option>
+        <option value="Devonshire">Devonshire</option>
+        <option value="Didactic VF">Didactic VF</option>
+        <option value="Dotmatrx">Dotmatrx</option>
+        <option value="EBGaramond VF">EBGaramond VF</option>
+        <option value="Economica">Economica</option>
+        <option value="edo sz">edo sz</option>
+        <option value="Ernesthuge">Ernesthuge</option>
+        <option value="Exetegue">Exetegue</option>
+        <option value="Fachada">Fachada</option>
+        <option value="Fah Kwang">Fah Kwang</option>
+        <option value="Fe Flow1">Fe Flow1</option>
+        <option value="Fe Flow2">Fe Flow2</option>
+        <option value="FFF Tusj">FFF Tusj</option>
+        <option value="Fira Code">Fira Code</option>
+        <option value="Fira Code VF">Fira Code VF</option>
+        <option value="Fira Mono">Fira Mono</option>
+        <option value="Fira Sans">Fira Sans</option>
+        <option value="Fira Sans Book">Fira Sans Book</option>
+        <option value="Fira Sans Compressed">Fira Sans Compressed</option>
+        <option value="Fira Sans Compressed Book">Fira Sans Compressed Book</option>
+        <option value="Fira Sans Compressed Eight">Fira Sans Compressed Eight</option>
+        <option value="Fira Sans Compressed Four">Fira Sans Compressed Four</option>
+        <option value="Fira Sans Compressed Hair">Fira Sans Compressed Hair</option>
+        <option value="Fira Sans Compressed Two">Fira Sans Compressed Two</option>
+        <option value="Fira Sans Compressed Ultra">Fira Sans Compressed Ultra</option>
+        <option value="Fira Sans Condensed">Fira Sans Condensed</option>
+        <option value="Fira Sans Condensed Book">Fira Sans Condensed Book</option>
+        <option value="Fira Sans Condensed Eight">Fira Sans Condensed Eight</option>
+        <option value="Fira Sans Condensed Four">Fira Sans Condensed Four</option>
+        <option value="Fira Sans Condensed Hair">Fira Sans Condensed Hair</option>
+        <option value="Fira Sans Condensed Two">Fira Sans Condensed Two</option>
+        <option value="Fira Sans Condensed Ultra">Fira Sans Condensed Ultra</option>
+        <option value="Fira Sans Eight">Fira Sans Eight</option>
+        <option value="Fira Sans Four">Fira Sans Four</option>
+        <option value="Fira Sans Hair">Fira Sans Hair</option>
+        <option value="Fira Sans Two">Fira Sans Two</option>
+        <option value="Fira Sans Ultra">Fira Sans Ultra</option>
+        <option value="FPDPressure">FPDPressure</option>
+        <option value="Fraunces Goofy Axis test VF">Fraunces Goofy Axis test VF</option>
+        <option value="Fraunces VF">Fraunces VF</option>
+        <option value="Frederickathe Great">Frederickathe Great</option>
+        <option value="Gandhi Sans">Gandhi Sans</option>
+        <option value="Gandhi Serif">Gandhi Serif</option>
+        <option value="Georama VF">Georama VF</option>
+        <option value="GFSBodoni">GFSBodoni</option>
+        <option value="GFSDidot">GFSDidot</option>
+        <option value="GFSElpis">GFSElpis</option>
+        <option value="GFSFleischman">GFSFleischman</option>
+        <option value="GFSGaraldus">GFSGaraldus</option>
+        <option value="Girassol">Girassol</option>
+        <option value="Goudy Bookletter1911">Goudy Bookletter1911</option>
+        <option value="Grenze VF">Grenze VF</option>
+        <option value="Hooligan Font">Hooligan Font</option>
+        <option value="Hurricane">Hurricane</option>
+        <option value="IBM3270">IBM3270</option>
+        <option value="IBM3270 Condensed">IBM3270 Condensed</option>
+        <option value="IBM3270 Semi Condensed">IBM3270 Semi Condensed</option>
+        <option value="Inconsolata VF">Inconsolata VF</option>
+        <option value="Josefin Sans VF">Josefin Sans VF</option>
+        <option value="Jost VF">Jost VF</option>
+        <option value="Junicode Two Beta Roman VF">Junicode Two Beta Roman VF</option>
+        <option value="Kingthings Printingkit">Kingthings Printingkit</option>
+        <option value="Komika BB">Komika BB</option>
+        <option value="Komika BG">Komika BG</option>
+        <option value="Komika Display">Komika Display</option>
+        <option value="Komika Display B">Komika Display B</option>
+        <option value="Komika Display BW">Komika Display BW</option>
+        <option value="Komika Display K">Komika Display K</option>
+        <option value="Komika Display KB">Komika Display KB</option>
+        <option value="Komika Display KBW">Komika Display KBW</option>
+        <option value="Komika Display KW">Komika Display KW</option>
+        <option value="Komika Display SH">Komika Display SH</option>
+        <option value="Komika Display T">Komika Display T</option>
+        <option value="Komika Display W">Komika Display W</option>
+        <option value="Komika GL">Komika GL</option>
+        <option value="Komika H">Komika H</option>
+        <option value="Komika HB">Komika HB</option>
+        <option value="Komika HBI">Komika HBI</option>
+        <option value="Komika HI">Komika HI</option>
+        <option value="Komika J">Komika J</option>
+        <option value="Komika JI">Komika JI</option>
+        <option value="Komika P">Komika P</option>
+        <option value="Komika SK">Komika SK</option>
+        <option value="Komika SL">Komika SL</option>
+        <option value="Komika Slick KI">Komika Slick KI</option>
+        <option value="Komika Slick LI">Komika Slick LI</option>
+        <option value="Komika Text">Komika Text</option>
+        <option value="Komika Text B">Komika Text B</option>
+        <option value="Komika Text BI">Komika Text BI</option>
+        <option value="Komika Text I">Komika Text I</option>
+        <option value="Komika Text K">Komika Text K</option>
+        <option value="Komika Text KB">Komika Text KB</option>
+        <option value="Komika Text KBI">Komika Text KBI</option>
+        <option value="Komika Text KI">Komika Text KI</option>
+        <option value="Komika Text T">Komika Text T</option>
+        <option value="Komika Text TI">Komika Text TI</option>
+        <option value="Komika Title">Komika Title</option>
+        <option value="Komika Title Axis">Komika Title Axis</option>
+        <option value="Komika Title Kaps">Komika Title Kaps</option>
+        <option value="Komika Title Paint">Komika Title Paint</option>
+        <option value="Komika Title Wide">Komika Title Wide</option>
+        <option value="Komika X">Komika X</option>
+        <option value="Kumbh Sans VF">Kumbh Sans VF</option>
+        <option value="latin alphabet of Seto Font SP">latin alphabet of Seto Font SP</option>
+        <option value="League Gothic">League Gothic</option>
+        <option value="League Gothic Condensed">League Gothic Condensed</option>
+        <option value="League Mono VF">League Mono VF</option>
+        <option value="League Spartan VF">League Spartan VF</option>
+        <option value="Lexend Deca VF">Lexend Deca VF</option>
+        <option value="Lexend Exa VF">Lexend Exa VF</option>
+        <option value="Lexend Giga VF">Lexend Giga VF</option>
+        <option value="Lexend Mega VF">Lexend Mega VF</option>
+        <option value="Lexend Peta VF">Lexend Peta VF</option>
+        <option value="Lexend Tera VF">Lexend Tera VF</option>
+        <option value="Lexend VF">Lexend VF</option>
+        <option value="Lexend Zetta VF">Lexend Zetta VF</option>
+        <option value="Libertinus Keyboard">Libertinus Keyboard</option>
+        <option value="Libertinus Math">Libertinus Math</option>
+        <option value="Libertinus Mono">Libertinus Mono</option>
+        <option value="Libertinus Sans">Libertinus Sans</option>
+        <option value="Libertinus Serif">Libertinus Serif</option>
+        <option value="Libertinus Serif Display">Libertinus Serif Display</option>
+        <option value="Libertinus Serif Initials">Libertinus Serif Initials</option>
+        <option value="Libre Baskerville VF">Libre Baskerville VF</option>
+        <option value="Libre Bodoni VF">Libre Bodoni VF</option>
+        <option value="Lxgw Wen Kai Mono Latin">Lxgw Wen Kai Mono Latin</option>
+        <option value="LXGWMun Hae Hangul B">LXGWMun Hae Hangul B</option>
+        <option value="LXGWMun Hae Hangul L">LXGWMun Hae Hangul L</option>
+        <option value="LXGWMun Hae Hangul R">LXGWMun Hae Hangul R</option>
+        <option value="LXGWMun Hae Hangul Spilt Strokes">LXGWMun Hae Hangul Spilt Strokes</option>
+        <option value="LXGWNeo Zhi Song">LXGWNeo Zhi Song</option>
+        <option value="LXGWNeo Zhi Song Plus">LXGWNeo Zhi Song Plus</option>
+        <option value="LXGWWen Kai">LXGWWen Kai</option>
+        <option value="LXGWWen Kai Mono">LXGWWen Kai Mono</option>
+        <option value="Ma Shan Zheng">Ma Shan Zheng</option>
+        <option value="Marcellus SC">Marcellus SC</option>
+        <option value="matricha">matricha</option>
+        <option value="Metropolis">Metropolis</option>
+        <option value="Mona Sans Condensed VF">Mona Sans Condensed VF</option>
+        <option value="Mona Sans Expanded VF">Mona Sans Expanded VF</option>
+        <option value="Mona Sans Mono Condensed VF">Mona Sans Mono Condensed VF</option>
+        <option value="Mona Sans Mono Expanded VF">Mona Sans Mono Expanded VF</option>
+        <option value="Mona Sans Mono VF">Mona Sans Mono VF</option>
+        <option value="Mona Sans VF">Mona Sans VF</option>
+        <option value="Monaspace Argon VF">Monaspace Argon VF</option>
+        <option value="Monaspace Krypton VF">Monaspace Krypton VF</option>
+        <option value="Monaspace Neon VF">Monaspace Neon VF</option>
+        <option value="Monaspace Radon VF">Monaspace Radon VF</option>
+        <option value="Monaspace Xenon VF">Monaspace Xenon VF</option>
+        <option value="mplus 1m medium">mplus 1m medium</option>
+        <option value="N01 Digit">N01 Digit</option>
+        <option value="Newsreader VF">Newsreader VF</option>
+        <option value="Nokia.5110.Font Set">Nokia.5110.Font Set</option>
+        <option value="Noto 3 D 128">Noto 3 D 128</option>
+        <option value="Noto 3 D 128 flagsonly">Noto 3 D 128 flagsonly</option>
+        <option value="Noto 3 D 128 noflags">Noto 3 D 128 noflags</option>
+        <option value="Noto 3 D 192">Noto 3 D 192</option>
+        <option value="Noto 3 D 192 flagsonly">Noto 3 D 192 flagsonly</option>
+        <option value="Noto 3 D 192 noflags">Noto 3 D 192 noflags</option>
+        <option value="Noto 3 D watch">Noto 3 D watch</option>
+        <option value="Noto 3 D watch flagsonly">Noto 3 D watch flagsonly</option>
+        <option value="Noto 3 D watch noflags">Noto 3 D watch noflags</option>
+        <option value="Noto Color Emoji">Noto Color Emoji</option>
+        <option value="Noto Color Emoji emojicompat">Noto Color Emoji emojicompat</option>
+        <option value="Noto Color Emoji flagsonly">Noto Color Emoji flagsonly</option>
+        <option value="Noto Color Emoji noflags">Noto Color Emoji noflags</option>
+        <option value="Noto Color Emoji Windows Compatible">Noto Color Emoji Windows Compatible</option>
+        <option value="Noto COLRv1">Noto COLRv1</option>
+        <option value="Noto COLRv1 emojicompat">Noto COLRv1 emojicompat</option>
+        <option value="Noto COLRv1 noflags">Noto COLRv1 noflags</option>
+        <option value="Nuernberg">Nuernberg</option>
+        <option value="Nymphette">Nymphette</option>
+        <option value="Offenbacher Reform CAT">Offenbacher Reform CAT</option>
+        <option value="Oleo Script Swash Caps">Oleo Script Swash Caps</option>
+        <option value="OSP DIN">OSP DIN</option>
+        <option value="Ostrich Sans">Ostrich Sans</option>
+        <option value="Ostrich Sans Dashed">Ostrich Sans Dashed</option>
+        <option value="Ostrich Sans Inline">Ostrich Sans Inline</option>
+        <option value="Ostrich Sans Rounded">Ostrich Sans Rounded</option>
+        <option value="Oswald">Oswald</option>
+        <option value="Oswald Stencil">Oswald Stencil</option>
+        <option value="Outfit VF">Outfit VF</option>
+        <option value="Phudu VF">Phudu VF</option>
+        <option value="Pirata One">Pirata One</option>
+        <option value="Playfair Display">Playfair Display</option>
+        <option value="Playfair Display SC">Playfair Display SC</option>
+        <option value="Poller One">Poller One</option>
+        <option value="pragmasevka">pragmasevka</option>
+        <option value="pragmasevka nf">pragmasevka nf</option>
+        <option value="Prodelt Co">Prodelt Co</option>
+        <option value="PT Mono">PT Mono</option>
+        <option value="PTF55 F">PTF55 F</option>
+        <option value="PTF56 F">PTF56 F</option>
+        <option value="PTF75 F">PTF75 F</option>
+        <option value="PTF76 F">PTF76 F</option>
+        <option value="PTZ55 F">PTZ55 F</option>
+        <option value="PTZ56 F">PTZ56 F</option>
+        <option value="Public Sans VF">Public Sans VF</option>
+        <option value="QTAvanti">QTAvanti</option>
+        <option value="QTCaslan">QTCaslan</option>
+        <option value="QTCaslan Open">QTCaslan Open</option>
+        <option value="QTOld Goudy">QTOld Goudy</option>
+        <option value="QTSchool Century">QTSchool Century</option>
+        <option value="QTWeise">QTWeise</option>
+        <option value="Raleway VF">Raleway VF</option>
+        <option value="Readexpro VF">Readexpro VF</option>
+        <option value="Redacted VF">Redacted VF</option>
+        <option value="Redaction">Redaction</option>
+        <option value="Redaction10">Redaction10</option>
+        <option value="Redaction100">Redaction100</option>
+        <option value="Redaction20">Redaction20</option>
+        <option value="Redaction35">Redaction35</option>
+        <option value="Redaction50">Redaction50</option>
+        <option value="Redaction70">Redaction70</option>
+        <option value="Rokkitt VF">Rokkitt VF</option>
+        <option value="Rondal">Rondal</option>
+        <option value="Saira VF">Saira VF</option>
+        <option value="Sangha Kali">Sangha Kali</option>
+        <option value="Sansita Swashed VF">Sansita Swashed VF</option>
+        <option value="Sawarabi Mincho">Sawarabi Mincho</option>
+        <option value="Siruca Pictograms1.1">Siruca Pictograms1.1</option>
+        <option value="Smiley Sans">Smiley Sans</option>
+        <option value="Source Han Serif CN">Source Han Serif CN</option>
+        <option value="Sparks Bar">Sparks Bar</option>
+        <option value="Sparks Bar Extranarrow">Sparks Bar Extranarrow</option>
+        <option value="Sparks Bar Extrawide">Sparks Bar Extrawide</option>
+        <option value="Sparks Bar Narrow">Sparks Bar Narrow</option>
+        <option value="Sparks Bar Wide">Sparks Bar Wide</option>
+        <option value="Sparks Dot">Sparks Dot</option>
+        <option value="Sparks Dot Extralarge">Sparks Dot Extralarge</option>
+        <option value="Sparks Dot Extrasmall">Sparks Dot Extrasmall</option>
+        <option value="Sparks Dot Large">Sparks Dot Large</option>
+        <option value="Sparks Dot Small">Sparks Dot Small</option>
+        <option value="Sparks Dotline">Sparks Dotline</option>
+        <option value="Sparks Dotline Extrathick">Sparks Dotline Extrathick</option>
+        <option value="Sparks Dotline Extrathin">Sparks Dotline Extrathin</option>
+        <option value="Sparks Dotline Thick">Sparks Dotline Thick</option>
+        <option value="Spectral">Spectral</option>
+        <option value="Spectral SC">Spectral SC</option>
+        <option value="Spicy Noodles">Spicy Noodles</option>
+        <option value="Subjectivity">Subjectivity</option>
+        <option value="Subjectivity Serif">Subjectivity Serif</option>
+        <option value="Subjectivity Serif Super">Subjectivity Serif Super</option>
+        <option value="Subjectivity Slanted">Subjectivity Slanted</option>
+        <option value="Subjectivity Super">Subjectivity Super</option>
+        <option value="Subjectivity Super Slanted">Subjectivity Super Slanted</option>
+        <option value="Sudo UI VF">Sudo UI VF</option>
+        <option value="Sudo VF">Sudo VF</option>
+        <option value="symbol signs">symbol signs</option>
+        <option value="Tomson Talks">Tomson Talks</option>
+        <option value="Topography Left">Topography Left</option>
+        <option value="Topography Right">Topography Right</option>
+        <option value="Topography Roman Left">Topography Roman Left</option>
+        <option value="Topography Roman Right">Topography Roman Right</option>
+        <option value="Topography Roman Upright">Topography Roman Upright</option>
+        <option value="Topography Upright">Topography Upright</option>
+        <option value="Torre Farfan v2">Torre Farfan v2</option>
+        <option value="Troubleside">Troubleside</option>
+        <option value="Ubuntu Sans Mono VF">Ubuntu Sans Mono VF</option>
+        <option value="Ubuntu Sans VF">Ubuntu Sans VF</option>
+        <option value="Unifraktur Cook">Unifraktur Cook</option>
+        <option value="Unna">Unna</option>
+        <option value="URW Bookman">URW Bookman</option>
+        <option value="URW Gothic">URW Gothic</option>
+        <option value="URW Gothic Book">URW Gothic Book</option>
+        <option value="Xiaolai Mono SC without Hangul">Xiaolai Mono SC without Hangul</option>
+        <option value="Young Serif SC VF">Young Serif SC VF</option>
+        <option value="Young Serif VF">Young Serif VF</option>
+        <option value="Ysabeau Infant VF">Ysabeau Infant VF</option>
+        <option value="Ysabeau Office VF">Ysabeau Office VF</option>
+        <option value="Ysabeau SC VF">Ysabeau SC VF</option>
+        <option value="Ysabeau VF">Ysabeau VF</option>
+        <option value="Zhi Mang Xing">Zhi Mang Xing</option>
+        <option value="Zilla Slab">Zilla Slab</option>
+        <option value="Zilla Slab Highlight">Zilla Slab Highlight</option>
+      </select>
+    </span>
+  </div>
+      
+  </div>
+<div class="definitive-content-at-start">
+<div class="code-font-demo showcase-another-font">
+    <article>
+
+      <h1>Fira Code</h1>
+
+      <h2>Light</h2>
+      <div contenteditable class="code light">
+
+<pre id="orig-pre">
+take = (n, [x, <i>...</i>xs]:list) <i>--&gt;</i>
+  | n <i>&lt;=</i> 0     <i>=&gt;</i> []
+  | empty list <i>=&gt;</i> []
+  | otherwise  <i>=&gt;</i> [x] <i>++</i> take n-1, xs
+
+last3 = reverse <i>&gt;&gt;</i> take 3 <i>&gt;&gt;</i> reverse
+
+void main(int argc, const char *argv[]) {
+  bool a = (argc == 5);
+  bool b = (argc != 4);
+  //... to be done ...
+  return EXIT_FAILURE;
+}
+</pre>
+      </div>
+
+      <h2>Regular</h2>
+      <div contenteditable class="code regular">
+
+      <pre>;
+      </pre>
+      </div>
+
+      <h2>Medium</h2>
+      <div contenteditable class="code medium">
+
+      <pre>;
+      </pre>
+      </div>
+
+      <h2>SemiBold</h2>
+      <div contenteditable class="code semibold">
+
+      <pre>;
+      </pre>
+      </div>
+
+      <h2>Bold</h2>
+      <div contenteditable class="code bold">
+
+      <pre>;
+      </pre>
+      </div>
+
+      <h2>ExtraBold</h2>
+      <div contenteditable class="code extrabold">
+
+      <pre>;
+      </pre>
+      </div>
+
+      <h2>Variable</h2>
+      <div contenteditable class="code variable">
+
+      <pre>;
+      </pre>
+      </div>
+
+</article>
+</div>
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="font-demo showcase-another-font">
+    <article>
+      <h1>Fira Sans</h1>
+
+
+      <h2>Hair / Thin</h2>
+      <p contenteditable id="orig" class="thin">
+         The quick brown Firefox jumps over the lazy dog.<br>
+         abcdefghijklmnopqrstuvwxyz<br>
+         ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+         1234567890!@#$%^&amp;*()`~{}[]+=:;'"&#8216;&#8217;&#8220;&#8221;
+         <br>
+         <br>
+         Ligatures: fi ffi; The quick brown fox jumped over @Ötly4051?! Kerning: AV VA WI-to Alabamboys. Å symbol Ångström, bäng 1209çrèñálätïòns@5% quoque bugjam nurxi.
+         <br>
+         – — ―
+         <br>
+          蒬蓣汉语 漢語संसद में काम नहींオバマ大統領が病院爆법무대신(法務大臣) 
+          <br>
+          – — ―
+          <br>
+          ฟ้ากว้าง แบบอักษรที่มีจุดเด่นคือความกว้างต่างไปจากโครงสร้างอักษรไทยในอุดมคติ 
+        <br>
+        Values:
+        <br>
+<span class=".dig-normal">1234.567890</span> |
+<span class=".dig-ordinal">1234.567890</span> |
+<span class=".dig-slashed">1234.567890</span> |
+<br>
+<span class=".dig-lining">1234.567890</span> |
+<span class=".dig-oldstyle">1234.567890</span> |
+<span class=".dig-proportional">1234.567890</span> |
+<br>
+<span class=".dig-tabular">1234.567890</span> |
+<span class=".dig-tabular">1234.567890</span> |
+<span class=".dig-tabular">1234.567890</span> |
+<br>
+Openbox is a lightweight, powerful, and highly configurable stacking window manager with extensive standards support. It may be built upon and run independently as the basis of a unique desktop environment, or within other integrated desktop environments such as KDE and Xfce, as an alternative to the window managers they provide. The LXDE desktop environment is itself built around Openbox. 
+
+<!--
+<br>
+
+<span class="code"><b># *FAKED* Code chunk...</b>
+
+take = (n, [x, <i>...</i>xs]:list) <i>--&gt;</i>
+  | n <i>&lt;=</i> 0     <i>=&gt;</i> []
+  | empty list <i>=&gt;</i> []
+  | otherwise  <i>=&gt;</i> [x] ++ take n-1, xs
+
+last3 = <i>reverse</i> &gt;&gt; take 3 &gt;&gt; reverse</span>
+-->
+
+</p>
+      <p contenteditable class="thin" style="font-style: italic;"></p>
+
+      <h2>UltraLight</h2>
+      <p contenteditable class="ultralight"></p>
+      <p contenteditable class="ultralight" style="font-style: italic;"></p>
+
+      <h2>Light</h2>
+      <p contenteditable class="light"></p>
+      <p contenteditable class="light" style="font-style: italic;"></p>
+
+      <h2>Regular</h2>
+      <p contenteditable class="regular"></p>
+      <p contenteditable class="regular" style="font-style: italic;"></p>
+
+      <h2>Medium</h2>
+      <p contenteditable class="medium"></p>
+      <p contenteditable class="medium" style="font-style: italic;"></p>
+
+      <h2>SemiBold</h2>
+      <p contenteditable class="semibold"></p>
+      <p contenteditable class="semibold" style="font-style: italic;"></p>
+
+      <h2>Bold</h2>
+      <p contenteditable class="bold"></p>
+      <p contenteditable class="bold" style="font-style: italic;"></p>
+
+      <h2>ExtraBold</h2>
+      <p contenteditable class="extrabold"></p>
+      <p contenteditable class="extrabold" style="font-style: italic;"></p>
+
+      <h2>Heavy</h2>
+      <p contenteditable class="black"></p>
+      <p contenteditable class="black" style="font-style: italic;"></p>
+
+      <h2>Variable</h2>
+      <p contenteditable class="variable"></p>
+      <p contenteditable class="variable" style="font-style: italic;"></p>
+
+    </article>
+  </div>
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="show-loading-text">
+  <p>Loading page...</p>
+</div>
+    <script>
+
+var elems = document.querySelectorAll("article p");
+elems = Array.prototype.slice.call(elems);
+
+function propagate(changedElem) {
+  var str = changedElem.innerHTML;
+
+  elems.forEach(function(x) {
+    if (x !== changedElem) {
+      x.innerHTML = str;
+    }
+  });
+}
+
+elems.forEach(function(x) {
+  x.oninput = function() {
+    propagate(x);
+  };
+});
+
+var orig = document.querySelector("#orig");
+propagate(orig);
+
+
+
+
+var pre_elems = document.querySelectorAll("article div.code pre");
+pre_elems = Array.prototype.slice.call(pre_elems);
+
+function propagate_pre(changedElem) {
+  var str = changedElem.innerHTML;
+
+  pre_elems.forEach(function(x) {
+    if (x !== changedElem) {
+      x.innerHTML = str;
+    }
+  });
+}
+
+pre_elems.forEach(function(x) {
+  x.oninput = function() {
+    propagate_pre(x);
+  };
+});
+
+var orig_pre = document.querySelector("#orig-pre");
+propagate_pre(orig_pre);
+
+
+    </script>
+</body>
+</html>

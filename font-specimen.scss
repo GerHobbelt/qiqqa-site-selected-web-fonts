@@ -5,6 +5,11 @@
   --text-weight: 400;
   --text-size: 32px;
 
+  --text-volm: 100;
+  --text-flar: 20;
+  --text-opsz: 100;
+  --text-wdth: var(--text-width);
+
   /* this dot-matrix printer font shows up in entries which do not correctly reference their custom font... */
   --font-showcase-fallback-font: 'matricha';
 }
@@ -78,6 +83,45 @@ hr {
 }
 
 
+.code {
+  font-feature-settings: "calt" 1;  /* Enable ligatures for IE 10+, Edge */
+  text-rendering: optimizeLegibility; /* Force ligatures for Webkit, Blink, Gecko */
+  width: 30em;
+  margin: 5em auto;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+.thin { font-weight: 100; }
+.ultralight { font-weight: 200; }
+.light { font-weight: 300; }
+.regular { font-weight: 400; }
+.medium { font-weight: 500; }
+.semibold { font-weight: 600; }
+.bold { font-weight: 700; }
+.extrabold { font-weight: 800; }
+.black { font-weight: 900; }
+.variable { 
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
+  font-size: var(--text-size);
+  line-height: 1.5em;
+}
+i { font-style: italic; color: #c33; }
+b { font-weight: calc(1.5 * var(--text-weight)); color: #c33; }
+
+
+h2 {
+    border-top: solid 3px red;
+    padding-top: .5em;
+    border-bottom: solid 1px red;
+    padding-bottom: .2em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+
+
+
 
 
 
@@ -85,30 +129,12 @@ div.firacode-font {
 	font-family: "Fira Code", var(--font-showcase-fallback-font); 
     line-height: 1.5em;
 
-    .code {
-      font-feature-settings: "calt" 1;  /* Enable ligatures for IE 10+, Edge */
-      text-rendering: optimizeLegibility; /* Force ligatures for Webkit, Blink, Gecko */
-      width: 30em;
-      margin: 5em auto;
-      white-space: pre-wrap;
-      word-break: break-all;
-    }
-    .light { font-weight: 300; }
-    .regular { font-weight: 400; }
-    .medium { font-weight: 500; }
-    .semibold { font-weight: 600; }
-    .bold { font-weight: 700; }
     .variable { 
       font-family: 'Fira Code VF'; 
-      font-weight: 400;
-      font-weight: var(--text-weight);
-      font-stretch: var(--text-width);
-      font-size: var(--text-size);
-      line-height: 1.5em;
     }
-    i { font-style: normal; color: #c33; }
-    b { font-weight: inherit; color: #c33; }
 }
+
+
 
 
 
@@ -154,6 +180,9 @@ div.fira-code-font {
 	font-family: 'Fira Code VF', var(--font-showcase-fallback-font);
 	font-weight: 400;
 	overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
 }
 
 
@@ -198,8 +227,8 @@ div.commissioner-font {
   font-weight: 400;
   overflow-x: hidden;
 
-  font-variation-settings: 'FLAR' var(--text-flar);
-  font-variation-settings: 'VOLM' var(--text-volm);
+  font-variation-settings: 'FLAR' 0;
+  font-variation-settings: 'VOLM' 100;
 }
 
 
@@ -228,7 +257,7 @@ div.commissioner-loud-font {
   overflow-x: hidden;
 
   font-variation-settings: 'FLAR' var(--text-flar);
-  font-variation-settings: 'VOLM' var(--text-volm);
+  font-variation-settings: 'VOLM' 100;
 }
 
 
@@ -252,6 +281,9 @@ div.grenze-font {
   font-family: 'Grenze VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
 }
 
 
@@ -272,7 +304,10 @@ div.newsreader-tiny-font {
   overflow-x: hidden;
   line-height: 1.5em;
 
-  font-variation-settings: 'OPSZ' var(--text-opsz);
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
+
+  font-variation-settings: 'OPSZ' 6;
 }
 
 
@@ -281,6 +316,9 @@ div.newsreader-font {
   font-weight: 400;
   overflow-x: hidden;
   line-height: 1.5em;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
 
   font-variation-settings: 'OPSZ' var(--text-opsz);
 }
@@ -292,7 +330,10 @@ div.newsreader-titling-font {
   overflow-x: hidden;
   line-height: 1.5em;
 
-  font-variation-settings: 'OPSZ' var(--text-opsz);
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
+
+  font-variation-settings: 'OPSZ' 72;
 }
 
 
@@ -303,6 +344,9 @@ div.saira-font {
   font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
   
   font-variation-settings: 'WDTH' var(--text-wdth);
 }
@@ -311,48 +355,66 @@ div.saira-semi-condensed-font {
   font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
   
-  font-variation-settings: 'WDTH' var(--text-wdth);
+  font-variation-settings: 'WDTH' 90;
 }
 
 div.saira-condensed-font {
   font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
   
-  font-variation-settings: 'WDTH' var(--text-wdth);
+  font-variation-settings: 'WDTH' 80;
 }
 
 div.saira-extra-condensed-font {
   font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
   
-  font-variation-settings: 'WDTH' var(--text-wdth);
+  font-variation-settings: 'WDTH' 70;
 }
 
 div.saira-ultra-condensed-font {
   font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
   
-  font-variation-settings: 'WDTH' var(--text-wdth);
+  font-variation-settings: 'WDTH' 60;
 }
 
 div.saira-semi-expanded-font {
   font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
   
-  font-variation-settings: 'WDTH' var(--text-wdth);
+  font-variation-settings: 'WDTH' 110;
 }
 
 div.saira-expanded-font {
   font-family: 'Saira VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
   
-  font-variation-settings: 'WDTH' var(--text-wdth);
+  font-variation-settings: 'WDTH' 120;
 }
 
 div.saira-variable-font {
@@ -395,6 +457,9 @@ div.cinzel-font {
   font-family: 'Cinzel VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
 }
 
 
@@ -402,6 +467,9 @@ div.cinzel-decorative-font {
   font-family: 'Cinzel Decorative VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
 }
 
 
@@ -411,6 +479,29 @@ div.garamond-font {
   font-family: 'EBGaramond VF', var(--font-showcase-fallback-font);
   font-weight: 400;
   overflow-x: hidden;
+
+  font-weight: var(--text-weight);
+  font-stretch: var(--text-width);
+}
+
+
+
+div.ibm3270-font {
+	font-family: '3270', var(--font-showcase-fallback-font);
+	font-weight: 400;
+	overflow-x: hidden;
+}
+
+div.ibm3270-condensed-font {
+	font-family: '3270 Condensed', var(--font-showcase-fallback-font);
+	font-weight: 400;
+	overflow-x: hidden;
+}
+
+div.ibm3270-semi-condensed-font {
+	font-family: '3270 Semi Condensed', var(--font-showcase-fallback-font);
+	font-weight: 400;
+	overflow-x: hidden;
 }
 
 
@@ -421,150 +512,148 @@ div.garamond-font {
 
 
 
-
-
-@import "./01-Digit";
-@import "./3270font";
-@import "./Abhaya-Libre Variable";
-@import "./abril-fatface";
+@import "./Abhaya.Libre Variable";
+@import "./abril.fatface";
 @import "./academico";
 @import "./Accuratist";
 @import "./alata";
-@import "./alfa-slab";
+@import "./alfa.slab";
 @import "./allura";
 @import "./andada";
 @import "./archistico";
+@import "./Bagnard.Sans";
 @import "./Bagnard";
-@import "./Bagnard-Sans";
 @import "./Bebas";
-@import "./Big_Shoulders_Display Variable";
+@import "./Big.Shoulders.Display Variable";
 @import "./bookman";
 @import "./braille";
 @import "./Cabin Variable";
+@import "./Cal Sans Variable";
 @import "./caramel";
-@import "./cascadia-code";
-@import "./CAT_linz";
-@import "./cat_reporter";
-@import "./CAT_rhythmus";
+@import "./cascadia.code";
+@import "./CAT.linz";
+@import "./cat.reporter";
+@import "./CAT.rhythmus";
 @import "./Catamaran Variable";
-@import "./Caviar-Dreams";
+@import "./Caviar.Dreams";
 @import "./Cinzel Variable";
-@import "./clarity_city_next";
+@import "./clarity.city.next";
+@import "./comforter.brush";
 @import "./comforter";
-@import "./comforter_brush";
 @import "./comicneue";
 @import "./Commissioner Variable";
-@import "./d_din";
-@import "./d_din_pro";
+@import "./D-DIN.pro";
+@import "./D-DIN";
 @import "./devicon";
 @import "./Devonshire";
 @import "./didactic Variable";
-@import "./DotMatrix-Regular";
+@import "./Dot.Matrix";
 @import "./EBGaramond12 Variable";
 @import "./Economica";
-@import "./Edo.SZ.Regular";
-@import "./ErnestHuge";
+@import "./Edo.SZ";
+@import "./Ernest.Huge";
 @import "./Exetegue";
 @import "./fachada";
-@import "./Fah-Kwang";
-@import "./FFF-Tusj";
+@import "./Fah.Kwang";
+@import "./FFF.Tusj";
+@import "./Fira.Code Variable";
 @import "./Fira";
-@import "./FiraCode Variable";
-@import "./font Variable";
-@import "./FPD_pressure";
+@import "./FPD.pressure";
 @import "./Fraunces Variable";
-@import "./Fredericka_the_Great";
-@import "./gandhi_sans_and_serif";
+@import "./Fredericka.the.Great";
+@import "./gandhi.sans.and.serif";
 @import "./Georama Variable";
-@import "./GFS_Bodoni";
-@import "./GFS_Didot";
-@import "./GFS_Elpis";
-@import "./GFS_Fleischman";
-@import "./GFS_Garaldus";
+@import "./GFS.Bodoni";
+@import "./GFS.Didot";
+@import "./GFS.Elpis";
+@import "./GFS.Fleischman";
+@import "./GFS.Garaldus";
 @import "./Girassol";
-@import "./Goudy-Bookletter-1911";
+@import "./Goudy.Bookletter.1911";
 @import "./Grenze Variable";
 @import "./hooligan";
 @import "./hurricane";
-@import "./im-fell-flowers-1";
-@import "./im-fell-flowers-2";
+@import "./IBM3270font";
+@import "./im.fell.flowers.1";
+@import "./im.fell.flowers.2";
 @import "./Inconsolata Variable";
-@import "./Josefin-Sans Variable";
+@import "./Josefin.Sans Variable";
 @import "./Jost Variable";
 @import "./Junicode Variable";
-@import "./Kingthings-Printingkit";
+@import "./Kingthings.Printingkit";
 @import "./Komika";
-@import "./Kumbh_Sans Variable";
-@import "./League-Gothic";
-@import "./League-Mono Variable";
-@import "./League-Spartan Variable";
+@import "./Kumbh.Sans Variable";
+@import "./League.Gothic";
+@import "./League.Mono Variable";
+@import "./League.Spartan Variable";
 @import "./Lexend Variable";
 @import "./Libertinus";
-@import "./Libre_Bodoni Variable";
-@import "./Libre-Baskerville Variable";
-@import "./LxgwNeoZhiSong";
-@import "./LxgwWenKai";
-@import "./Ma_Shan_Zheng";
-@import "./Marcellus_SC";
+@import "./Libre.Baskerville Variable";
+@import "./Libre.Bodoni Variable";
+@import "./Lxgw.Neo.Zhi.Song";
+@import "./Lxgw.Wen.Kai";
+@import "./Ma.Shan.Zheng";
+@import "./Marcellus.SC";
 @import "./Matricha";
-@import "./Mengshen-pinyin-font";
+@import "./Mengshen.pinyin.font";
 @import "./metropolis";
-@import "./mona-sans Variable";
+@import "./mona.sans Variable";
 @import "./monaspace Variable";
-@import "./new_century_schoolbook";
+@import "./N01.Digit";
+@import "./new.century.schoolbook";
 @import "./Newsreader Variable";
-@import "./NOKIA-5110-FontSet";
-@import "./noto-emoji";
+@import "./NOKIA.5110.Font.Set";
+@import "./noto.emoji";
 @import "./nuernberg";
 @import "./nymphette";
-@import "./offenbacher_reform";
-@import "./Oleo_Script_Swash_Caps";
-@import "./osp-din";
-@import "./Ostrich-Sans";
+@import "./offenbacher.reform";
+@import "./Oleo.Script.Swash.Caps";
+@import "./osp.din";
+@import "./Ostrich.Sans";
 @import "./Oswald";
 @import "./Outfit Variable";
 @import "./Phudu Variable";
-@import "./Pirata_One";
-@import "./Playfair_Display";
-@import "./Playfair_Display_SC";
-@import "./Poller_One";
+@import "./Pirata.One";
+@import "./Playfair.Display.SC";
+@import "./Playfair.Display";
+@import "./Poller.One";
 @import "./pragmasevka";
-@import "./prodelt_co";
-@import "./pt_mono";
-@import "./pt-serif";
-@import "./public-sans Variable";
-@import "./qt_avanti";
-@import "./qt_caslan";
-@import "./qt_old_goudy";
-@import "./qt_school_century";
-@import "./qt_weise";
+@import "./prodelt.co";
+@import "./pt.mono";
+@import "./pt.serif";
+@import "./public.sans Variable";
+@import "./qt.avanti";
+@import "./qt.caslan";
+@import "./qt.old.goudy";
+@import "./qt.school.century";
+@import "./qt.weise";
 @import "./Raleway Variable";
-@import "./readex_pro Variable";
-@import "./redacted-font Variable";
+@import "./readex.pro Variable";
+@import "./redacted.font Variable";
 @import "./redaction";
 @import "./Rokkitt Variable";
 @import "./Rondal";
 @import "./Saira Variable";
-@import "./sangha_kali";
-@import "./Sansita_Swashed Variable";
-@import "./SirucaPictograms";
-@import "./smiley-sans";
+@import "./sangha.kali";
+@import "./Sansita.Swashed Variable";
+@import "./Siruca.Pictograms";
+@import "./smiley.sans";
 @import "./sparks";
 @import "./Spectral";
 @import "./Spicy.Noodles";
 @import "./Subjectivity";
-@import "./sudo-font Variable";
-@import "./Symbol-Signs";
+@import "./sudo.font Variable";
+@import "./Symbol.Signs";
 @import "./tomsontalks";
 @import "./topography";
 @import "./torrefarfan";
 @import "./troubleside";
-@import "./Ubuntu-Sans-fonts Variable";
-@import "./Ubuntu-Sans-Mono-fonts Variable";
-@import "./UnifrakturCook";
+@import "./Ubuntu.Sans.fonts Variable";
+@import "./Ubuntu.Sans.Mono.fonts Variable";
+@import "./Unifraktur.Cook";
 @import "./Unna";
-@import "./urw_gothic";
-@import "./YoungSerif Variable";
+@import "./urw.gothic";
+@import "./Young.Serif Variable";
 @import "./Ysabeau Variable";
-@import "./Zhi_Mang_Xing";
-@import "./Zilla-Slab";
+@import "./Zhi.Mang.Xing";
+@import "./Zilla.Slab";

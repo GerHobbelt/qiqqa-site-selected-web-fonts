@@ -49,6 +49,10 @@ function cleanup_for_SCSS_filename(p, suffix) {
 	if (n === "font") {
 		n = "Cal Sans";
 	}
+	// fontnames cannot start with a digit!  :-(
+	n = n
+	.replace(/^01/, "N01")
+	.replace(/^3270/, "IBM3270");
 	n += suffix;
     console.log("SCSS name", p, "+", suffix, "-->", n);
     return n;
@@ -85,7 +89,15 @@ function cleanup4fontname(p) {
     .replace(/KMKDSK/, 'Komika Display K')
     .replace(/FahKwang/i, 'Fah Kwang')
     .replace(/ +/g, ' ')
-    .trim()
+    .trim();
+    // and some special name tweaks:
+	if (n === "font") {
+		n = "Cal Sans";
+	}
+	// fontnames cannot start with a digit!  :-(
+	n = n
+	.replace(/^01/, "N01")
+	.replace(/^3270/, "IBM3270");
     console.log("cleanup4fontname", p, "-->", n, "         +w:", name2weight(p));
     return n;
 }
